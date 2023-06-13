@@ -6,8 +6,21 @@ export default {
     "./resources/**/*.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        // sm: "540px",
+        // // => @media (min-width: 576px) { ... }
+
+        // md: "720px",
+        // // => @media (min-width: 960px) { ... }
+
+        // lg: "960px",
+        // // => @media (min-width: 1440px) { ... }
+      },
+      // fontFamily: {
+      //   ibm: ["IBM Plex Sans Thai"],
+      // },
+    },
   },
   plugins: [],
-}
-
+};
