@@ -26,25 +26,25 @@
             </svg>
         </button>
 
-        <div id="dropdown" class="z-10 block w-44 divide-y divide-gray-100 rounded bg-white shadow dark:bg-gray-700"
+        <div id="dropdown" class="z-10 block w-44 divide-y divide-gray-100 rounded bg-white shadow "
             data-popper-reference-hidden="" data-popper-escaped="" data-popper-placement="bottom"
             style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate3d(327px, 70px, 0px);">
             <ul class=" py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
                 <li>
                     <a href="#"
-                        class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
+                        class="text-fuchsia-900 block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
                 </li>
                 <li>
                     <a href="#"
-                        class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
+                        class="text-fuchsia-900 block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
                 </li>
                 <li>
                     <a href="#"
-                        class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+                        class="text-fuchsia-900 block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
                 </li>
                 <li>
                     <a href="#"
-                        class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sign
+                        class="text-fuchsia-900 block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sign
                         out</a>
                 </li>
             </ul>
@@ -57,7 +57,7 @@
                     ชื่อ
                 </label>
                 <input
-                    class="shadow appearance-none border rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    class="shadow appearance-none border rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-1 focus:ring-fuchsia-900"
                     id="username" type="text" placeholder="" value="">
             </div>
 
@@ -66,7 +66,7 @@
                     กรุณากรอกอีเมล
                 </label>
                 <input
-                    class="shadow appearance-none border rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    class="shadow appearance-none border rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-1 focus:ring-fuchsia-900"
                     id="username" type="text" placeholder="" value="">
             </div>
 
@@ -74,7 +74,7 @@
                 รายละเอียดเพิ่มเติม
             </label>
             <textarea id="message" rows="4"
-                class="block p-2.5 w-full text-sm text-gray-900  rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                class="block p-2.5 w-full text-sm text-gray-900  rounded-lg border focus:outline-none focus:ring-1 focus:ring-fuchsia-900"
                 placeholder="กรอกรายละเอียดเพิ่มเติม..."></textarea>
         </form>
 

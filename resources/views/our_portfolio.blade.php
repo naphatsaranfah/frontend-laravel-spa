@@ -71,13 +71,11 @@
             </div>
         </div>
 
-
         <div class="flex justify-center">
             <button class="button-booking-our-portforio">จองตอนนี้</button>
         </div>
 
     </div>
-
 
 </body>
 

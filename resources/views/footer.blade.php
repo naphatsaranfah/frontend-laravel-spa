@@ -86,7 +86,7 @@
                         เกี่ยวกับเรา
                     </h6>
                     <a class="mb-4 flex items-center   text-fuchsia-900 cursor-pointer "
-                        onclick="redirectToPageContact_Us()">
+                    href="{{ url('/contact_us') }}">
                         ติดต่อเรา
                     </a>
                     <a class="mb-4 flex items-center  text-fuchsia-900" href="#">
@@ -134,8 +134,6 @@
                 </div>
             </div>
         </div>
-
-        <!-- <img src="images/footer.png" class="w-full"> -->
        
         <div class="footer-image">
             <div class="lg:px-56 md:px-20  sm:px-10 py-16">

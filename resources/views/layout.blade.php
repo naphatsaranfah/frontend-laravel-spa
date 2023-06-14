@@ -12,11 +12,11 @@
 
 </head>
 
-<body>
+<body class="scroll-smooth">
 
-    @include('navbar')
+    @include('navbar_user')
 
-    <div class="px-20 mt-10">
+    <div class=" mt-10">
         @yield('content')
     </div>
 

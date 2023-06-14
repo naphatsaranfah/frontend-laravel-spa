@@ -90,6 +90,11 @@ Route::get('/reserve_promotion', function () {
     return view('reserve_promotion');
 });
 
+Route::get('/reserve_spa', function () {
+    return view('reserve_spa');
+});
+
+
 Route::get('/reserve_spa_two', function () {
     return view('reserve_spa_two');
 });
@@ -116,7 +121,10 @@ Route::get('/therapist', function () {
 });
 
 
+Route::get('/summarize_reserve', function () {
+    return view('summarize_reserve');
+});
 
-
-
-
+Route::get('/test', function () {
+    return view('test');
+});

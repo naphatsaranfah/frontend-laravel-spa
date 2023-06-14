@@ -18,7 +18,12 @@
 
 
     <div class="container-reserve_spa">
+
+
+
         <p class="header-reserve_spa">เลือกจำนวนผู้เข้ารับบริการ</p>
+
+
 
         <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-3 gap-10 mt-10">
             <div class="radio">
@@ -248,241 +253,294 @@
             <div id="card_select_by_my_self" class="hide-all">
                 <p class="text-select-terrapits-like">เลือกจากพนักงานที่คุณชื่นชอบ</p>
 
-                <div class="grid lg:grid-cols-5 gap-6 md:grid-cols-4 sm:grid-cols-1 mt-10 bg-white"
-                    onclick="redirectToPageReserve_Time_Therapist()">
-                    <div class="card-grid-select-terrapits-like">
-                        <img src="./images/me.png " class="image-me">
-                        <p class="text-name-terrapits">คุณ นภัสรัญช์ อินเทวา</p>
-                        <div class="container-card-text-like-terrapist">
-                            <p class="text-sm">นวดแล้ว 18 ครั้ง</p>
-                            <svg class="icon-like" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" style="transform: ;msFilter:;">
-                                <path
-                                    d="M20.205 4.791a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412L12 21.414l8.207-8.207c2.354-2.353 2.355-6.049-.002-8.416z">
-                                </path>
-                            </svg>
-                        </div>
-                    </div>
 
-                    <div class="card-grid-select-terrapits-like" onclick="redirectToPageReserve_Time_Therapist()">
-                        <img src="./images/me.png " class="image-me">
-                        <p class="text-name-terrapits">คุณ นภัสรัญช์ อินเทวา</p>
-                        <div class="container-card-text-like-terrapist">
-                            <p class="text-sm">นวดแล้ว 18 ครั้ง</p>
-                            <svg class="icon-like" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" style="transform: ;msFilter:;">
-                                <path
-                                    d="M20.205 4.791a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412L12 21.414l8.207-8.207c2.354-2.353 2.355-6.049-.002-8.416z">
-                                </path>
-                            </svg>
-                        </div>
-                    </div>
 
-                    <div class="card-grid-select-terrapits-like" onclick="redirectToPageReserve_Time_Therapist()">
-                        <img src="./images/me.png " class="image-me">
-                        <p class="text-name-terrapits">คุณ นภัสรัญช์ อินเทวา</p>
-                        <div class="container-card-text-like-terrapist">
-                            <p class="text-sm">นวดแล้ว 18 ครั้ง</p>
-                            <svg class="icon-like" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" style="transform: ;msFilter:;">
-                                <path
-                                    d="M20.205 4.791a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412L12 21.414l8.207-8.207c2.354-2.353 2.355-6.049-.002-8.416z">
-                                </path>
-                            </svg>
-                        </div>
-                    </div>
 
-                    <div class="card-grid-select-terrapits-like" onclick="redirectToPageReserve_Time_Therapist()">
-                        <img src="./images/me.png " class="image-me">
-                        <p class="text-name-terrapits">คุณ นภัสรัญช์ อินเทวา</p>
-                        <div class="container-card-text-like-terrapist">
-                            <p class="text-sm">นวดแล้ว 18 ครั้ง</p>
-                            <svg class="icon-like" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" style="transform: ;msFilter:;">
-                                <path
-                                    d="M20.205 4.791a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412L12 21.414l8.207-8.207c2.354-2.353 2.355-6.049-.002-8.416z">
-                                </path>
-                            </svg>
-                        </div>
-                    </div>
 
-                    <div class="card-grid-select-terrapits-like" onclick="redirectToPageReserve_Time_Therapist()">
-                        <img src="./images/me.png " class="image-me">
-                        <p class="text-name-terrapits">คุณ นภัสรัญช์ อินเทวา</p>
-                        <div class="container-card-text-like-terrapist">
-                            <p class="text-sm">นวดแล้ว 18 ครั้ง</p>
-                            <svg class="icon-like" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" style="transform: ;msFilter:;">
-                                <path
-                                    d="M20.205 4.791a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412L12 21.414l8.207-8.207c2.354-2.353 2.355-6.049-.002-8.416z">
-                                </path>
-                            </svg>
+                <div class="grid lg:grid-cols-5 gap-6 md:grid-cols-4 sm:grid-cols-1 mt-10 bg-white">
+
+                    <a href="/reserve_time_therapist">
+                        <div class="card-grid-select-terrapits-like">
+                            <img src="./images/me.png " class="image-me">
+                            <p class="text-name-terrapits">คุณ นภัสรัญช์ อินเทวา</p>
+                            <div class="container-card-text-like-terrapist">
+                                <p class="text-sm">นวดแล้ว 18 ครั้ง</p>
+                                <svg class="icon-like" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" style="transform: ;msFilter:;">
+                                    <path
+                                        d="M20.205 4.791a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412L12 21.414l8.207-8.207c2.354-2.353 2.355-6.049-.002-8.416z">
+                                    </path>
+                                </svg>
+                            </div>
                         </div>
-                    </div>
+                    </a>
+
+
+                    <a href="/reserve_time_therapist">
+                        <div class="card-grid-select-terrapits-like">
+                            <img src="./images/me.png " class="image-me">
+                            <p class="text-name-terrapits">คุณ นภัสรัญช์ อินเทวา</p>
+                            <div class="container-card-text-like-terrapist">
+                                <p class="text-sm">นวดแล้ว 18 ครั้ง</p>
+                                <svg class="icon-like" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" style="transform: ;msFilter:;">
+                                    <path
+                                        d="M20.205 4.791a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412L12 21.414l8.207-8.207c2.354-2.353 2.355-6.049-.002-8.416z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="/reserve_time_therapist">
+                        <div class="card-grid-select-terrapits-like">
+                            <img src="./images/me.png " class="image-me">
+                            <p class="text-name-terrapits">คุณ นภัสรัญช์ อินเทวา</p>
+                            <div class="container-card-text-like-terrapist">
+                                <p class="text-sm">นวดแล้ว 18 ครั้ง</p>
+                                <svg class="icon-like" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" style="transform: ;msFilter:;">
+                                    <path
+                                        d="M20.205 4.791a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412L12 21.414l8.207-8.207c2.354-2.353 2.355-6.049-.002-8.416z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    <a href="/reserve_time_therapist">
+                        <div class="card-grid-select-terrapits-like">
+                            <img src="./images/me.png " class="image-me">
+                            <p class="text-name-terrapits">คุณ นภัสรัญช์ อินเทวา</p>
+                            <div class="container-card-text-like-terrapist">
+                                <p class="text-sm">นวดแล้ว 18 ครั้ง</p>
+                                <svg class="icon-like" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" style="transform: ;msFilter:;">
+                                    <path
+                                        d="M20.205 4.791a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412L12 21.414l8.207-8.207c2.354-2.353 2.355-6.049-.002-8.416z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="/reserve_time_therapist">
+                        <div class="card-grid-select-terrapits-like">
+                            <img src="./images/me.png " class="image-me">
+                            <p class="text-name-terrapits">คุณ นภัสรัญช์ อินเทวา</p>
+                            <div class="container-card-text-like-terrapist">
+                                <p class="text-sm">นวดแล้ว 18 ครั้ง</p>
+                                <svg class="icon-like" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" style="transform: ;msFilter:;">
+                                    <path
+                                        d="M20.205 4.791a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412L12 21.414l8.207-8.207c2.354-2.353 2.355-6.049-.002-8.416z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="/reserve_time_therapist">
+                        <div class="card-grid-select-terrapits-like">
+                            <img src="./images/me.png " class="image-me">
+                            <p class="text-name-terrapits">คุณ นภัสรัญช์ อินเทวา</p>
+                            <div class="container-card-text-like-terrapist">
+                                <p class="text-sm">นวดแล้ว 18 ครั้ง</p>
+                                <svg class="icon-like" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" style="transform: ;msFilter:;">
+                                    <path
+                                        d="M20.205 4.791a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412L12 21.414l8.207-8.207c2.354-2.353 2.355-6.049-.002-8.416z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+
                 </div>
 
                 <p class="text-select-terrapits-else">เลือกพนักงานทั่วไป</p>
 
-                <div class="grid lg:grid-cols-5 gap-6 md:grid-cols-4 sm:grid-cols-1 mt-10 bg-white"
-                    onclick="redirectToPageReserve_Time_Therapist()">
-                    <div class="card-grid-select-terrapits-else">
-                        <img src="./images/me.png " class="image-me">
-                        <p class="text-name-terrapits">คุณ นภัสรัญช์ อินเทวา</p>
+                <div class="grid lg:grid-cols-5 gap-6 md:grid-cols-4 sm:grid-cols-1 mt-10 bg-white">
+                    <a href="/reserve_time_therapist">
+                        <div class="card-grid-select-terrapits-else">
+                            <img src="./images/me.png " class="image-me">
+                            <p class="text-name-terrapits">คุณ นภัสรัญช์ อินเทวา</p>
 
-                        <div class="container-card-text-like-terrapist">
-                            <p class="text-sm">นวดแล้ว 18 ครั้ง</p>
-                            <svg class="icon-like" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" style="transform: ;msFilter:;">
-                                <path
-                                    d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z">
-                                </path>
-                            </svg>
+                            <div class="container-card-text-like-terrapist">
+                                <p class="text-sm">นวดแล้ว 18 ครั้ง</p>
+                                <svg class="icon-like" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" style="transform: ;msFilter:;">
+                                    <path
+                                        d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z">
+                                    </path>
+                                </svg>
+                            </div>
                         </div>
-                    </div>
+                    </a>
 
-                    <div class="card-grid-select-terrapits-else" onclick="redirectToPageReserve_Time_Therapist()">
-                        <img src="./images/me.png " class="image-me">
-                        <p class="text-name-terrapits">คุณ นภัสรัญช์ อินเทวา</p>
 
-                        <div class="container-card-text-like-terrapist">
-                            <p class="text-sm">นวดแล้ว 18 ครั้ง</p>
-                            <svg class="icon-like" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" style="transform: ;msFilter:;">
-                                <path
-                                    d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z">
-                                </path>
-                            </svg>
+                    <a href="/reserve_time_therapist">
+                        <div class="card-grid-select-terrapits-else">
+                            <img src="./images/me.png " class="image-me">
+                            <p class="text-name-terrapits">คุณ นภัสรัญช์ อินเทวา</p>
+                            <div class="container-card-text-like-terrapist">
+                                <p class="text-sm">นวดแล้ว 18 ครั้ง</p>
+                                <svg class="icon-like" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" style="transform: ;msFilter:;">
+                                    <path
+                                        d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z">
+                                    </path>
+                                </svg>
+                            </div>
                         </div>
-                    </div>
+                    </a>
 
-                    <div class="card-grid-select-terrapits-else" onclick="redirectToPageReserve_Time_Therapist()">
-                        <img src="./images/me.png " class="image-me">
-                        <p class="text-name-terrapits">คุณ นภัสรัญช์ อินเทวา</p>
 
-                        <div class="container-card-text-like-terrapist">
-                            <p class="text-sm">นวดแล้ว 18 ครั้ง</p>
-                            <svg class="icon-like" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" style="transform: ;msFilter:;">
-                                <path
-                                    d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z">
-                                </path>
-                            </svg>
+                    <a href="/reserve_time_therapist">
+                        <div class="card-grid-select-terrapits-else">
+                            <img src="./images/me.png " class="image-me">
+                            <p class="text-name-terrapits">คุณ นภัสรัญช์ อินเทวา</p>
+
+                            <div class="container-card-text-like-terrapist">
+                                <p class="text-sm">นวดแล้ว 18 ครั้ง</p>
+                                <svg class="icon-like" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" style="transform: ;msFilter:;">
+                                    <path
+                                        d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z">
+                                    </path>
+                                </svg>
+                            </div>
                         </div>
-                    </div>
+                    </a>
 
-                    <div class="card-grid-select-terrapits-else" onclick="redirectToPageReserve_Time_Therapist()">
-                        <img src="./images/me.png " class="image-me">
-                        <p class="text-name-terrapits">คุณ นภัสรัญช์ อินเทวา</p>
 
-                        <div class="container-card-text-like-terrapist">
-                            <p class="text-sm">นวดแล้ว 18 ครั้ง</p>
-                            <svg class="icon-like" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" style="transform: ;msFilter:;">
-                                <path
-                                    d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z">
-                                </path>
-                            </svg>
+                    <a href="/reserve_time_therapist">
+                        <div class="card-grid-select-terrapits-else">
+                            <img src="./images/me.png " class="image-me">
+                            <p class="text-name-terrapits">คุณ นภัสรัญช์ อินเทวา</p>
+
+                            <div class="container-card-text-like-terrapist">
+                                <p class="text-sm">นวดแล้ว 18 ครั้ง</p>
+                                <svg class="icon-like" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" style="transform: ;msFilter:;">
+                                    <path
+                                        d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z">
+                                    </path>
+                                </svg>
+                            </div>
                         </div>
-                    </div>
+                    </a>
 
-                    <div class="card-grid-select-terrapits-else" onclick="redirectToPageReserve_Time_Therapist()">
-                        <img src="./images/me.png " class="image-me">
-                        <p class="text-name-terrapits">คุณ นภัสรัญช์ อินเทวา</p>
 
-                        <div class="container-card-text-like-terrapist">
-                            <p class="text-sm">นวดแล้ว 18 ครั้ง</p>
-                            <svg class="icon-like" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" style="transform: ;msFilter:;">
-                                <path
-                                    d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z">
-                                </path>
-                            </svg>
+                    <a href="/reserve_time_therapist">
+                        <div class="card-grid-select-terrapits-else">
+                            <img src="./images/me.png " class="image-me">
+                            <p class="text-name-terrapits">คุณ นภัสรัญช์ อินเทวา</p>
+
+                            <div class="container-card-text-like-terrapist">
+                                <p class="text-sm">นวดแล้ว 18 ครั้ง</p>
+                                <svg class="icon-like" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" style="transform: ;msFilter:;">
+                                    <path
+                                        d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z">
+                                    </path>
+                                </svg>
+                            </div>
                         </div>
-                    </div>
+                    </a>
 
-                    <div class="card-grid-select-terrapits-else" onclick="redirectToPageReserve_Time_Therapist()">
-                        <img src="./images/me.png " class="image-me">
-                        <p class="text-name-terrapits">คุณ นภัสรัญช์ อินเทวา</p>
+                    <a href="/reserve_time_therapist">
+                        <div class="card-grid-select-terrapits-else">
+                            <img src="./images/me.png " class="image-me">
+                            <p class="text-name-terrapits">คุณ นภัสรัญช์ อินเทวา</p>
 
-                        <div class="container-card-text-like-terrapist">
-                            <p class="text-sm">นวดแล้ว 18 ครั้ง</p>
-                            <svg class="icon-like" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" style="transform: ;msFilter:;">
-                                <path
-                                    d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z">
-                                </path>
-                            </svg>
+                            <div class="container-card-text-like-terrapist">
+                                <p class="text-sm">นวดแล้ว 18 ครั้ง</p>
+                                <svg class="icon-like" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" style="transform: ;msFilter:;">
+                                    <path
+                                        d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z">
+                                    </path>
+                                </svg>
+                            </div>
                         </div>
-                    </div>
+                    </a>
 
-                    <div class="card-grid-select-terrapits-else" onclick="redirectToPageReserve_Time_Therapist()">
-                        <img src="./images/me.png " class="image-me">
-                        <p class="text-name-terrapits">คุณ นภัสรัญช์ อินเทวา</p>
+                    <a href="/reserve_time_therapist">
+                        <div class="card-grid-select-terrapits-else">
+                            <img src="./images/me.png " class="image-me">
+                            <p class="text-name-terrapits">คุณ นภัสรัญช์ อินเทวา</p>
 
-                        <div class="container-card-text-like-terrapist">
-                            <p class="text-sm">นวดแล้ว 18 ครั้ง</p>
-                            <svg class="icon-like" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" style="transform: ;msFilter:;">
-                                <path
-                                    d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z">
-                                </path>
-                            </svg>
+                            <div class="container-card-text-like-terrapist">
+                                <p class="text-sm">นวดแล้ว 18 ครั้ง</p>
+                                <svg class="icon-like" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" style="transform: ;msFilter:;">
+                                    <path
+                                        d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z">
+                                    </path>
+                                </svg>
+                            </div>
                         </div>
-                    </div>
+                    </a>
 
-                    <div class="card-grid-select-terrapits-else" onclick="redirectToPageReserve_Time_Therapist()">
-                        <img src="./images/me.png " class="image-me">
-                        <p class="text-name-terrapits">คุณ นภัสรัญช์ อินเทวา</p>
+                    <a href="/reserve_time_therapist">
+                        <div class="card-grid-select-terrapits-else">
+                            <img src="./images/me.png " class="image-me">
+                            <p class="text-name-terrapits">คุณ นภัสรัญช์ อินเทวา</p>
 
-                        <div class="container-card-text-like-terrapist">
-                            <p class="text-sm">นวดแล้ว 18 ครั้ง</p>
-                            <svg class="icon-like" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" style="transform: ;msFilter:;">
-                                <path
-                                    d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z">
-                                </path>
-                            </svg>
+                            <div class="container-card-text-like-terrapist">
+                                <p class="text-sm">นวดแล้ว 18 ครั้ง</p>
+                                <svg class="icon-like" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" style="transform: ;msFilter:;">
+                                    <path
+                                        d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z">
+                                    </path>
+                                </svg>
+                            </div>
                         </div>
-                    </div>
+                    </a>
 
-                    <div class="card-grid-select-terrapits-else" onclick="redirectToPageReserve_Time_Therapist()">
-                        <img src="./images/me.png " class="image-me">
-                        <p class="text-name-terrapits">คุณ นภัสรัญช์ อินเทวา</p>
+                    <a href="/reserve_time_therapist">
+                        <div class="card-grid-select-terrapits-else">
+                            <img src="./images/me.png " class="image-me">
+                            <p class="text-name-terrapits">คุณ นภัสรัญช์ อินเทวา</p>
 
-                        <div class="container-card-text-like-terrapist">
-                            <p class="text-sm">นวดแล้ว 18 ครั้ง</p>
-                            <svg class="icon-like" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" style="transform: ;msFilter:;">
-                                <path
-                                    d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z">
-                                </path>
-                            </svg>
+                            <div class="container-card-text-like-terrapist">
+                                <p class="text-sm">นวดแล้ว 18 ครั้ง</p>
+                                <svg class="icon-like" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" style="transform: ;msFilter:;">
+                                    <path
+                                        d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z">
+                                    </path>
+                                </svg>
+                            </div>
                         </div>
-                    </div>
+                    </a>
 
-                    <div class="card-grid-select-terrapits-else" onclick="redirectToPageReserve_Time_Therapist()">
-                        <img src="./images/me.png " class="image-me">
-                        <p class="text-name-terrapits">คุณ นภัสรัญช์ อินเทวา</p>
+                    <a href="/reserve_time_therapist">
+                        <div class="card-grid-select-terrapits-else">
+                            <img src="./images/me.png " class="image-me">
+                            <p class="text-name-terrapits">คุณ นภัสรัญช์ อินเทวา</p>
 
-                        <div class="container-card-text-like-terrapist">
-                            <p class="text-sm">นวดแล้ว 18 ครั้ง</p>
-                            <svg class="icon-like" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" style="transform: ;msFilter:;">
-                                <path
-                                    d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z">
-                                </path>
-                            </svg>
+                            <div class="container-card-text-like-terrapist">
+                                <p class="text-sm">นวดแล้ว 18 ครั้ง</p>
+                                <svg class="icon-like" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" style="transform: ;msFilter:;">
+                                    <path
+                                        d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z">
+                                    </path>
+                                </svg>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
             </div>
 
             <div class="container-btn-next">
-                <button class="btn-next" onclick="redirectToPageService_Address()">ถัดไป</button>
+            <a class="button btn-next " href="/service_address">ถัดไป</a>
             </div>
-
-
         </div>
 
 
@@ -667,11 +725,11 @@
 
 
 
-
             <div id="card_select_couple_my_self" class="hide-all">
                 <p class="text-select-terrapits-like">เลือกจากพนักงานที่คุณชื่นชอบ</p>
-                <div class="grid lg:grid-cols-5 gap-6 md:grid-cols-4 sm:grid-cols-1 mt-10 bg-white"
-                    onclick="redirectToPageReserve_Time_Therapist()">
+                <div class="grid lg:grid-cols-5 gap-6 md:grid-cols-4 sm:grid-cols-1 mt-10 bg-white">
+
+
                     <div class="card-grid-select-terrapits-like">
                         <img src="./images/me.png " class="image-me">
                         <p class="text-name-terrapits">คุณ นภัสรัญช์ อินเทวา</p>
@@ -898,9 +956,9 @@
                     </div>
                 </div>
             </div>
-            <div class="container-btn-next">
-                <button class="btn-next" onclick="redirectToPageReserve_Spa_Two() ">ถัดไป</button>
-            </div>
+            <!-- <div class="container-btn-next">
+                <a class="button btn-next" href="/serveice_address">ถัดไป</a>
+            </div> -->
         </div>
     </div>
 
@@ -997,9 +1055,9 @@ function redirectToPageReserve_Spa_Two() {
     window.location.href = "reserve_spa_two.php";
 }
 
-function redirectToPageReserve_Time_Therapist() {
-    window.location.href = "reserve_time_therapist.php";
-}
+// function redirectToPageReserve_Time_Therapist() {
+//     window.location.href = "reserve_time_therapist.php";
+// }
 </script>
 
 </html>

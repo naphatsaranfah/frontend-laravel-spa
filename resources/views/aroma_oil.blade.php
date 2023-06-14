@@ -16,13 +16,18 @@
 <body>
 
     <div class="container-aroma-oil">
+
+        <div class="card hidden opacity-0 transform translate-y-16 duration-500 ease-in-out">
+            <p class="text-red-800 bg-blue-500">aaaaaaaaaa</p>
+        </div>
+
         <p class="header-aroma-oil">นวดน้ำมันอโรม่า</p>
 
-        <img src="./images/aroma_oil.png" class="w-full mt-10">
+        <img src="./images/banner.jpg" class="w-full mt-10 object-cover h-56">
 
         <p class="header-aroma-oil">สิ่งที่ได้รับในการนวดน้ำมันอโรมา</p>
 
-        <div class="grid lg:grid-cols-3 mg:grid-cols-3 sm:grid-cols-1  gap-20">
+        <div class="grid lg:grid-cols-3 mg:grid-cols-3 sm:grid-cols-1 gap-20">
             <div class="card-aroma-oil-receive">
                 <img src="./images/side-view-photo-relaxed-woman-spa-salon-with-branch-orchid.jpg"
                     class="w-full rounded-lg">
@@ -60,21 +65,25 @@
 
         <p class="header-aroma-oil">ประโยนช์ของการนวดน้ำมันอโรม่า</p>
 
-        <div
-            class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 mt-10 gap-5 text-fuchsia-900 font-semibold text-center">
-
-            <div class="bg-[url('./images/binifit.png')] w-full p-20  rounded-2xl">
-                <p class="text-white">คลายความเหนื่อยล้า</p>
+        <div class="grid lg:grid-cols-3 mg:grid-cols-3 sm:grid-cols-1  gap-20">
+            <div class="card-aroma-oil-receive">
+                <img src="./images/side-view-photo-relaxed-woman-spa-salon-with-branch-orchid.jpg"
+                    class="w-full rounded-lg">
+                <p class="lg:mt-10 md:mt-10 sm:mt-5 sm:text-sm md:text-md lg:text-xl font-bold">
+                    นวดได้ตรงจุดที่คุณต้องการคลายความเหนื่อยล้า
+                </p>
             </div>
 
-            <div class="bg-[url('./images/binifit.png')] w-full p-20  rounded-2xl">
-
-                <p class="text-white">คลายความเหนื่อยล้า</p>
+            <div class="card-aroma-oil-receive">
+                <img src="./images/therapist-pouring-massage-oil-spa.jpg" class="w-full rounded-lg">
+                <p class="lg:mt-10 md:mt-10 sm:mt-5 sm:text-sm md:text-md lg:text-xl font-bold">
+                    น้ำมันสารสกัดจากธรรมชาติอย่างดี</p>
             </div>
 
-            <div class="bg-[url('./images/binifit.png')] w-full p-20  rounded-2xl">
-
-                <p class="text-white">คลายความเหนื่อยล้า</p>
+            <div class="card-aroma-oil-receive">
+                <img src="./images/lelavadee.jpg" class="w-full rounded-lg">
+                <p class="lg:mt-10 md:mt-10 sm:mt-5 sm:text-sm md:text-md lg:text-xl font-bold">
+                    นวดน้ำมันอโรมาด้วยพนักงานมืออาชีพ</p>
             </div>
         </div>
 

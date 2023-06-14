@@ -36,10 +36,13 @@
                             <p class="">ที่อยู่หลัก</p>
                         </div>
 
+                        <!-- <a  href="{{ url('/setting_profile') }}"> -->
                         <svg class="icon-address" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                             viewBox="0 0 24 24" style="transform: ;msFilter:;">
                             <path d="m16 2.012 3 3L16.713 7.3l-3-3zM4 14v3h3l8.299-8.287-3-3zm0 6h16v2H4z"></path>
                         </svg>
+                        <!-- </a> -->
+
                     </div>
 
                     <div class="text-start mt-10">
@@ -250,9 +253,11 @@
             </div>
         </div>
 
+
         <div class="container-btn-confirm-reserve">
-            <button class="btn-confirm-reserve">ยืนยันการจอง</button>
+            <a class="button btn-confirm-reserve" href="/summarize_reserve">ถัดไป</a>
         </div>
+
 
     </div>
 

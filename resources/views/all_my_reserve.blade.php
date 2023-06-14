@@ -10,11 +10,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
 </head>
 
 <body>
-
 
     <div class="container-all-my-reserve">
         <p class="header-all-my-reserve">การจองของฉัน</p>
@@ -67,7 +65,7 @@
                 <div class="border-2 border-fuchsia-100 rounded-2xl p-5">
                     <div class="list-icon-header-details-user">
                         <p class="text-orange-500">สถานะยังไม่ชำระเงิน</p>
-                        <svg onclick="redirectToPageReserve_Spa()" class="fill-fuchsia-900 cursor-pointer"
+                        <svg  class="fill-fuchsia-900 cursor-pointer"
                             xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             style="transform: ;msFilter:;">
                             <path d="m16 2.012 3 3L16.713 7.3l-3-3zM4 14v3h3l8.299-8.287-3-3zm0 6h16v2H4z"></path>

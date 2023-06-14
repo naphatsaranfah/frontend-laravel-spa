@@ -15,46 +15,37 @@
 </head>
 
 <body>
+    <div class="">
+        <div class="container-header-banner block animatable bounceInRight ">
+            <p class="text-purple-900 text-4xl font-semibold ">ยินดีต้อนรับสู่ Lirena</p>
 
-    <div class="container-header-banner ">
-
-        <div class="">
-            <p class="text-white text-4xl font-semibold 	mt-6">ยินดีต้อนรับสู่ Lirena</p>
             <p class="text-purple-900 text-4xl font-semibold 	mt-6">ที่จะทำให้คุณผ่อนคลาย</p>
 
-            <button class="button-booking-banner">จองตอนนี้</button>
+            <div class="mt-20">
+                <a href="{{ url('/reserve_spa') }}" class="button button-booking-banner">จองตอนนี้</a>
+            </div>
         </div>
 
-
-        <!-- <div class="container-grid-select"> -->
-        <div class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 text-center mt-10">
-            <div class="bg-[url('./images/group.png')] p-10 rounded-l-md cursor-pointer"
-                onclick="redirectToPageReserve_Spa()">
-                <p class="text-fuchsia-900 font-bold bg-white rounded-xl py-3 px-20">
-                    แบบเดี่ยว
-                </p>
+        <div class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 text-center mt-10 px-20 ">
+            <div class="image-single-spa p-20 rounded-l-lg">
+                <a href="{{ url('/reserve_spa') }}">แบบเดี่ยว</a>
             </div>
 
-            <div class="bg-[url('./images/group.png')] p-10 cursor-pointer" onclick="redirectToPageReserve_Spa()">
-                <p class="text-fuchsia-900 font-bold bg-white rounded-xl py-3 px-20">
-                    แบบคู่
-                </p>
+            <div class="image-couple-spa p-20 ">
+                <a href="{{ url('/reserve_spa') }}">แบบคู่</a>
             </div>
 
-
-            <div class="bg-[url('./images/group.png')] p-10 cursor-pointer" onclick="redirectToPageReserve_Group()">
-                <p class="text-fuchsia-900 font-bold bg-white rounded-xl py-3 px-20">
-                    แบบกลุ่ม
-                </p>
+            <div class="image-group-spa p-20 rounded-r-lg">
+                <a href="{{ url('/reserve_group') }}">แบบกลุ่ม</a>
             </div>
+
         </div>
 
         <div class="grid-highlight-details">
 
             <img src="./images/highlight.png" />
 
-
-            <div>
+            <div class=" block animatable fadeInDown">
                 <p class="header-highlight">จุดเด่นของเรา</p>
                 <div class="text-left mt-10 leading-10">
                     <div class="flex gap-3 ">
@@ -96,45 +87,49 @@
                         </p>
                     </div>
                 </div>
-                <button type="button" class="button-booking-highlight">จองตอนนี้</button>
-            </div>
 
+                <div class="mt-10">
+                    <a href="{{ url('/reserve_spa') }}" class="button button-booking-highlight">จองตอนนี้</a>
+                </div>
+                <!-- <button type="button" class="button-booking-highlight">จองตอนนี้</button> -->
+            </div>
         </div>
+
 
         <div>
             <h1 class="header-our-services">บริการของเรา</h1>
         </div>
 
         <!-- <div class="grid-service"> -->
-        <div class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 gap-10 text-center py-10">
-            <div class="">
+        <div class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 gap-10 text-center py-10 px-20">
+            <div class="block animatable fadeInUp">
                 <img src="./images/spa_servic.png " class="image-service">
                 <p class="details-services">นวดน้ำมันอโรมา</p>
                 <p class="header-services">ดูแลผิวหน้าด้วยสารสกัดจากธรรมชาต 100 % ตามสภาพผิวของคุณ</p>
             </div>
-            <div>
+            <div class="block animatable fadeInUp">
                 <img src="./images/spa_servic.png " class="image-service">
                 <p class="details-services">นวดกดจุด</p>
                 <p class="header-services">ดูแลผิวหน้าด้วยสารสกัดจากธรรมชาต 100 % ตามสภาพผิวของคุณ</p>
             </div>
-            <div>
+            <div class="block animatable fadeInUp">
                 <img src="./images/spa_servic.png " class="image-service">
                 <p class="details-services">นวดแก้ออฟฟิศซินโดม</p>
                 <p class="header-services">ดูแลผิวหน้าด้วยสารสกัดจากธรรมชาต 100 % ตามสภาพผิวของคุณ</p>
             </div>
-            <div>
+            <div class="block animatable fadeInDown">
 
                 <img src="./images/spa_servic.png " class="image-service">
 
                 <p class="details-services">นวดแผนไทย</p>
                 <p class="header-services">ดูแลผิวหน้าด้วยสารสกัดจากธรรมชาต 100 % ตามสภาพผิวของคุณ</p>
             </div>
-            <div>
+            <div class="block animatable fadeInDown">
                 <img src="./images/spa_servic.png " class="image-service">
                 <p class="details-services">นวดน้ำมันอโรมา</p>
                 <p class="header-services">ดูแลผิวหน้าด้วยสารสกัดจากธรรมชาต 100 % ตามสภาพผิวของคุณ</p>
             </div>
-            <div>
+            <div class="block animatable fadeInDown">
                 <img src="./images/spa_servic.png " class="image-service">
                 <p class="details-services">นวดน้ำมันอโรมา</p>
                 <p class="header-services">ดูแลผิวหน้าด้วยสารสกัดจากธรรมชาต 100 % ตามสภาพผิวของคุณ</p>
@@ -142,18 +137,24 @@
         </div>
 
         <div class="card-bg-discount">
-            <h1 class="text-white text-6xl">ส่วนลด 25%</h1>
-            <p class="text-pink-400 text-3xl mt-5">สำหรับการจองครั้งแรก</p>
-            <p class="text-white text-xl mt-5">แถมฟรีทรีตเม้นผิวหน้า</p>
-            <button type="button" class="button-book-bottom-discount">จองตอนนี้</button>
+            <div class=" block animatable moveUp">
+                <h1 class="text-white text-6xl">ส่วนลด 25%</h1>
+                <p class="text-pink-400 text-3xl mt-5">สำหรับการจองครั้งแรก</p>
+                <p class="text-white text-xl mt-5">แถมฟรีทรีตเม้นผิวหน้า</p>
+            </div>
+
+            <div class="mt-10  block animatable moveUp">
+                <a href="{{ url('/reserve_spa') }}" class="button button-book-bottom-discount">จองตอนนี้</a>
+            </div>
+            <!-- <button type="button" class="button-book-bottom-discount">จองตอนนี้</button> -->
         </div>
 
         <div>
             <h2 class="header-professional-therapist">พนักงานมืออาชีพของเรา</h2>
         </div>
 
-        <div class="grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-2 gap-5 mt-10">
-            <div class="card-therapist">
+        <div class="grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-2 gap-5 mt-10 px-20">
+            <div class="card-therapist block animatable bounceInLeft">
                 <img src="./images/me.png" class="rounded-t-md	" />
                 <div class="content-therapist-professional">
                     <p>คุณ นภัสรัญช์ อินเทวา</p>
@@ -170,7 +171,7 @@
                 </div>
             </div>
 
-            <div class="card-therapist">
+            <div class="card-therapist block animatable bounceInLeft">
                 <img src="./images/me.png" class="rounded-t-md	" />
                 <div class="content-therapist-professional">
                     <p>คุณ นภัสรัญช์ อินเทวา</p>
@@ -186,7 +187,7 @@
                 </div>
             </div>
 
-            <div class="card-therapist">
+            <div class="card-therapist block animatable bounceInRight">
                 <img src="./images/me.png" class="rounded-t-md" />
                 <div class="content-therapist-professional">
                     <p>คุณ นภัสรัญช์ อินเทวา</p>
@@ -201,7 +202,7 @@
                 </div>
             </div>
 
-            <div class="card-therapist">
+            <div class="card-therapist block animatable bounceInRight">
                 <img src="./images/me.png" class="rounded-t-md" />
                 <div class="content-therapist-professional">
                     <p>คุณ นภัสรัญช์ อินเทวา</p>
@@ -217,67 +218,53 @@
             </div>
         </div>
 
-        <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 mt-20  gap-10">
-            <div class="">
-                <!-- <p
-                    class="bg-pink-400 p-10 sm:rounded-t-xl md:rounded-t-xl md:rounded-tr-0 lg:rounded-tl-xl lg:rounded-tr-none   text-white">
+        <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 mt-20  gap-10 px-20">
+            <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
+                <p class="bg-fuchsia-900 p-10 text-white hover:bg-pink-400 lg:rounded-tl-lg md:rounded-tl-lg">
                     มากกว่า 50 พนักงานมืออาชีพ</p>
-                <p class="bg-fuchsia-900 p-10 lg:rounded-tr-xl md:rounded-t-none text-white hover:bg-pink-400">
+                <p class="bg-fuchsia-900 p-10 text-white hover:bg-pink-400 lg:md:rounded-tr-lg md:rounded-tr-lg">
                     มากกว่า 15 ผลิตภัณฑ์ใหม่</p>
-                <p
-                    class="bg-fuchsia-900 p-10 lg:rounded-b-xl lg:rounded-br-none  md:rounded-none text-white hover:bg-pink-400">
+                <p class="bg-fuchsia-900 p-10 text-white hover:bg-pink-400 md:rounded-bl-lg lg:md:rounded-bl-lg">
                     มากกว่า 15 ผลิตภัณฑ์ใหม่</p>
-                <p
-                    class="bg-fuchsia-900 p-10 sm:rounded-b-xl lg:rounded-b-xl lg:rounded-bl-none  md:rounded-b-xl md:rounded-tr-0  text-white hover:bg-pink-400">
-                    มากกว่า 15 ผลิตภัณฑ์ใหม่</p> -->
-
-                <p class="bg-fuchsia-900 p-10 text-white hover:bg-pink-400">
-                    มากกว่า 50 พนักงานมืออาชีพ</p>
-                <p class="bg-fuchsia-900 p-10 text-white hover:bg-pink-400">
-                    มากกว่า 15 ผลิตภัณฑ์ใหม่</p>
-                <p class="bg-fuchsia-900 p-10 text-white hover:bg-pink-400">
-                    มากกว่า 15 ผลิตภัณฑ์ใหม่</p>
-                <p class="bg-fuchsia-900 p-10 text-white hover:bg-pink-400">
+                <p class="bg-fuchsia-900 p-10 text-white hover:bg-pink-400 md:rounded-br-lg lg:md:rounded-br-lg">
                     มากกว่า 15 ผลิตภัณฑ์ใหม่</p>
             </div>
-            <image class="" src="./images/saltflowers.png" />
+            <image class=" block animatable fadeInDown" src="./images/saltflowers.png" />
         </div>
 
         <div>
             <h2 class="header-feedback">ผลตอบรับหลังจากใช้บริการ</h2>
         </div>
 
-
         <!-- <div class="grid-feedback"> -->
-        <div class="grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-2 gap-5">
-            <div class="content-feedback">
+        <div class="grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-2 gap-5 px-20">
+            <div class="content-feedback block animatable bounceInLeft">
                 <div>
                     <img src="./images/f1.png" class="w-full rounded-t-md" />
                     <p class="p-5">“พนักงานมือเบา นวดดี ผ่อนคลายมากๆค่ะ”</p>
                 </div>
             </div>
 
-            <div class="content-feedback">
+            <div class="content-feedback  block animatable bounceInLeft">
                 <div>
                     <img src="./images/f2.png" class="w-full rounded-t-md" />
                     <p class="p-5">“พนักงานมือเบา นวดดี ผ่อนคลายมากๆค่ะ”</p>
                 </div>
             </div>
 
-            <div class="content-feedback">
+            <div class="content-feedback  block animatable bounceInRight">
                 <div>
                     <img src="./images/f3.png" class="w-full rounded-t-md" />
                     <p class="p-5">“พนักงานมือเบา นวดดี ผ่อนคลายมากๆค่ะ”</p>
                 </div>
             </div>
 
-            <div class="content-feedback">
+            <div class="content-feedback block animatable bounceInRight">
                 <div>
                     <img src="./images/f1.png" class="w-full rounded-t-md" />
                     <p class="p-5">“พนักงานมือเบา นวดดี ผ่อนคลายมากๆค่ะ”</p>
                 </div>
             </div>
-
         </div>
 
 
@@ -362,6 +349,39 @@ function redirectToPageReserve_Group() {
 }
 </script> -->
 
+
+
+<script>
+jQuery(function($) {
+
+    // Function which adds the 'animated' class to any '.animatable' in view
+    var doAnimations = function() {
+
+        // Calc current offset and get all animatables
+        var offset = $(window).scrollTop() + $(window).height(),
+            $animatables = $('.animatable');
+
+        // Unbind scroll handler if we have no animatables
+        if ($animatables.length == 0) {
+            $(window).off('scroll', doAnimations);
+        }
+
+        // Check all animatables and animate them if necessary
+        $animatables.each(function(i) {
+            var $animatable = $(this);
+            if (($animatable.offset().top + $animatable.height() - 20) < offset) {
+                $animatable.removeClass('animatable').addClass('animated');
+            }
+        });
+
+    };
+
+    // Hook doAnimations on scroll, and trigger a scroll
+    $(window).on('scroll', doAnimations);
+    $(window).trigger('scroll');
+
+});
+</script>
 
 
 </html>

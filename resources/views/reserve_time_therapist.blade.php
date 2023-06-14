@@ -92,10 +92,11 @@
 
 
         <div class="container-submit-reserve-time-therapist">
-            <button class="button-submit-reserve-time-therapist"
-                onclick="redirectToPageSummarize_Reserve()">ยืนยัน</button>
+            <a class="button button-submit-reserve-time-therapist" href="/service_address">ยืนยัน</a>
         </div>
 
+
+    
     </div>
 
 

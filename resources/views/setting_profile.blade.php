@@ -20,14 +20,14 @@
         <!-- <div class="bg-[url('./images/binifit.png')] h-32 rounded-t-2xl"> -->
 
         <div class="grid grid-cols-3">
-            <img src="./images/binifit.png" class="w-full h-28">
-            <img src="./images/binifit.png" class="w-full h-28">
-            <img src="./images/binifit.png" class="w-full h-28">
+            <img src="./images/binifit.png" class="w-full h-36 object-cover">
+            <img src="./images/binifit.png" class="w-full h-36 object-cover">
+            <img src="./images/binifit.png" class="w-full h-36 object-cover">
         </div>
 
 
         <div class="flex gap-5 mt-10">
-            <img src="./images/profile_woman.png" class="w-24 h-24">
+            <img src="./images/profile_woman.png" class="w-24 h-24 ">
             <div>
                 <p class="username mt-10"> Naphatsaran Intewa</p>
                 <p class="email-user  ">naphatsaran@gmail.com</p>
@@ -180,7 +180,7 @@
                                     <label for="countries"
                                         class="block text-sm font-bold mb-2 text-fuchsia-90 text-fuchsia-900">จังหวัด</label>
                                     <select id="countries"
-                                        class=" bg-white border shadow border-gray-300 text-fuchsia-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                        class=" bg-white border shadow border-gray-300 text-fuchsia-900 text-sm rounded-lg  focus:border-fuchsia-900 block w-full p-2">
                                         <option selected>เลือกจังหวัด</option>
                                         <option class="option-select" value="กรุงเทพมหานคร">
                                             กรุงเทพมหานคร</option>
@@ -321,7 +321,7 @@
                                     <label for="countries"
                                         class="block text-sm font-bold mb-2 text-fuchsia-90 text-fuchsia-900">โรคที่คุณเป็นในปัจจุบัน</label>
                                     <select id="countries"
-                                        class=" bg-white shadow border border-gray-300 text-fuchsia-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                        class=" bg-white shadow border border-gray-300 text-fuchsia-900 text-sm rounded-lg w-full p-2 focus:ring-fuchsia-900">
                                         <option value="อุดรธานี">ไม่มี </option>
                                         <option value="อุตรดิตถ์">อุตรดิตถ์ </option>
                                         <option value="อุทัยธานี">อุทัยธานี </option>
@@ -335,9 +335,9 @@
 
                                 <div class="mb-4 ">
                                     <label for="countries"
-                                        class="block text-sm  font-bold mb-2 text-fuchsia-90 text-fuchsia-900">โรคที่คุณเป็นในปัจจุบัน</label>
+                                        class="block text-sm font-bold mb-2 text-fuchsia-90 text-fuchsia-900">โรคที่คุณเป็นในปัจจุบัน</label>
                                     <select id="countries"
-                                        class=" bg-white border shadow border-gray-300 text-fuchsia-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                        class=" bg-white shadow border border-gray-300 text-fuchsia-900 text-sm rounded-lg w-full p-2 focus:ring-fuchsia-900">
                                         <option value="อุดรธานี">ไม่เคย </option>
                                         <option value="อุตรดิตถ์">อุตรดิตถ์ </option>
                                         <option value="อุทัยธานี">อุทัยธานี </option>
@@ -352,7 +352,7 @@
                                     <label for="countries"
                                         class="block text-sm  font-bold mb-2 text-fuchsia-90 text-fuchsia-900">อาการนอกเหนือจากที่กล่าวข้างต้น</label>
                                     <select id="countries"
-                                        class=" bg-white border shadow border-gray-300 text-fuchsia-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                        class=" bg-white shadow border border-gray-300 text-fuchsia-900 text-sm rounded-lg w-full p-2 focus:ring-fuchsia-900">
                                         <option value="อุดรธานี">เป็นไข้ </option>
                                         <option value="อุตรดิตถ์">อุตรดิตถ์ </option>
                                         <option value="อุทัยธานี">อุทัยธานี </option>
@@ -367,7 +367,7 @@
                                     <label for="countries"
                                         class="block text-sm  font-bold mb-2 text-fuchsia-90 text-fuchsia-900">หมอนรองกระดูกสันหลังทับเส้นประสาท</label>
                                     <select id="countries"
-                                        class=" bg-white shadow border border-gray-300 text-fuchsia-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                        class=" bg-white shadow border border-gray-300 text-fuchsia-900 text-sm rounded-lg w-full p-2 focus:ring-fuchsia-900 " >
                                         <option value="อุดรธานี">บริเวณกระดูกสันหลังช่วงคอ </option>
                                         <option value="อุตรดิตถ์">อุตรดิตถ์ </option>
                                         <option value="อุทัยธานี">อุทัยธานี </option>
@@ -504,7 +504,7 @@
                                     <label for="countries"
                                         class="block text-sm font-bold mb-2 text-fuchsia-90 text-fuchsia-900">จังหวัด</label>
                                     <select id="countries"
-                                        class=" bg-white border shadow border-gray-300 text-fuchsia-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                        class=" bg-white border shadow border-gray-300 text-fuchsia-900 text-sm rounded-lg focus:ring-fuchsia-900 focus:border-fuchsia-900 block w-full p-2.5">
                                         <option selected>เลือกจังหวัด</option>
                                         <option class="option-select" value="กรุงเทพมหานคร">
                                             กรุงเทพมหานคร</option>
@@ -648,7 +648,7 @@
                                     <label for="countries"
                                         class="block text-sm font-bold mb-2 text-fuchsia-90 text-fuchsia-900">โรคที่คุณเป็นในปัจจุบัน</label>
                                     <select id="countries"
-                                        class=" bg-white shadow border border-gray-300 text-fuchsia-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                        class=" bg-white border shadow border-gray-300 text-fuchsia-900 text-sm rounded-lg focus:ring-fuchsia-900 focus:border-fuchsia-900 block w-full p-2.5">
                                         <option value="อุดรธานี">ไม่มี </option>
                                         <option value="อุตรดิตถ์">อุตรดิตถ์ </option>
                                         <option value="อุทัยธานี">อุทัยธานี </option>
@@ -662,7 +662,7 @@
                                     <label for="countries"
                                         class="block text-sm  font-bold mb-2 text-fuchsia-90 text-fuchsia-900">โรคที่คุณเป็นในปัจจุบัน</label>
                                     <select id="countries"
-                                        class=" bg-white border shadow border-gray-300 text-fuchsia-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                        class=" bg-white border shadow border-gray-300 text-fuchsia-900 text-sm rounded-lg focus:ring-fuchsia-900 focus:border-fuchsia-900 block w-full p-2">
                                         <option value="อุดรธานี">ไม่เคย </option>
                                         <option value="อุตรดิตถ์">อุตรดิตถ์ </option>
                                         <option value="อุทัยธานี">อุทัยธานี </option>
@@ -677,7 +677,7 @@
                                     <label for="countries"
                                         class="block text-sm  font-bold mb-2 text-fuchsia-90 text-fuchsia-900">อาการนอกเหนือจากที่กล่าวข้างต้น</label>
                                     <select id="countries"
-                                        class=" bg-white border shadow border-gray-300 text-fuchsia-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                        class=" bg-white border shadow border-gray-300 text-fuchsia-900 text-sm rounded-lg focus:ring-fuchsia-900 focus:border-fuchsia-900 block w-full p-2">
                                         <option value="อุดรธานี">เป็นไข้ </option>
                                         <option value="อุตรดิตถ์">อุตรดิตถ์ </option>
                                         <option value="อุทัยธานี">อุทัยธานี </option>
@@ -693,7 +693,7 @@
                                     <label for="countries"
                                         class="block text-sm  font-bold mb-2 text-fuchsia-90 text-fuchsia-900">หมอนรองกระดูกสันหลังทับเส้นประสาท</label>
                                     <select id="countries"
-                                        class=" bg-white shadow border border-gray-300 text-fuchsia-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                        class=" bg-white border shadow border-gray-300 text-fuchsia-900 text-sm rounded-lg focus:ring-fuchsia-900 focus:border-fuchsia-900 block w-full p-2">
                                         <option value="อุดรธานี">บริเวณกระดูกสันหลังช่วงคอ </option>
                                         <option value="อุตรดิตถ์">อุตรดิตถ์ </option>
                                         <option value="อุทัยธานี">อุทัยธานี </option>
@@ -702,8 +702,6 @@
                                         <option value="อื่นๆ">อื่นๆ</option>
                                     </select>
                                 </div>
-
-
 
                             </form>
 
