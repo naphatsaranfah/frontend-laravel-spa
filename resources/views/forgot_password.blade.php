@@ -41,7 +41,7 @@
                         </svg>
                     </div>
                     <button type="button"
-                        class="py-3 px-4 inline-flex flex-shrink-0 justify-center items-center rounded-r-md border border-transparent font-semibold bg-fuchsia-900 text-white hover:bg-fuchsia-700 focus:z-10 focus:outline-none focus:ring-2 focus:ring-fuchsia-900 transition-all text-sm">
+                        class="py-3 px-4 inline-flex flex-shrink-0 justify-center items-center rounded-r-md border border-transparent font-semibold bg-fuchsia-950 text-white hover:bg-fuchsia-700 focus:z-10 focus:outline-none focus:ring-2 focus:ring-fuchsia-950 transition-all text-sm">
                         <div class="fill-white">
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
                                 style="transform: ;msFilter:;">
@@ -60,7 +60,7 @@
                 <div class="relative flex rounded-md shadow-sm mt-6">
                     <input type="text" id="hs-trailing-button-add-on-with-icon-and-button"
                         name="hs-trailing-button-add-on-with-icon-and-button"
-                        class="py-3 px-4 pl-11 block w-full border-gray-200 shadow-sm rounded-md text-sm focus:z-10 focus:border-fuchsia-900 focus:ring-fuchsia-900  text-gray-400"
+                        class="py-3 px-4 pl-11 block w-full border-gray-200 shadow-sm rounded-md text-sm focus:z-10 focus:border-fuchsia-950 focus:ring-fuchsia-950  text-gray-400"
                         placeholder="กรุณากรอกรหัส OTP">
                     <div
                         class="absolute inset-y-0 left-0 flex items-center pointer-events-none z-20 pl-4 fill-gray-300">

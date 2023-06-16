@@ -47,7 +47,7 @@
                     <p class="">ระยะเวลา 90 นาที</p>
                 </div>
 
-                <div class="flex text-2xl mt-10 justify-center font-semibold text-fuchsia-900">
+                <div class="flex text-2xl mt-10 justify-center font-semibold text-fuchsia-950">
                     <p>฿450</p>
                     <p>.00</p>
                 </div>
@@ -84,7 +84,7 @@
                     <p class="">ระยะเวลา 90 นาที</p>
                 </div>
 
-                <div class="flex text-2xl mt-10 justify-center font-semibold text-fuchsia-900">
+                <div class="flex text-2xl mt-10 justify-center font-semibold text-fuchsia-950">
                     <p>฿850</p>
                     <p>.00</p>
                 </div>
@@ -124,7 +124,7 @@
                     <p class="">ระยะเวลา 90 นาที</p>
                 </div>
 
-                <div class="flex text-2xl mt-10 justify-center font-semibold text-fuchsia-900">
+                <div class="flex text-2xl mt-10 justify-center font-semibold text-fuchsia-950">
                     <p>฿1500</p>
                     <p>.00</p>
                 </div>
@@ -164,7 +164,7 @@
                     <p class="">ระยะเวลา 90 นาที</p>
                 </div>
 
-                <div class="flex text-2xl mt-10 justify-center font-semibold text-fuchsia-900">
+                <div class="flex text-2xl mt-10 justify-center font-semibold text-fuchsia-950">
                     <p>฿450</p>
                     <p>.00</p>
                 </div>
@@ -202,7 +202,7 @@
                     <p class="">ระยะเวลา 90 นาที</p>
                 </div>
 
-                <div class="flex text-2xl mt-10 justify-center font-semibold text-fuchsia-900">
+                <div class="flex text-2xl mt-10 justify-center font-semibold text-fuchsia-950">
                     <p>฿450</p>
                     <p>.00</p>
                 </div>
@@ -241,7 +241,7 @@
                     <p class="">ระยะเวลา 90 นาที</p>
                 </div>
 
-                <div class="flex text-2xl mt-10 justify-center font-semibold text-fuchsia-900">
+                <div class="flex text-2xl mt-10 justify-center font-semibold text-fuchsia-950">
                     <p>฿450</p>
                     <p>.00</p>
                 </div>
@@ -251,7 +251,6 @@
 
         </div>
     </div>
-
 </body>
 
 

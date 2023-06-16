@@ -37,7 +37,7 @@
                     <div class="mb-4">
 
                         <input
-                            class="bg-white  shadow appearance-none border-solid border-2 border-fuchsia-950 rounded-lg  font-bold  w-full py-2 px-3 text-fuchsia-900 leading-tight focus:outline-none focus:shadow-outline"
+                            class="bg-white  shadow appearance-none border-solid border-2 border-fuchsia-950 rounded-lg  font-bold  w-full py-2 px-3 text-fuchsia-950 leading-tight focus:outline-none focus:shadow-outline"
                             id="date-picker" type="text" placeholder="YYYY-MM-DD" />
                     </div>
                 </form>
@@ -45,25 +45,7 @@
         </div>
 
         <p class="text-time-therapist">เลือกเวลา</p>
-        <!-- <div class="container-grid-select-reserve_time_therapist">
-            <button class="btn-select">10.00</button>
-            <button class="btn-select">11.30</button>
-            <button class="btn-select">12.00</button>
-            <button class="btn-select">12.30</button>
-            <button class="btn-select">13.00</button>
-            <button class="btn-select">13.30</button>
-            <button class="btn-select">14.00</button>
-            <button class="btn-select">14.30</button>
-            <button class="btn-select">15.00</button>
-            <button class="btn-select">15.30</button>
-            <button class="btn-select">16.00</button>
-            <button class="btn-select">16.30</button>
-            <button class="btn-select">17.00</button>
-            <button class="btn-select">17.30</button>
-            <button class="btn-select">18.00</button>
-            <button class="btn-select">18.30</button>
-        </div> -->
-
+    
 
         <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-3 gap-10 mt-10">
             <div class="radio">
@@ -96,7 +78,6 @@
         </div>
 
 
-    
     </div>
 
 

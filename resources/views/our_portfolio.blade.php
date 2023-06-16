@@ -72,7 +72,7 @@
         </div>
 
         <div class="flex justify-center">
-            <button class="button-booking-our-portforio">จองตอนนี้</button>
+            <a href="{{ url('/reserve_spa') }}"  class="button button-booking-our-portforio" >จองตอนนี้</a>
         </div>
 
     </div>

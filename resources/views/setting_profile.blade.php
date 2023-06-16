@@ -80,7 +80,7 @@
 
                             <form class="container-input-personal-information ">
                                 <div class="mb-4 ">
-                                    <label class="block text-sm font-bold mb-2 text-fuchsia-900" for="username">
+                                    <label class="block text-sm font-bold mb-2 text-fuchsia-950" for="username">
                                         ชื่อ-นามสกุล
                                     </label>
                                     <input
@@ -88,7 +88,7 @@
                                         id="username" type="text" placeholder="" value="นภัสรัญช์ อินเทวา">
                                 </div>
                                 <div class="mb-4 ">
-                                    <label class="block text-sm font-bold mb-2 text-fuchsia-900" for="username">
+                                    <label class="block text-sm font-bold mb-2 text-fuchsia-950" for="username">
                                         อายุ
                                     </label>
                                     <input
@@ -97,7 +97,7 @@
                                 </div>
 
                                 <div class="mb-4 ">
-                                    <label class="block text-sm font-bold mb-2 text-fuchsia-900" for="username">
+                                    <label class="block text-sm font-bold mb-2 text-fuchsia-950" for="username">
                                         เพศ
                                     </label>
                                     <input
@@ -105,7 +105,7 @@
                                         id="username" type="text" placeholder="" value="หญิง">
                                 </div>
                                 <div class="mb-4 ">
-                                    <label class="block text-sm font-bold mb-2 text-fuchsia-900" for="username">
+                                    <label class="block text-sm font-bold mb-2 text-fuchsia-950" for="username">
                                         เบอร์โทรศัพท์
                                     </label>
                                     <input
@@ -113,7 +113,7 @@
                                         id="username" type="text" placeholder="" value="062-0688888">
                                 </div>
                                 <div class="mb-4 ">
-                                    <label class="block text-sm font-bold mb-2 text-fuchsia-900" for="username">
+                                    <label class="block text-sm font-bold mb-2 text-fuchsia-950" for="username">
                                         อีเมล
                                     </label>
                                     <input
@@ -126,7 +126,7 @@
 
                             <form class="container-input-personal-information ">
                                 <div class="mb-4 ">
-                                    <label class="block  text-sm font-bold mb-2 text-fuchsia-900" for="username">
+                                    <label class="block  text-sm font-bold mb-2 text-fuchsia-950" for="username">
                                         เลขที่
                                     </label>
                                     <input
@@ -134,7 +134,7 @@
                                         id="username" type="text" placeholder="" value="">
                                 </div>
                                 <div class="mb-4 ">
-                                    <label class="block text-sm font-bold mb-2 text-fuchsia-900" for="username">
+                                    <label class="block text-sm font-bold mb-2 text-fuchsia-950" for="username">
                                         ชื่อบ้าน/โครงการ
                                     </label>
                                     <input
@@ -143,7 +143,7 @@
                                 </div>
 
                                 <div class="mb-4 ">
-                                    <label class="block  text-sm font-bold mb-2 text-fuchsia-900" for="username">
+                                    <label class="block  text-sm font-bold mb-2 text-fuchsia-950" for="username">
                                         ถนน
                                     </label>
                                     <input
@@ -151,7 +151,7 @@
                                         id="username" type="text" placeholder="" value="">
                                 </div>
                                 <div class="mb-4 ">
-                                    <label class="block text-sm font-bold mb-2 text-fuchsia-900" for="username">
+                                    <label class="block text-sm font-bold mb-2 text-fuchsia-950" for="username">
                                         ซอย
                                     </label>
                                     <input
@@ -159,7 +159,7 @@
                                         id="username" type="text" placeholder="" value="">
                                 </div>
                                 <div class="mb-4 ">
-                                    <label class="block text-sm font-bold mb-2 text-fuchsia-900" for="username">
+                                    <label class="block text-sm font-bold mb-2 text-fuchsia-950" for="username">
                                         เขต
                                     </label>
                                     <input
@@ -167,7 +167,7 @@
                                         id="username" type="text" placeholder="" value="">
                                 </div>
                                 <div class="mb-4 ">
-                                    <label class="block text-sm font-bold mb-2 text-fuchsia-900" for="username">
+                                    <label class="block text-sm font-bold mb-2 text-fuchsia-950" for="username">
                                         แขวง
                                     </label>
                                     <input
@@ -178,9 +178,9 @@
 
 
                                     <label for="countries"
-                                        class="block text-sm font-bold mb-2 text-fuchsia-90 text-fuchsia-900">จังหวัด</label>
+                                        class="block text-sm font-bold mb-2 text-fuchsia-90 text-fuchsia-950">จังหวัด</label>
                                     <select id="countries"
-                                        class=" bg-white border shadow border-gray-300 text-fuchsia-900 text-sm rounded-lg  focus:border-fuchsia-900 block w-full p-2">
+                                        class=" bg-white border shadow border-gray-300 text-fuchsia-950 text-sm rounded-lg  focus:border-fuchsia-950 block w-full p-2">
                                         <option selected>เลือกจังหวัด</option>
                                         <option class="option-select" value="กรุงเทพมหานคร">
                                             กรุงเทพมหานคร</option>
@@ -264,7 +264,7 @@
                                     </select>
                                 </div>
                                 <div class="mb-4 ">
-                                    <label class="block text-sm font-bold mb-2 text-fuchsia-900" for="username">
+                                    <label class="block text-sm font-bold mb-2 text-fuchsia-950" for="username">
                                         รหัสไปรษณี
                                     </label>
                                     <input
@@ -278,9 +278,9 @@
                                     <label class="relative flex cursor-pointer items-center rounded-full p-3" for="html"
                                         data-ripple-dark="true">
                                         <input id="html" name="type" type="radio"
-                                            class="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-full border border-blue-gray-200 text-fuchsia-900 transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-fuchsia-900 checked:before:bg-fuchsia-900 hover:before:opacity-10" />
+                                            class="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-full border border-blue-gray-200 text-fuchsia-950 transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-fuchsia-950 checked:before:bg-fuchsia-950 hover:before:opacity-10" />
                                         <div
-                                            class="pointer-events-none absolute top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 text-fuchsia-900 opacity-0 transition-opacity peer-checked:opacity-100">
+                                            class="pointer-events-none absolute top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 text-fuchsia-950 opacity-0 transition-opacity peer-checked:opacity-100">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5"
                                                 viewBox="0 0 16 16" fill="currentColor">
                                                 <circle data-name="ellipse" cx="8" cy="8" r="8">
@@ -297,9 +297,9 @@
                                     <label class="relative flex cursor-pointer items-center rounded-full p-3" for="html"
                                         data-ripple-dark="true">
                                         <input id="html" name="type" type="radio"
-                                            class="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-full border border-blue-gray-200 text-fuchsia-900 transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-fuchsia-900 checked:before:bg-fuchsia-900 hover:before:opacity-10" />
+                                            class="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-full border border-blue-gray-200 text-fuchsia-950 transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-fuchsia-950 checked:before:bg-ffuchsia-950 hover:before:opacity-10" />
                                         <div
-                                            class="pointer-events-none absolute top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 text-fuchsia-900 opacity-0 transition-opacity peer-checked:opacity-100">
+                                            class="pointer-events-none absolute top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 text-fuchsia-950 opacity-0 transition-opacity peer-checked:opacity-100">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5"
                                                 viewBox="0 0 16 16" fill="currentColor">
                                                 <circle data-name="ellipse" cx="8" cy="8" r="8">
@@ -319,9 +319,9 @@
                             <form class="container-input-personal-information">
                                 <div class="mb-4 ">
                                     <label for="countries"
-                                        class="block text-sm font-bold mb-2 text-fuchsia-90 text-fuchsia-900">โรคที่คุณเป็นในปัจจุบัน</label>
+                                        class="block text-sm font-bold mb-2 text-fuchsia-90 text-fuchsia-950">โรคที่คุณเป็นในปัจจุบัน</label>
                                     <select id="countries"
-                                        class=" bg-white shadow border border-gray-300 text-fuchsia-900 text-sm rounded-lg w-full p-2 focus:ring-fuchsia-900">
+                                        class=" bg-white shadow border border-gray-300 text-fuchsia-950 text-sm rounded-lg w-full p-2 focus:ring-fuchsia-950">
                                         <option value="อุดรธานี">ไม่มี </option>
                                         <option value="อุตรดิตถ์">อุตรดิตถ์ </option>
                                         <option value="อุทัยธานี">อุทัยธานี </option>
@@ -335,9 +335,9 @@
 
                                 <div class="mb-4 ">
                                     <label for="countries"
-                                        class="block text-sm font-bold mb-2 text-fuchsia-90 text-fuchsia-900">โรคที่คุณเป็นในปัจจุบัน</label>
+                                        class="block text-sm font-bold mb-2 text-fuchsia-90 text-fuchsia-950">โรคที่คุณเป็นในปัจจุบัน</label>
                                     <select id="countries"
-                                        class=" bg-white shadow border border-gray-300 text-fuchsia-900 text-sm rounded-lg w-full p-2 focus:ring-fuchsia-900">
+                                        class=" bg-white shadow border border-gray-300 text-fuchsia-950 text-sm rounded-lg w-full p-2 focus:ring-fuchsia-950">
                                         <option value="อุดรธานี">ไม่เคย </option>
                                         <option value="อุตรดิตถ์">อุตรดิตถ์ </option>
                                         <option value="อุทัยธานี">อุทัยธานี </option>
@@ -350,9 +350,9 @@
                                 <div class="mb-4 ">
 
                                     <label for="countries"
-                                        class="block text-sm  font-bold mb-2 text-fuchsia-90 text-fuchsia-900">อาการนอกเหนือจากที่กล่าวข้างต้น</label>
+                                        class="block text-sm  font-bold mb-2 text-fuchsia-90 text-fuchsia-950">อาการนอกเหนือจากที่กล่าวข้างต้น</label>
                                     <select id="countries"
-                                        class=" bg-white shadow border border-gray-300 text-fuchsia-900 text-sm rounded-lg w-full p-2 focus:ring-fuchsia-900">
+                                        class=" bg-white shadow border border-gray-300 text-fuchsia-950 text-sm rounded-lg w-full p-2 focus:ring-ffuchsia-950">
                                         <option value="อุดรธานี">เป็นไข้ </option>
                                         <option value="อุตรดิตถ์">อุตรดิตถ์ </option>
                                         <option value="อุทัยธานี">อุทัยธานี </option>
@@ -365,9 +365,9 @@
 
                                 <div class="mb-4 ">
                                     <label for="countries"
-                                        class="block text-sm  font-bold mb-2 text-fuchsia-90 text-fuchsia-900">หมอนรองกระดูกสันหลังทับเส้นประสาท</label>
+                                        class="block text-sm  font-bold mb-2 text-fuchsia-90 text-fuchsia-950">หมอนรองกระดูกสันหลังทับเส้นประสาท</label>
                                     <select id="countries"
-                                        class=" bg-white shadow border border-gray-300 text-fuchsia-900 text-sm rounded-lg w-full p-2 focus:ring-fuchsia-900 " >
+                                        class=" bg-white shadow border border-gray-300 text-fuchsia-950 text-sm rounded-lg w-full p-2 focus:ring-fuchsia-950" >
                                         <option value="อุดรธานี">บริเวณกระดูกสันหลังช่วงคอ </option>
                                         <option value="อุตรดิตถ์">อุตรดิตถ์ </option>
                                         <option value="อุทัยธานี">อุทัยธานี </option>
@@ -400,7 +400,7 @@
                                     <form
                                         class="bg-white grid lg:grid-cols-2 sm:grid-cols-1 mt-10 gap-5 lg:px-10 sm:px-3 ">
                                         <div class="mb-4 ">
-                                            <label class="block  text-sm font-bold mb-2 text-fuchsia-900"
+                                            <label class="block  text-sm font-bold mb-2 text-fuchsia-950"
                                                 for="username">
                                                 ชื่อ-นามสกุล
                                             </label>
@@ -409,7 +409,7 @@
                                                 id="username" type="text" placeholder="" value="">
                                         </div>
                                         <div class="mb-4 ">
-                                            <label class="block text-sm font-bold mb-2 text-fuchsia-900" for="username">
+                                            <label class="block text-sm font-bold mb-2 text-fuchsia-950" for="username">
                                                 อายุ
                                             </label>
                                             <input
@@ -418,7 +418,7 @@
                                         </div>
 
                                         <div class="mb-4 ">
-                                            <label class="block text-sm font-bold mb-2 text-fuchsia-900" for="username">
+                                            <label class="block text-sm font-bold mb-2 text-fuchsia-950" for="username">
                                                 เพศ
                                             </label>
                                             <input
@@ -426,7 +426,7 @@
                                                 id="username" type="text" placeholder="" value="">
                                         </div>
                                         <div class="mb-4 ">
-                                            <label class="block text-sm font-bold mb-2 text-fuchsia-900" for="username">
+                                            <label class="block text-sm font-bold mb-2 text-fuchsia-950" for="username">
                                                 เบอร์โทรศัพท์
                                             </label>
                                             <input
@@ -434,7 +434,7 @@
                                                 id="username" type="text" placeholder="" value="">
                                         </div>
                                         <div class="mb-4 ">
-                                            <label class="block text-sm font-bold mb-2 text-fuchsia-900" for="username">
+                                            <label class="block text-sm font-bold mb-2 text-fuchsia-950" for="username">
                                                 อีเมล
                                             </label>
                                             <input
@@ -450,7 +450,7 @@
 
                             <form class="container-input-personal-information ">
                                 <div class="mb-4 ">
-                                    <label class="block  text-sm font-bold mb-2 text-fuchsia-900" for="username">
+                                    <label class="block  text-sm font-bold mb-2 text-fuchsia-950" for="username">
                                         เลขที่
                                     </label>
                                     <input
@@ -458,7 +458,7 @@
                                         id="username" type="text" placeholder="" value="">
                                 </div>
                                 <div class="mb-4 ">
-                                    <label class="block text-sm font-bold mb-2 text-fuchsia-900" for="username">
+                                    <label class="block text-sm font-bold mb-2 text-fuchsia-950" for="username">
                                         ชื่อบ้าน/โครงการ
                                     </label>
                                     <input
@@ -467,7 +467,7 @@
                                 </div>
 
                                 <div class="mb-4 ">
-                                    <label class="block  text-sm font-bold mb-2 text-fuchsia-900" for="username">
+                                    <label class="block  text-sm font-bold mb-2 text-fuchsia-950" for="username">
                                         ถนน
                                     </label>
                                     <input
@@ -475,7 +475,7 @@
                                         id="username" type="text" placeholder="" value="">
                                 </div>
                                 <div class="mb-4 ">
-                                    <label class="block text-sm font-bold mb-2 text-fuchsia-900" for="username">
+                                    <label class="block text-sm font-bold mb-2 text-fuchsia-950" for="username">
                                         ซอย
                                     </label>
                                     <input
@@ -483,7 +483,7 @@
                                         id="username" type="text" placeholder="" value="">
                                 </div>
                                 <div class="mb-4 ">
-                                    <label class="block text-sm font-bold mb-2 text-fuchsia-900" for="username">
+                                    <label class="block text-sm font-bold mb-2 text-fuchsia-950" for="username">
                                         เขต
                                     </label>
                                     <input
@@ -491,7 +491,7 @@
                                         id="username" type="text" placeholder="" value="">
                                 </div>
                                 <div class="mb-4 ">
-                                    <label class="block text-sm font-bold mb-2 text-fuchsia-900" for="username">
+                                    <label class="block text-sm font-bold mb-2 text-fuchsia-950" for="username">
                                         แขวง
                                     </label>
                                     <input
@@ -502,9 +502,9 @@
 
 
                                     <label for="countries"
-                                        class="block text-sm font-bold mb-2 text-fuchsia-90 text-fuchsia-900">จังหวัด</label>
+                                        class="block text-sm font-bold mb-2 text-fuchsia-90 text-fuchsia-950">จังหวัด</label>
                                     <select id="countries"
-                                        class=" bg-white border shadow border-gray-300 text-fuchsia-900 text-sm rounded-lg focus:ring-fuchsia-900 focus:border-fuchsia-900 block w-full p-2.5">
+                                        class=" bg-white border shadow border-gray-300 text-fuchsia-950 text-sm rounded-lg focus:ring-fuchsia-950 focus:border-fuchsia-950 block w-full p-2.5">
                                         <option selected>เลือกจังหวัด</option>
                                         <option class="option-select" value="กรุงเทพมหานคร">
                                             กรุงเทพมหานคร</option>
@@ -588,7 +588,7 @@
                                     </select>
                                 </div>
                                 <div class="mb-4 ">
-                                    <label class="block text-sm font-bold mb-2 text-fuchsia-900" for="username">
+                                    <label class="block text-sm font-bold mb-2 text-fuchsia-950" for="username">
                                         รหัสไปรษณี
                                     </label>
                                     <input
@@ -604,9 +604,9 @@
                                     <label class="relative flex cursor-pointer items-center rounded-full p-3" for="html"
                                         data-ripple-dark="true">
                                         <input id="html" name="type" type="radio"
-                                            class="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-full border border-blue-gray-200 text-fuchsia-900 transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-fuchsia-900 checked:before:bg-fuchsia-900 hover:before:opacity-10" />
+                                            class="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-full border border-blue-gray-200 text-fuchsia-950 transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-fuchsia-950 checked:before:bg-fuchsia-950 hover:before:opacity-10" />
                                         <div
-                                            class="pointer-events-none absolute top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 text-fuchsia-900 opacity-0 transition-opacity peer-checked:opacity-100">
+                                            class="pointer-events-none absolute top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 text-fuchsia-950 opacity-0 transition-opacity peer-checked:opacity-100">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5"
                                                 viewBox="0 0 16 16" fill="currentColor">
                                                 <circle data-name="ellipse" cx="8" cy="8" r="8">
@@ -625,9 +625,9 @@
                                     <label class="relative flex cursor-pointer items-center rounded-full p-3" for="html"
                                         data-ripple-dark="true">
                                         <input id="html" name="type" type="radio"
-                                            class="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-full border border-blue-gray-200 text-fuchsia-900 transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-fuchsia-900 checked:before:bg-fuchsia-900 hover:before:opacity-10" />
+                                            class="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-full border border-blue-gray-200 text-fuchsia-950 transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-fuchsia-950 checked:before:bg-fuchsia-950 hover:before:opacity-10" />
                                         <div
-                                            class="pointer-events-none absolute top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 text-fuchsia-900 opacity-0 transition-opacity peer-checked:opacity-100">
+                                            class="pointer-events-none absolute top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 text-fuchsia-950 opacity-0 transition-opacity peer-checked:opacity-100">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5"
                                                 viewBox="0 0 16 16" fill="currentColor">
                                                 <circle data-name="ellipse" cx="8" cy="8" r="8">
@@ -646,9 +646,9 @@
                             <form class="container-input-personal-information">
                                 <div class="mb-4">
                                     <label for="countries"
-                                        class="block text-sm font-bold mb-2 text-fuchsia-90 text-fuchsia-900">โรคที่คุณเป็นในปัจจุบัน</label>
+                                        class="block text-sm font-bold mb-2 text-fuchsia-90 text-fuchsia-950">โรคที่คุณเป็นในปัจจุบัน</label>
                                     <select id="countries"
-                                        class=" bg-white border shadow border-gray-300 text-fuchsia-900 text-sm rounded-lg focus:ring-fuchsia-900 focus:border-fuchsia-900 block w-full p-2.5">
+                                        class=" bg-white border shadow border-gray-300 text-fuchsia-950 text-sm rounded-lg focus:ring-fuchsia-950 focus:border-fuchsia-950 block w-full p-2.5">
                                         <option value="อุดรธานี">ไม่มี </option>
                                         <option value="อุตรดิตถ์">อุตรดิตถ์ </option>
                                         <option value="อุทัยธานี">อุทัยธานี </option>
@@ -660,9 +660,9 @@
 
                                 <div class="mb-4 ">
                                     <label for="countries"
-                                        class="block text-sm  font-bold mb-2 text-fuchsia-90 text-fuchsia-900">โรคที่คุณเป็นในปัจจุบัน</label>
+                                        class="block text-sm  font-bold mb-2 text-fuchsia-90 text-fuchsia-950">โรคที่คุณเป็นในปัจจุบัน</label>
                                     <select id="countries"
-                                        class=" bg-white border shadow border-gray-300 text-fuchsia-900 text-sm rounded-lg focus:ring-fuchsia-900 focus:border-fuchsia-900 block w-full p-2">
+                                        class=" bg-white border shadow border-gray-300 text-fuchsia-950 text-sm rounded-lg focus:ring-fuchsia-950 focus:border-fuchsia-950 block w-full p-2">
                                         <option value="อุดรธานี">ไม่เคย </option>
                                         <option value="อุตรดิตถ์">อุตรดิตถ์ </option>
                                         <option value="อุทัยธานี">อุทัยธานี </option>
@@ -675,9 +675,9 @@
                                 <div class="mb-4 ">
 
                                     <label for="countries"
-                                        class="block text-sm  font-bold mb-2 text-fuchsia-90 text-fuchsia-900">อาการนอกเหนือจากที่กล่าวข้างต้น</label>
+                                        class="block text-sm  font-bold mb-2 text-fuchsia-90 text-fuchsia-950">อาการนอกเหนือจากที่กล่าวข้างต้น</label>
                                     <select id="countries"
-                                        class=" bg-white border shadow border-gray-300 text-fuchsia-900 text-sm rounded-lg focus:ring-fuchsia-900 focus:border-fuchsia-900 block w-full p-2">
+                                        class=" bg-white border shadow border-gray-300 text-fuchsia-950 text-sm rounded-lg focus:ring-fuchsia-950 focus:border-fuchsia-950 block w-full p-2">
                                         <option value="อุดรธานี">เป็นไข้ </option>
                                         <option value="อุตรดิตถ์">อุตรดิตถ์ </option>
                                         <option value="อุทัยธานี">อุทัยธานี </option>
@@ -691,9 +691,9 @@
                                 <div class="mb-4 ">
 
                                     <label for="countries"
-                                        class="block text-sm  font-bold mb-2 text-fuchsia-90 text-fuchsia-900">หมอนรองกระดูกสันหลังทับเส้นประสาท</label>
+                                        class="block text-sm  font-bold mb-2 text-fuchsia-90 text-fuchsia-950">หมอนรองกระดูกสันหลังทับเส้นประสาท</label>
                                     <select id="countries"
-                                        class=" bg-white border shadow border-gray-300 text-fuchsia-900 text-sm rounded-lg focus:ring-fuchsia-900 focus:border-fuchsia-900 block w-full p-2">
+                                        class=" bg-white border shadow border-gray-300 text-fuchsia-950 text-sm rounded-lg focus:ring-fuchsia-950 focus:border-fuchsia-950 block w-full p-2">
                                         <option value="อุดรธานี">บริเวณกระดูกสันหลังช่วงคอ </option>
                                         <option value="อุตรดิตถ์">อุตรดิตถ์ </option>
                                         <option value="อุทัยธานี">อุทัยธานี </option>

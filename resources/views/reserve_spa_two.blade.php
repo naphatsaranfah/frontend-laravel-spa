@@ -22,15 +22,6 @@
         <p class="header-reserve-spa">ผู้รับบริการคนที่ 2</p>
         <p class="text-select-kind-spa">เลือกประเภทบริการ</p>
 
-        <!-- <div class="grid lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-2 gap-5 mt-5">
-                <button class="btn-select-kind-spa">นวดน้ำมันอโรมา</button>
-                <button class="btn-select-kind-spa">นวดแผนไทย</button>
-                <button class="btn-select-kind-spa">นวดศรีษะหลังไหล่เท้า</button>
-                <button class="btn-select-kind-spa">นวดแก้ออฟฟิศซินโดม</button>
-                <button class="btn-select-kind-spa">นวดจับเส้น</button>
-                <button class="btn-select-kind-spa">นวดกดจุด</button>
-            </div> -->
-
 
         <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-3 gap-10 mt-10">
             <div class="radio">
@@ -90,12 +81,6 @@
 
         <p class="text-period">ระยะเวลา</p>
 
-        <!-- <div class="grid lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-2 gap-5 mt-5">
-            <button class="btn-select">60 นาที</button>
-            <button class="btn-select">90 นาที</button>
-            <button class="btn-select">120 นาที</button>
-        </div> -->
-
         <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-3 gap-10 mt-10">
             <div class="radio">
                 <input type="radio" id="sixty-minutes-couple" name="select-time-couple" value="sixty-minutes-couple">
@@ -128,13 +113,6 @@
 
         <p class="text-terrapits">เลือกเทอราปิส</p>
 
-        <!-- <div class="grid lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-2 gap-5 mt-5">
-            <button class="btn-select">ผู้หญิงเท่านั้น</button>
-            <button class="btn-select">ผู้ชายเท่านั้น</button>
-            <button class="btn-select">ผู้หญิงหรือผู้ชายก็ได้</button>
-        </div> -->
-
-
         <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-3 gap-10 mt-10">
             <div class="radio">
                 <input type="radio" id="women-couple" name="kind-therapist-couple" value="women-couple">
@@ -160,18 +138,6 @@
                 </label>
             </div>
         </div>
-
-
-
-        <!-- <div class="grid lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-2 gap-5 mt-10">
-            <button class="btn-select" onclick="openSelectByCompany()">
-                บริษัทเลือกให้
-            </button>
-
-            <button class="btn-select" onclick="openSelectByMySelf()">
-                เลือกด้วยตัวเอง
-            </button>
-        </div> -->
 
 
         <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-3 gap-10 mt-10">
@@ -203,7 +169,7 @@
                     <form>
                         <div class="mb-4">
                             <input
-                                class="bg-white  shadow appearance-none border-solid border-2 border-fuchsia-950 rounded-lg  font-bold  w-full py-2 px-3 text-fuchsia-900 leading-tight focus:outline-none focus:shadow-outline"
+                                class="bg-white  shadow appearance-none border-solid border-2 border-fuchsia-950 rounded-lg  font-bold  w-full py-2 px-3 text-fuchsia-950 leading-tight focus:outline-none focus:shadow-outline"
                                 id="date-picker" type="text" placeholder="YYYY-MM-DD" />
                         </div>
                     </form>
@@ -238,9 +204,11 @@
                 </div>
             </div>
 
+                <!-- <button class="btn-next" onclick="redirectToPageService_Address()">ถัดไป</button> -->
             <div class="container-btn-next">
-                <button class="btn-next" onclick="redirectToPageService_Address()">ถัดไป</button>
+                <a class="button btn-next" href="/service_address">ถัดไป</a>
             </div>
+       
         </div>
 
 

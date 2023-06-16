@@ -16,7 +16,7 @@
 
     <div class="">
         <section class="max-w-[900px] mx-auto px-8 pt-20">
-            <h1 class="text-lg text-fuchsia-900 mb-8">
+            <h1 class="text-lg text-fuchsia-950 mb-8">
                 ชำระเงิน
             </h1>
 
@@ -27,14 +27,14 @@
 
                         <img src="./images/visa.png" class="">
 
-                        <label class="mt-px cursor-pointer select-none  text-fuchsia-900 font-semibold" for="html">
+                        <label class="mt-px cursor-pointer select-none  text-fuchsia-950 font-semibold" for="html">
                             บัตรเครดิตหรือเดบิต
                         </label>
                     </div>
                 </div>
 
                 <div id="myCardVisa" class="card-visa hide-all">
-                    <label class="text-start block text-sm font-bold mb-2 text-fuchsia-900 " for="username">
+                    <label class="text-start block text-sm font-bold mb-2 text-fuchsia-950 " for="username">
                         หมายเลขบัตร
                     </label>
                     <div class="shadow-lggrid grid grid-cols-2 mb-5 gap-5">
@@ -48,9 +48,8 @@
                             id="username" type="text" placeholder="" value="">
                     </div>
 
-
                     <div>
-                        <label class="text-start block text-sm font-bold mb-2 text-fuchsia-900 mt-10" for="username">
+                        <label class="text-start block text-sm font-bold mb-2 text-fuchsia-950 mt-10" for="username">
                             ชื่อผู้ถือบัตร
                         </label>
                         <input
@@ -58,7 +57,7 @@
                             id="username" type="text" placeholder="" value="">
                     </div>
 
-                    <label class="text-start block text-sm font-bold mb-2 text-fuchsia-900 mt-10" for="username">
+                    <label class="text-start block text-sm font-bold mb-2 text-fuchsia-950 mt-10" for="username">
                         วันหมดอายุ
                     </label>
 
@@ -78,7 +77,7 @@
 
 
                     <div>
-                        <label class="text-start block text-sm font-bold mb-2 text-fuchsia-900 mt-10" for="username">
+                        <label class="text-start block text-sm font-bold mb-2 text-fuchsia-950 mt-10" for="username">
                             รหัสหลังบัตร
                         </label>
                         <input
@@ -88,23 +87,19 @@
 
                     <div class="flex items-center mb-4 mt-10">
                         <input id="default-checkbox" type="checkbox" value=""
-                            class="accent-fuchsia-900 w-4 h-4 text-fuchsia-900 bg-gray-100 border-gray-300 rounded focus:ring-fuchsia-900">
+                            class="accent-fuchsia-950 w-4 h-4 text-fuchsia-950 bg-gray-100 border-gray-300 rounded focus:ring-fuchsia-950">
                         <label for="default-checkbox"
-                            class="ml-2 text-sm font-medium text-fuchsia-900 dark:text-gray-300">
+                            class="ml-2 text-sm font-medium text-fuchsia-950 dark:text-gray-300">
                             บันทึกข้อมูลสำหรับการซื้อครั้งต่อไป</label>
                     </div>
                 </div>
-
-
-
-
 
 
                 <div class="card-select-pay " onclick="openSelectPromptPay()">
                     <div class="flex items-center gap-5 justify-start">
 
                         <img src="./images/prompt_pay.png" class="w-10 h-10">
-                        <label class="mt-px cursor-pointer select-none  text-fuchsia-900 font-semibold" for="html">
+                        <label class="mt-px cursor-pointer select-none  text-fuchsia-950 font-semibold" for="html">
                             PromptPay (อัพเดทสถานะทันทีหลังชำระเงินสำเร็จ)
                         </label>
                     </div>
@@ -112,7 +107,7 @@
                 </div>
 
                 <div id="myCardPromptPay" class="card-promptpay hide-all">
-                    <p class="block text-lg font-bold mb-2 text-fuchsia-900 mt-10" for="username">
+                    <p class="block text-lg font-bold mb-2 text-fuchsia-950 mt-10" for="username">
                         สแกน QR Code
                     </p>
                     <img src="./images/qr-code-prompt-pay.png" class="w-full px-56 mt-10">
@@ -123,7 +118,7 @@
                     <div class="flex items-center gap-5 justify-start">
 
                         <img src="./images/all_bank.png" class="w-10 h-10">
-                        <label class="mt-px cursor-pointer select-none  text-fuchsia-900 font-semibold" for="html">
+                        <label class="mt-px cursor-pointer select-none  text-fuchsia-950 font-semibold" for="html">
                             โอนผ่านบัญชีธนาคาร
                         </label>
                     </div>
@@ -134,8 +129,8 @@
                         <div class="grid grid-cols-3">
                             <img src="./images/ktb.png" class="w-10 h-10 mt-5">
                             <div class="leading-8">
-                                <p class="text-fuchsia-900">เลขที่บัญชี 0987654321</p>
-                                <p class="text-fuchsia-900">ชื่อบัญชี บริษัทสปา</p>
+                                <p class="text-fuchsia-950">เลขที่บัญชี 0987654321</p>
+                                <p class="text-fuchsia-950">ชื่อบัญชี บริษัทสปา</p>
                             </div>
 
                             <button class="bg-orange-500 text-white cursor-pointer mx-10 my-4 px-10 rounded-lg"
@@ -147,8 +142,8 @@
                         <div class="grid grid-cols-3">
                             <img src="./images/kt2.png" class="w-10  h-10 mt-5">
                             <div class="leading-8">
-                                <p class="text-fuchsia-900">เลขที่บัญชี 123-456-7890</p>
-                                <p class="text-fuchsia-900">ชื่อบัญชี บริษัทสปา</p>
+                                <p class="text-fuchsia-950">เลขที่บัญชี 123-456-7890</p>
+                                <p class="text-fuchsia-950">ชื่อบัญชี บริษัทสปา</p>
                             </div>
 
                             <button class="bg-orange-500 text-white cursor-pointer mx-10 my-4 px-10 rounded-lg"
@@ -156,19 +151,16 @@
                         </div>
                     </div>
 
-                    <div class="text-fuchsia-900 font-semibold mt-10">อัพโหลดสลิปยืนยันการโอนเงิน</div>
+                    <div class="text-fuchsia-950 font-semibold mt-10">อัพโหลดสลิปยืนยันการโอนเงิน</div>
                     <p> (ระบบจะทำการอัพเดทสถานะภายใน 1-24 ชั่วโมง หลังจากได้รับเอกสารยืนยันการชำระ)</p>
                 </div>
 
                 <div class="flex justify-end">
-                    <button class="mt-10 bg-fuchsia-900 px-20 py-3 lg:w-60 sm:w-full text-white rounded-xl cursor-pointer"
+                    <button class="mt-10 bg-fuchsia-950 px-20 py-3 lg:w-60 sm:w-full text-white rounded-xl cursor-pointer"
                         data-modal-toggle="default-modal">
                         ยืนยัน
                     </button>
-
                 </div>
-
-
 
 
                 <div id="default-modal" data-modal-show="false" aria-hidden="true"
@@ -188,12 +180,12 @@
                                 </svg>
                             </div>
 
-                            <p class="font-bold text-xl text-fuchsia-900 text-center mt-5">สำเร็จ
+                            <p class="font-bold text-xl text-fuchsia-950 text-center mt-5">สำเร็จ
                                 รอการอัพเดตสถานะการชำระเงิน
                             </p>
                             <div class="flex justify-center mt-10">
-                                <button class=" bg-fuchsia-900 px-20 py-3 text-white rounded-xl cursor-pointer "
-                                    onclick="redirectToPageAll_My_Reserve()">ถัดไป</button>
+                                <a class="button bg-fuchsia-950 px-20 py-3 text-white rounded-xl cursor-pointer "
+                                href="/all_my_reserve">ถัดไป</a>
 
                             </div>
                         </div>

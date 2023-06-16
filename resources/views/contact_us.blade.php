@@ -18,7 +18,7 @@
     <div class="container-contact-us">
         <p class="header-contact-us">ติดต่อเรา</p>
         <button id="dropdownDefault" data-dropdown-toggle="dropdown"
-            class="mt-10 inline-flex items-center rounded-lg bg-fuchsia-900 px-4 py-2.5 text-center text-sm font-medium text-white hover:bg-fuchsia-800 focus:outline-none focus:ring-4 focus:ring-fuchsia-200 dark:bg-fuchsia-800 dark:hover:bg-fuchsia-800 dark:focus:ring-fuchsia-800"
+            class="mt-10 inline-flex items-center rounded-lg bg-fuchsia-950 px-4 py-2.5 text-center text-sm font-medium text-white hover:bg-fuchsia-800 focus:outline-none focus:ring-4 focus:ring-fuchsia-200 dark:bg-fuchsia-800 dark:hover:bg-fuchsia-800 dark:focus:ring-fuchsia-800"
             type="button">
             เลือกหัวข้อการติดต่อ <svg class="ml-2 h-4 w-4" aria-hidden="true" fill="none" stroke="currentColor"
                 viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -32,19 +32,19 @@
             <ul class=" py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
                 <li>
                     <a href="#"
-                        class="text-fuchsia-900 block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
+                        class="text-fuchsia-950 block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
                 </li>
                 <li>
                     <a href="#"
-                        class="text-fuchsia-900 block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
+                        class="text-fuchsia-950 block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
                 </li>
                 <li>
                     <a href="#"
-                        class="text-fuchsia-900 block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+                        class="text-fuchsia-950 block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
                 </li>
                 <li>
                     <a href="#"
-                        class="text-fuchsia-900 block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sign
+                        class="text-fuchsia-950 block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sign
                         out</a>
                 </li>
             </ul>
@@ -53,34 +53,34 @@
 
         <form class="container-input-contact">
             <div class="mb-4">
-                <label class="block text-fuchsia-900 text-sm font-bold mb-2 " for="">
+                <label class="block text-fuchsia-950 text-sm font-bold mb-2 " for="">
                     ชื่อ
                 </label>
                 <input
-                    class="shadow appearance-none border rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-1 focus:ring-fuchsia-900"
+                    class="shadow appearance-none border rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-1 focus:ring-fuchsia-950"
                     id="username" type="text" placeholder="" value="">
             </div>
 
             <div class="mb-4">
-                <label class="block text-fuchsia-900 text-sm font-bold mb-2 " for="">
+                <label class="block text-fuchsia-950 text-sm font-bold mb-2 " for="">
                     กรุณากรอกอีเมล
                 </label>
                 <input
-                    class="shadow appearance-none border rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-1 focus:ring-fuchsia-900"
+                    class="shadow appearance-none border rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-1 focus:ring-fuchsia-950"
                     id="username" type="text" placeholder="" value="">
             </div>
 
-            <label class="block text-fuchsia-900 text-sm font-bold mb-2 " for="">
+            <label class="block text-fuchsia-950 text-sm font-bold mb-2 " for="">
                 รายละเอียดเพิ่มเติม
             </label>
             <textarea id="message" rows="4"
-                class="block p-2.5 w-full text-sm text-gray-900  rounded-lg border focus:outline-none focus:ring-1 focus:ring-fuchsia-900"
+                class="block p-2.5 w-full text-sm text-gray-900  rounded-lg border focus:outline-none focus:ring-1 focus:ring-fuchsia-950"
                 placeholder="กรอกรายละเอียดเพิ่มเติม..."></textarea>
         </form>
 
 
         <div class="flex justify-end mt-10">
-            <button class="bg-fuchsia-900 px-20 py-3 text-white rounded-xl cursor-pointer"
+            <button class="bg-fuchsia-950 px-20 py-3 text-white rounded-xl cursor-pointer"
                 data-modal-toggle="default-modal">
                 ยืนยัน
             </button>

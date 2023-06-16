@@ -14,7 +14,7 @@
             <div class=" grid gap-8 lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-2">
                 <div class="">
                     <h6 class="logo">
-                        <svg class="fill-fuchsia-900" width="20" height="19" viewBox="0 0 20 19"
+                        <svg class="fill-fuchsia-950" width="20" height="19" viewBox="0 0 20 19"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M10 13.114C6.002 7.163 1.426 6.071 1.22 6.024L0 5.75V7C0 14.29 3.925 19 10 19C15.981 19 20 14.178 20 7V5.75L18.78 6.024C18.574 6.071 13.998 7.163 10 13.114Z" />
@@ -82,59 +82,59 @@
                 </div>
 
                 <div>
-                    <h6 class="mb-4 flex justify-start font-semibold uppercase md:justify-start text-fuchsia-900">
+                    <h6 class="mb-4 flex justify-start font-semibold uppercase md:justify-start text-fuchsia-950">
                         เกี่ยวกับเรา
                     </h6>
-                    <a class="mb-4 flex items-center   text-fuchsia-900 cursor-pointer "
-                    href="{{ url('/contact_us') }}">
+                    <a class="mb-4 flex items-center   text-fuchsia-950 cursor-pointer "
+                        href="{{ url('/contact_us') }}">
                         ติดต่อเรา
                     </a>
-                    <a class="mb-4 flex items-center  text-fuchsia-900" href="#">
+                    <a class="mb-4 flex items-center  text-fuchsia-950" href="#">
 
                         นวดน้ำมันอโรร่วมงานกับเรามา
                     </a>
-                    <a class="mb-4 flex items-center  text-fuchsia-900" href="#">
+                    <a class="mb-4 flex items-center  text-fuchsia-950" href="#">
 
                         เงื่อนไขข้อตกลงการใช้งาน
                     </a>
                 </div>
 
                 <div>
-                    <h6 class="mb-4 flex justify-start font-semibold uppercase  text-fuchsia-900">
+                    <h6 class="mb-4 flex justify-start font-semibold uppercase  text-fuchsia-950">
                         บริการของเรา
                     </h6>
-                    <a class="mb-4 flex items-center  text-fuchsia-900" href="#">
+                    <a class="mb-4 flex items-center  text-fuchsia-950" href="#">
 
                         นวดกดจุด
                     </a>
-                    <a class="mb-4 flex items-center  text-fuchsia-900" href="#">
+                    <a class="mb-4 flex items-center  text-fuchsia-950" href="#">
 
                         นวดน้ำมันอโรมา
                     </a>
-                    <a class="mb-4 flex items-center  text-fuchsia-900" href="#">
+                    <a class="mb-4 flex items-center  text-fuchsia-950" href="#">
 
                         นวดแก้ออฟฟิศซินโดม
                     </a>
-                    <a class="mb-4 flex items-center  text-fuchsia-900" href="#">
+                    <a class="mb-4 flex items-center  text-fuchsia-950" href="#">
 
                         อื่นๆ
                     </a>
                 </div>
 
                 <div>
-                    <h6 class="mb-4 flex justify-start font-semibold uppercase  text-fuchsia-900">
+                    <h6 class="mb-4 flex justify-start font-semibold uppercase  text-fuchsia-950">
                         โปรโมชั่นยอดฮิต
                     </h6>
 
                     <div class="border-solid border-2 p-5 border-fuchsia-100  rounded-xl">
                         <p>สำหรับการจองครั้งแรก</p>
-                        <p class="font-semibold text-lg text-fuchsia-900 ">ส่วนลด 25 %</p>
+                        <p class="font-semibold text-lg text-fuchsia-950">ส่วนลด 25 %</p>
                         <p>แถมฟรีครัสหน้า</p>
                     </div>
                 </div>
             </div>
         </div>
-       
+
         <div class="footer-image">
             <div class="lg:px-56 md:px-20  sm:px-10 py-16">
                 <p class="text-header-footer ">รับข้อมูลข่าวสารและโปรโมชั่นอื่นๆอีกมากมาย</p>
@@ -146,7 +146,7 @@
                         placeholder="กรุณากรอกอีเมลของคุณ">
 
                     <button type="button"
-                        class="py-3 px-4 inline-flex flex-shrink-0 justify-center items-center rounded-r-lg border border-transparent font-semibold bg-fuchsia-900 text-white hover:bg-fuchsia-800  focus:z-10 focus:outline-none focus:ring-2 focus:ring-fuchsia-900 transition-all text-sm">
+                        class="py-3 px-4 inline-flex flex-shrink-0 justify-center items-center rounded-r-lg border border-transparent font-semibold bg-fuchsia-950 text-white hover:bg-fuchsia-800  focus:z-10 focus:outline-none focus:ring-2 focus:ring-fuchsia-950 transition-all text-sm">
 
                         <p>รับข่าวสาร</p>
                         <div class="fill-white ml-4">
@@ -164,10 +164,5 @@
     </div>
 </body>
 
-<script>
-function redirectToPageContact_Us() {
-    window.location.href = "contact_us.php";
-}
-</script>
 
 </html>

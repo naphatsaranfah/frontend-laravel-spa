@@ -70,14 +70,6 @@
             </div>
         </div>
 
-
-        <!-- 
-            <div class="grid lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-2 gap-5 mt-10">
-            <button class="btn-select-kind-package-own" onclick="openSelect_Package()">เลือกแพ็คเก็จ</button>
-            <button class="btn-select-kind-package-own" onclick="openSelect_Custom()">กำหนดเอง</button>
-        </div> -->
-
-
         <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-3 gap-10 mt-10">
             <div class="radio">
                 <input type="radio" id="package" name="select-package" value="package" checked
@@ -130,7 +122,7 @@
                         <p class="ml-2">ระยะเวลา 90 นาที</p>
                     </div>
 
-                    <div class="flex text-2xl mt-10 justify-center font-semibold text-fuchsia-900">
+                    <div class="flex text-2xl mt-10 justify-center font-semibold text-fuchsia-950">
                         <p>฿650</p>
                         <p>.00</p>
                     </div>
@@ -174,7 +166,7 @@
                         <p class="ml-2">ระยะเวลา 90 นาที</p>
                     </div>
 
-                    <div class="flex text-2xl mt-10 justify-center font-semibold text-fuchsia-900">
+                    <div class="flex text-2xl mt-10 justify-center font-semibold text-fuchsia-950">
                         <p>฿650</p>
                         <p>.00</p>
                     </div>
@@ -218,7 +210,7 @@
                         <p class="ml-2">ระยะเวลา 90 นาที</p>
                     </div>
 
-                    <div class="flex text-2xl mt-10 justify-center font-semibold text-fuchsia-900">
+                    <div class="flex text-2xl mt-10 justify-center font-semibold text-fuchsia-950">
                         <p>฿650</p>
                         <p>.00</p>
                     </div>
@@ -263,7 +255,7 @@
                         <p class="ml-2">ระยะเวลา 90 นาที</p>
                     </div>
 
-                    <div class="flex text-2xl mt-10 justify-center font-semibold text-fuchsia-900">
+                    <div class="flex text-2xl mt-10 justify-center font-semibold text-fuchsia-950">
                         <p>฿650</p>
                         <p>.00</p>
                     </div>
@@ -284,9 +276,9 @@
 
         <div class="mt-10 hide-all" id="card_custom">
 
-            <label for="num" class=" text-fuchsia-900 font-bold text-lg ">จำนวนผู้รับบริการ</label>
+            <label for="num" class=" text-fuchsia-950 font-bold text-lg ">จำนวนผู้รับบริการ</label>
             <select id="num"
-                class="mt-10 w-50 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-fuchsia-900 focus:border-fuchsia-900 block  p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-fuchsia-900 dark:focus:border-fuchsia-900">
+                class="mt-10 w-50 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-fuchsia-950 focus:border-fuchsia-950 block  p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-fuchsia-950 dark:focus:border-fuchsia-950">
                 <option selected>1</option>
                 <option value="two">2</option>
                 <option value="three">3</option>
@@ -383,7 +375,7 @@
             <p class="header-text-add-address">กรุณากรอกที่อยู่ที่ต้องการเพิ่ม</p>
             <form class="bg-white  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mt-5">
                 <div class="mb-4">
-                    <label class="block text-fuchsia-900 text-sm font-bold mb-2 " for="">
+                    <label class="block text-fuchsia-950 text-sm font-bold mb-2 " for="">
                         เลขที่
                     </label>
                     <input
@@ -391,7 +383,7 @@
                         id="username" type="text" placeholder="" value="">
                 </div>
                 <div class="mb-4">
-                    <label class="block text-sm font-bold mb-2 text-fuchsia-900" for="username">
+                    <label class="block text-sm font-bold mb-2 text-fuchsia-950" for="username">
                         ชื่อบ้าน/โครงการ
                     </label>
                     <input
@@ -408,7 +400,7 @@
                         id="username" type="text" placeholder="" value="">
                 </div>
                 <div class="mb-4 ">
-                    <label class="block text-sm font-bold mb-2 text-fuchsia-900" for="">
+                    <label class="block text-sm font-bold mb-2 text-fuchsia-950" for="">
                         ซอย
                     </label>
                     <input
@@ -416,7 +408,7 @@
                         id="username" type="text" placeholder="" value="">
                 </div>
                 <div class="mb-4 ">
-                    <label class="block text-sm font-bold mb-2 text-fuchsia-900" for="">
+                    <label class="block text-sm font-bold mb-2 text-fuchsia-950" for="">
                         เขต
                     </label>
                     <input
@@ -425,7 +417,7 @@
                 </div>
 
                 <div class="mb-4 ">
-                    <label class="block text-sm font-bold mb-2 text-fuchsia-900" for="">
+                    <label class="block text-sm font-bold mb-2 text-fuchsia-950" for="">
                         แขวง
                     </label>
                     <input
@@ -433,7 +425,7 @@
                         id="username" type="text" placeholder="" value="">
                 </div>
                 <div class="mb-4 ">
-                    <label class="block text-sm font-bold mb-2 text-fuchsia-900" for="">
+                    <label class="block text-sm font-bold mb-2 text-fuchsia-950" for="">
                         จังหวัด
                     </label>
                     <input
@@ -441,7 +433,7 @@
                         id="username" type="text" placeholder="" value="">
                 </div>
                 <div class="mb-4 ">
-                    <label class="block text-sm font-bold mb-2 text-fuchsia-900" for="">
+                    <label class="block text-sm font-bold mb-2 text-fuchsia-950" for="">
                         รหัสไปรษณีย์
                     </label>
                     <input
@@ -461,7 +453,7 @@
                         <div class="mb-4">
 
                             <input
-                                class="bg-white  shadow appearance-none border-solid border-2 border-fuchsia-950 rounded-lg  font-bold  w-full py-2 px-3 text-fuchsia-900 leading-tight focus:outline-none focus:shadow-outline"
+                                class="bg-white  shadow appearance-none border-solid border-2 border-fuchsia-950 rounded-lg  font-bold  w-full py-2 px-3 text-fuchsia-950 leading-tight focus:outline-none focus:shadow-outline"
                                 id="date-picker" type="text" placeholder="YYYY-MM-DD" />
                         </div>
                     </form>
@@ -569,8 +561,6 @@ $(document).ready(function() {
 
 });
 </script>
-
-
 
 
 <script>

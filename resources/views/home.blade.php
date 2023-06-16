@@ -17,9 +17,9 @@
 <body>
     <div class="">
         <div class="container-header-banner block animatable bounceInRight ">
-            <p class="text-purple-900 text-4xl font-semibold ">ยินดีต้อนรับสู่ Lirena</p>
+            <p class="text-fuchsia-950 text-4xl font-semibold ">ยินดีต้อนรับสู่ Lirena</p>
 
-            <p class="text-purple-900 text-4xl font-semibold 	mt-6">ที่จะทำให้คุณผ่อนคลาย</p>
+            <p class="text-fuchsia-950 text-4xl font-semibold 	mt-6">ที่จะทำให้คุณผ่อนคลาย</p>
 
             <div class="mt-20">
                 <a href="{{ url('/reserve_spa') }}" class="button button-booking-banner">จองตอนนี้</a>
@@ -220,13 +220,13 @@
 
         <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 mt-20  gap-10 px-20">
             <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
-                <p class="bg-fuchsia-900 p-10 text-white hover:bg-pink-400 lg:rounded-tl-lg md:rounded-tl-lg">
+                <p class="bg-fuchsia-950 p-10 text-white hover:bg-pink-400 lg:rounded-tl-lg md:rounded-tl-lg">
                     มากกว่า 50 พนักงานมืออาชีพ</p>
-                <p class="bg-fuchsia-900 p-10 text-white hover:bg-pink-400 lg:md:rounded-tr-lg md:rounded-tr-lg">
+                <p class="bg-fuchsia-950 p-10 text-white hover:bg-pink-400 lg:md:rounded-tr-lg md:rounded-tr-lg">
                     มากกว่า 15 ผลิตภัณฑ์ใหม่</p>
-                <p class="bg-fuchsia-900 p-10 text-white hover:bg-pink-400 md:rounded-bl-lg lg:md:rounded-bl-lg">
+                <p class="bg-fuchsia-950 p-10 text-white hover:bg-pink-400 md:rounded-bl-lg lg:md:rounded-bl-lg">
                     มากกว่า 15 ผลิตภัณฑ์ใหม่</p>
-                <p class="bg-fuchsia-900 p-10 text-white hover:bg-pink-400 md:rounded-br-lg lg:md:rounded-br-lg">
+                <p class="bg-fuchsia-950 p-10 text-white hover:bg-pink-400 md:rounded-br-lg lg:md:rounded-br-lg">
                     มากกว่า 15 ผลิตภัณฑ์ใหม่</p>
             </div>
             <image class=" block animatable fadeInDown" src="./images/saltflowers.png" />
@@ -270,22 +270,22 @@
 
         <div class=" grid-address-select ">
             <div class="text-left">
-                <p class="text-xl  text-fuchsia-900 font-semibold mb-3">ที่อยู่</p>
-                <p class="mb-5  text-fuchsia-900 font-semibold">121 King Street, Melbourne,Victoria 3000 Australia
+                <p class="text-xl  text-fuchsia-950 font-semibold mb-3">ที่อยู่</p>
+                <p class="mb-5  text-fuchsia-950 font-semibold">121 King Street, Melbourne,Victoria 3000 Australia
                 </p>
-                <p class="text-xl  text-fuchsia-900 font-semibold mb-3 mt-6">ช่องทางติดต่อ</p>
-                <p class="mb-5  text-fuchsia-900 font-semibold">phone: +12 3 3456 7890a</p>
-                <p class="mb-5  text-fuchsia-900 font-semibold">email: hello@yourdomain.com</p>
-                <p class="text-xl  text-fuchsia-900 font-semibold mb-3 mt-6">เวลาเปิดทำการ</p>
-                <p class="mb-5  text-fuchsia-900 font-semibold">จันทร์ - ศุกร์ 09:00 น. - 20.00 น.</p>
-                <p class="mb-5  text-fuchsia-900 font-semibold">เสาร์ 10:00 น. - 20.00 น.</p>
-                <p class="mb-5  text-fuchsia-900 font-semibold">อาทิตย์ 10:00 น. - 15.00 น.</p>
+                <p class="text-xl  text-fuchsia-950 font-semibold mb-3 mt-6">ช่องทางติดต่อ</p>
+                <p class="mb-5  text-fuchsia-950 font-semibold">phone: +12 3 3456 7890a</p>
+                <p class="mb-5  text-fuchsia-950 font-semibold">email: hello@yourdomain.com</p>
+                <p class="text-xl  text-fuchsia-950 font-semibold mb-3 mt-6">เวลาเปิดทำการ</p>
+                <p class="mb-5  text-fuchsia-950 font-semibold">จันทร์ - ศุกร์ 09:00 น. - 20.00 น.</p>
+                <p class="mb-5  text-fuchsia-950 font-semibold">เสาร์ 10:00 น. - 20.00 น.</p>
+                <p class="mb-5  text-fuchsia-950 font-semibold">อาทิตย์ 10:00 น. - 15.00 น.</p>
             </div>
 
             <div>
-                <label for="" class="text-xl text-fuchsia-900 font-semibold mb-3">เลือกบริการนวดที่คุณสนใจ</label>
+                <label for="" class="text-xl text-fuchsia-950 font-semibold mb-3">เลือกบริการนวดที่คุณสนใจ</label>
                 <select id=""
-                    class="mt-10 bg-white focus:outline-none border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-fuchsia-900 focus:border-fuchsia-900 block w-full p-2.5 ">
+                    class="mt-10 bg-white focus:outline-none border border-gray-300 text-fuchsia-950 text-sm rounded-lg focus:ring-fuchsia-950 focus:border-fuchsia-950 block w-full p-2.5 ">
                     <option selected>เลือกบริการ</option>
                     <option value="US">นวดแผนไทย</option>
                     <option value="CA">นวดน้ำมันอโรม่า</option>
@@ -294,37 +294,11 @@
                 </select>
 
                 <div class="container-btn-next">
-                    <button class="btn-next">ยืนยัน</button>
+                    <a href="{{ url('/aroma_oil') }}" class="button btn-next">ยืนยัน</a>
                 </div>
 
             </div>
         </div>
-
-
-
-        <!-- <div class="relative group w-96 h-96 overflow-hidden bg-black m-auto mt-36">
-            <img class="object-cover w-full h-full transform duration-700 backdrop-opacity-100"
-                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1650&q=80" />
-            <div
-                class="absolute w-full h-full shadow-2xl opacity-20 transform duration-500 inset-y-full group-hover:-inset-y-0">
-            </div>
-            <div
-                class="absolute bg-gradient-to-t from-black w-full h-full transform duration-500 inset-y-3/4 group-hover:-inset-y-0">
-                <div class="absolute w-full flex place-content-center">
-                    <p class="capitalize font-serif font-bold text-3xl text-center shadow-2xl text-white mt-10">Team
-                        work</p>
-                </div>
-                <div class="absolute w-full flex place-content-center mt-20">
-                    <p class="font-sans text-center w-4/5 text-white mt-5">Collaborative effort of a group to achieve a
-                        common goal the most effective and efficient way!</p>
-                </div>
-                <button class="absolute left-1/4 bottom-4 bg-white text-black font-bold rounded-lg h-10 w-48">Contact
-                    Us</button>
-            </div>
-        </div> -->
-
-
-
     </div>
 
 
@@ -332,23 +306,6 @@
 
 
 </body>
-
-
-
-<!-- <script>
-function redirectToPageReserve_Spa() {
-    window.location.href = "reserve_spa.php";
-}
-
-function redirectToPageReserve_Two_Spa() {
-    window.location.href = "reserve_spa_two.php";
-}
-
-function redirectToPageReserve_Group() {
-    window.location.href = "reserve_group.php";
-}
-</script> -->
-
 
 
 <script>

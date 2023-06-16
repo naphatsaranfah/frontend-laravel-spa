@@ -21,9 +21,9 @@
             <label class="relative flex cursor-pointer items-center rounded-full p-3" for="html"
                 data-ripple-dark="true">
                 <input id="html" name="type" type="radio"
-                    class="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-full border border-blue-gray-200 text-fuchsia-900 transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-fuchsia-900 checked:before:bg-fuchsia-900 hover:before:opacity-10" />
+                    class="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-full border border-blue-gray-200 text-fuchsia-950 transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-fuchsia-950 checked:before:bg-fuchsia-950 hover:before:opacity-10" />
                 <div
-                    class="pointer-events-none absolute top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 text-fuchsia-900 opacity-0 transition-opacity peer-checked:opacity-100">
+                    class="pointer-events-none absolute top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 text-fuchsia-950 opacity-0 transition-opacity peer-checked:opacity-100">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" viewBox="0 0 16 16" fill="currentColor">
                         <circle data-name="ellipse" cx="8" cy="8" r="8">
                         </circle>
@@ -38,9 +38,9 @@
             <label class="relative flex cursor-pointer items-center rounded-full p-3" for="html"
                 data-ripple-dark="true">
                 <input id="html" name="type" type="radio"
-                    class="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-full border border-blue-gray-200 text-fuchsia-900 transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-fuchsia-900 checked:before:bg-fuchsia-900 hover:before:opacity-10" />
+                    class="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-full border border-blue-gray-200 text-fuchsia-950 transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-fuchsia-950 checked:before:bg-fuchsia-950 hover:before:opacity-10" />
                 <div
-                    class="pointer-events-none absolute top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 text-fuchsia-900 opacity-0 transition-opacity peer-checked:opacity-100">
+                    class="pointer-events-none absolute top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 text-fuchsia-950 opacity-0 transition-opacity peer-checked:opacity-100">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" viewBox="0 0 16 16" fill="currentColor">
                         <circle data-name="ellipse" cx="8" cy="8" r="8">
                         </circle>
@@ -58,7 +58,7 @@
                 <input id="html" name="type" type="radio"
                     class="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-full border border-blue-gray-200 text-fuchsia-900 transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-fuchsia-900 checked:before:bg-fuchsia-900 hover:before:opacity-10" />
                 <div
-                    class="pointer-events-none absolute top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 text-fuchsia-900 opacity-0 transition-opacity peer-checked:opacity-100">
+                    class="pointer-events-none absolute top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 text-fuchsia-950 opacity-0 transition-opacity peer-checked:opacity-100">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" viewBox="0 0 16 16" fill="currentColor">
                         <circle data-name="ellipse" cx="8" cy="8" r="8">
                         </circle>

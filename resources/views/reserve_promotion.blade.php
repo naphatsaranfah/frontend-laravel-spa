@@ -83,7 +83,7 @@
                             <div class="mb-4">
 
                                 <input
-                                    class="bg-white  shadow appearance-none border-solid border-2 border-fuchsia-950 rounded-lg  font-bold  w-full py-2 px-3 text-fuchsia-900 leading-tight focus:outline-none focus:shadow-outline"
+                                    class="bg-white  shadow appearance-none border-solid border-2 border-fuchsia-950 rounded-lg  font-bold  w-full py-2 px-3 text-fuchsia-950 leading-tight focus:outline-none focus:shadow-outline"
                                     id="date-picker" type="text" placeholder="YYYY-MM-DD" />
                             </div>
                         </form>
@@ -427,7 +427,7 @@
                             <div class="mb-4">
 
                                 <input
-                                    class="bg-white  shadow appearance-none border-solid border-2 border-fuchsia-950 rounded-lg  font-bold  w-full py-2 px-3 text-fuchsia-900 leading-tight focus:outline-none focus:shadow-outline"
+                                    class="bg-white  shadow appearance-none border-solid border-2 border-fuchsia-950 rounded-lg  font-bold  w-full py-2 px-3 text-fuchsia-950 leading-tight focus:outline-none focus:shadow-outline"
                                     id="date-picker" type="text" placeholder="YYYY-MM-DD" />
                             </div>
                         </form>

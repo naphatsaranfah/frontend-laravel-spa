@@ -17,7 +17,7 @@
 
     <div class="container-details-therapist">
         <p class="header-detail-therapist">รายละเอียดเทราปิส</p>
-        <div class="p-10 border-fuchsia-900 border-solid border-2 rounded-xl mt-10">
+        <div class="p-10 border-fuchsia-950 border-solid border-2 rounded-xl mt-10">
 
        
             <div class="grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols1">

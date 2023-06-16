@@ -17,14 +17,7 @@
 
     <div class="container-aroma-oil">
 
-        <div class="card hidden opacity-0 transform translate-y-16 duration-500 ease-in-out">
-            <p class="text-red-800 bg-blue-500">aaaaaaaaaa</p>
-        </div>
-
-        <p class="header-aroma-oil">นวดน้ำมันอโรม่า</p>
-
-        <img src="./images/banner.jpg" class="w-full mt-10 object-cover h-56">
-
+        <img src="./images/banner.jpg" class="w-full object-cover h-64">
         <p class="header-aroma-oil">สิ่งที่ได้รับในการนวดน้ำมันอโรมา</p>
 
         <div class="grid lg:grid-cols-3 mg:grid-cols-3 sm:grid-cols-1 gap-20">
@@ -56,10 +49,11 @@
 
             <div class="">
                 <p class="text-center mt-20 text-lg font-semibold">นวดได้ตรงจุดที่คุณต้องการความเหนื่อยล้า</p>
+
                 <div class="flex justify-center">
-                    <button class="button-booking-aroma-contant"
-                        onclick="redirectToPageReserve_Spa()">จองตอนนี้</button>
+                    <a href="{{ url('/reserve_spa') }}" class="button button-booking-aroma-contant">จองตอนนี้</a>
                 </div>
+
             </div>
         </div>
 
@@ -87,31 +81,35 @@
             </div>
         </div>
 
-        <div class="bg-[url('./images/footer.png')] w-full   mt-10 px-10 py-24">
 
-            <div class="flex gap-5 justify-center">
-                <div class="text-code">
-                    <p>จองวันนี้ ใส่โค้ด Spa</p>
-                    <p>รับส่วนลด 15 %</p>
+        <div class="grid-aroma-oil-contant">
+            <div>
+                <img src="./images/spa-stones-beautiful-orchid.jpg" class="w-full rounded-lg">
+            </div>
+
+            <div class="">
+                <div class="flex justify-center">
+                    <a href="{{ url('/reserve_spa') }}" class="button button-booking-aroma-contant"
+                        onclick="redirectToPageReserve_Spa()">จองตอนนี้</a>
                 </div>
-                <button class="button-booking-aroma-contant-pink"
-                    onclick="redirectToPageReserve_Spa()">จองตอนนี้</button>
             </div>
         </div>
 
+
         <div class="grid-aroma-oil-contant">
+
             <div class="">
-                <p class="text-center mt-20 text-lg font-semibold">นวดได้ตรงจุดที่คุณต้องการความเหนื่อยล้า</p>
                 <div class="flex justify-center">
-                    <button class="button-booking-aroma-contant"
-                        onclick="redirectToPageReserve_Spa()">จองตอนนี้</button>
+                    <a href="{{ url('/reserve_spa') }}" class="button button-booking-aroma-contant">จองตอนนี้</a>
                 </div>
             </div>
-
             <div>
                 <img src="./images/spa-stones-beautiful-orchid.jpg" class="w-full rounded-lg">
             </div>
         </div>
+
+
+    </div>
     </div>
 
 

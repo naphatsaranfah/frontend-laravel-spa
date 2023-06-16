@@ -71,7 +71,6 @@
                     </span>
                 </div>
 
-
                 <button class="button-login" onclick="redirectToPageRegister_Next()">ถัดไป</button>
 
             </div>
