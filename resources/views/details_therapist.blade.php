@@ -16,19 +16,28 @@
 <body>
 
     <div class="container-details-therapist">
+
         <p class="header-detail-therapist">รายละเอียดเทราปิส</p>
-        <div class="p-10 border-fuchsia-950 border-solid border-2 rounded-xl mt-10">
+        <div class=" border-fuchsia-950 border-solid border-2 rounded-xl mt-10 header-therapist pb-10">
 
-       
-            <div class="grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols1">
-                <div class=" p-5 rounded-lg shadow-md">
-                <img src="./images/profile_woman.png" class="w-full">
-                </div>
+
+            <div class="relative">
+                <a href="{{ url('/reserve_spa') }}">
+                    <img class="object-cover h-64 w-full" src="./images/detail_therapist.png" />
+
+                    <img class="p-1 rounded-lg shadow-md bg-white  w-40 h-40 absolute text-5xl text-fuchsia-950 bottom-5  left-40 top-60 -translate-x-1/2 -translate-y-1/2"
+                        src="./images/therapist-6.png" />
+
+                    <div class="mt-2 flex  justify-end mx-10">
+                        <a href="{{ url('/reserve_spa') }}" class="button button-booking-banner">จองตอนนี้</a>
+                    </div>
+                </a>
+
             </div>
-           
 
 
-            <div class=" grid lg:grid-cols-2  md:grid-cols-2 sm:grid-cols-1 mt-10 px-10 bg-gray-50 py-10 rounded-xl">
+
+            <div class="px-10 grid lg:grid-cols-2  md:grid-cols-2 sm:grid-cols-1 mt-10   py-10 rounded-xl">
                 <div class="flex gap-5 mt-6">
                     <p class="label-summarize">ชื่อ-สกุล</p>
                     <p class="text-summarize">คุณ นภัสรัญช์ อินเทวา</p>
@@ -77,18 +86,17 @@
             </div>
 
             <p class="header-detail-certificate">รายละเอียดใบ Certificate</p>
+            <div class="grid grid-cols-4 gap-20 mx-10">
+                <div class=" ">
+                    <img src="./images/cer_1.png " class="w-full">
+                </div>
 
-            <div class=" lg:px-36 md:px-20 sm:px-10 py-10">
-                <img src="./images/cer_1.png " class="w-full">
-            </div>
-
-            <div class=" lg:px-36 md:px-20 sm:px-10 py-10">
-                <img src="./images/cer_1.png " class="w-full">
+                <div class="">
+                    <img src="./images/cer_1.png " class="w-full">
+                </div>
             </div>
         </div>
-
     </div>
-
 </body>
 
 </html>

@@ -56,8 +56,13 @@
   .text-change-password {
     @apply text-center mt-2 text-lg;
   }
+  .container-header {
+    @apply flex h-screen w-full bg-blue-400  items-center;
+    background-image: url("../../public/images/banner-home-image.png");
+    background-size: cover;
+  }
   .container-header-banner {
-    @apply px-20 mt-60;
+    @apply px-20 mt-20;
   }
 
   .button-booking-banner {
@@ -110,12 +115,6 @@
     @apply text-fuchsia-950 underline underline-offset-1 mt-10 text-center cursor-pointer;
   }
 
-  /*  .container-grid-select {
-      @apply grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 text-center mt-10;
-    }
-    
-    */
-
   .grid-highlight-details {
     @apply grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 mt-10 px-20;
   }
@@ -128,10 +127,6 @@
   .button-booking-highlight {
     @apply bg-fuchsia-950 mt-12 py-3 px-12 rounded-lg text-white  text-lg font-semibold hover:px-16 hover:py-3;
   }
-
-  /* .grid-service {
-    @apply px-20 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10 text-center mt-10 p-10;
-  } */
 
   .header-our-services {
     @apply text-center text-xl  text-fuchsia-950 font-semibold mt-20 px-20;
@@ -147,7 +142,9 @@
     @apply inline;
   }
   .card-bg-discount {
-    @apply bg-fuchsia-950 text-center p-10;
+    @apply p-20;
+    background-image: url("../../public/images/image-discount.png");
+    background-size: cover;
   }
   .button-book-bottom-discount {
     @apply bg-pink-400 mt-12 py-3 px-12 rounded-lg text-white  text-lg font-semibold hover:px-16 hover:py-3;
@@ -155,12 +152,6 @@
   .header-professional-therapist {
     @apply text-center text-xl  text-fuchsia-950 font-semibold mt-20;
   }
-
-  /*
-  .grid-therapist {
-    @apply grid grid-cols-4 gap-5 mt-10;
-  }
-  */
 
   .card-therapist {
     @apply rounded-lg items-center p-5 drop-shadow-md bg-white hover:border-fuchsia-950 border-solid border-2;
@@ -171,11 +162,7 @@
   .header-feedback {
     @apply text-center text-xl  text-fuchsia-950 font-semibold mt-20;
   }
-  /*
-  .grid-feedback {
-    @apply grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-2 gap-5;
-  }
-  */
+
   .content-feedback {
     @apply mt-10 rounded-lg items-center drop-shadow-md bg-white hover:border-fuchsia-950 border-solid border-2;
   }
@@ -199,9 +186,6 @@
   .email-user {
     @apply text-fuchsia-950 underline underline-offset-2 mt-0;
   }
-  /* .padding-image {
-    @apply bg-white drop-shadow-lg rounded-lg mt-10;
-  } */
 
   .header-personal-information {
     @apply text-fuchsia-950 font-semibold;
@@ -226,7 +210,7 @@
   }
 
   .container-promotion {
-    @apply px-10 m-10;
+    @apply px-20  mt-20;
   }
 
   .text-header-promotion {
@@ -236,10 +220,6 @@
   .icon-spa-promotion {
     @apply bg-fuchsia-950 fill-white p-2  rounded-full inline;
   }
-
-  /* .container-grid-package {
-    @apply grid lg:grid-cols-4 sm:grid-cols-1 md:grid-cols-3 mt-10 gap-10;
-  } */
 
   .card-promotion {
     @apply p-10 rounded-xl text-center shadow-lg hover:bg-fuchsia-100;
@@ -254,7 +234,7 @@
   }
 
   .button-select-promotion {
-    @apply bg-fuchsia-950 w-full mt-12 py-2 px-6 rounded-lg text-white  text-lg font-semibold hover:bg-fuchsia-700;
+    @apply bg-fuchsia-950 w-full mt-12 py-2 px-20 rounded-lg text-white  text-lg font-semibold hover:bg-fuchsia-700;
   }
   .input-change-password {
     @apply pl-5 py-2 w-full rounded-lg mt-5  bg-white shadow-md   focus:ring-2  focus:ring-fuchsia-700 focus:outline-fuchsia-700;
@@ -271,9 +251,7 @@
   .container-reserve_spa {
     @apply px-10 py-10;
   }
-  /* .container-button-one-two {
-    @apply mt-10 grid lg:grid-cols-6 md:grid-cols-4 sm:grid-cols-2 gap-6;
-  } */
+
   .btn-select-spa_one-two {
     @apply bg-white border-2  p-5 rounded-xl text-fuchsia-950 w-48 hover:bg-fuchsia-900 hover:text-white;
   }
@@ -299,10 +277,6 @@
     @apply text-lg font-semibold text-fuchsia-950 mt-10;
   }
 
-  /* .container-button-select-kind-spa {
-    @apply mt-10 flex gap-6;
-  } */
-
   .btn-select-kind-spa {
     @apply p-5 text-lg ring-1 text-fuchsia-950 hover:text-white ring-gray-200 rounded-xl hover:bg-fuchsia-900 active:bg-fuchsia-900 focus:outline-none focus:ring focus:ring-violet-300 focus:bg-fuchsia-900 focus:text-white;
   }
@@ -311,17 +285,9 @@
     @apply text-lg font-semibold text-fuchsia-950 mt-10;
   }
 
-  /* .container-button-period {
-    @apply mt-10 flex gap-6;
-  } */
-
   .text-terrapits {
     @apply text-lg font-semibold text-fuchsia-950 mt-10;
   }
-
-  /* .container-button-terrapits {
-    @apply mt-10 flex gap-6;
-  } */
 
   .btn-select {
     @apply p-5 text-lg ring-1 text-fuchsia-950 hover:text-white ring-gray-200 rounded-xl hover:bg-fuchsia-900 active:bg-fuchsia-900 focus:outline-none focus:ring focus:ring-violet-300 focus:bg-fuchsia-900 focus:text-white px-10 py-3;
@@ -330,10 +296,6 @@
   .text-select-terrapits-like {
     @apply text-lg font-semibold text-fuchsia-950 mt-10;
   }
-
-  /* .container-grid-terrapits-like {
-    @apply bg-white grid grid-cols-5 mt-10 gap-6;
-  } */
 
   .card-grid-select-terrapits-like {
     @apply shadow-md  rounded-xl hover:border-solid hover:border-2 hover:border-fuchsia-900 cursor-pointer;
@@ -349,15 +311,6 @@
   .text-select-terrapits-else {
     @apply text-lg font-semibold text-fuchsia-950 mt-10;
   }
-
-  /* .container-grid-select-terrapits-else {
-    @apply bg-white grid sm:grid-cols-1 mt-10 gap-6;
-  } */
-
-  /* 
-.container-grid-therapist{
-  @apply bg-white grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5 mt-10 gap-6;
-} */
 
   .card-grid-select-terrapits-else {
     @apply shadow-md  rounded-xl hover:border-solid hover:border-2 hover:border-fuchsia-950;
@@ -527,7 +480,7 @@
 }
 
 .container-all-my-reserve {
-  @apply px-10 py-10;
+  @apply px-10;
 }
 
 .header-all-my-reserve {
@@ -537,18 +490,23 @@
 .container-therapist {
   @apply px-10 mt-10  text-fuchsia-950;
 }
-.header-therapist {
-  @apply text-lg font-semibold text-fuchsia-950;
-}
+
+/* .header-therapist {
+  @apply w-full ;
+  background-image: url("../../public/images/select_single.png");
+  height: 200px;
+  background-size: cover;
+} */
+
 .container-details-therapist {
-  @apply px-10 mt-10  text-fuchsia-950;
+  @apply px-10 mt-40  text-fuchsia-950;
 }
 .header-detail-therapist {
   @apply text-lg font-semibold text-fuchsia-950;
 }
 
 .header-detail-certificate {
-  @apply text-lg font-semibold text-fuchsia-950 mt-10 p-10;
+  @apply text-lg font-semibold text-fuchsia-950 mt-10 mb-10 mx-10;
 }
 
 .card-list-details-user {
@@ -640,14 +598,12 @@
 }
 
 .container-aroma-oil {
-  @apply px-10 m-10;
+  @apply mt-20;
 }
 
 .header-aroma-oil {
   @apply text-lg font-semibold text-fuchsia-950 mt-20;
 }
-
-
 
 .card-aroma-oil-receive {
   @apply text-fuchsia-950 text-center  lg:mt-10 md:mt-10 sm:mt-5 p-5;
@@ -658,27 +614,29 @@
 }
 
 .container-button-booking-aroma-contant {
-  @apply mt-10 flex justify-end ;
+  @apply mt-10 flex justify-end;
 }
 
 .button-booking-aroma-contant {
-  @apply bg-fuchsia-950 mt-20 py-3  rounded-lg text-white  text-lg font-semibold w-full md:w-60 lg:w-60 text-center;
+  @apply bg-fuchsia-950 mt-20 py-3  px-20  rounded-lg text-white  text-lg font-semibold w-full md:w-60 lg:w-60 text-center;
 }
 
 .grid-aroma-oil-benefit {
-  @apply grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 mt-10 gap-5 text-fuchsia-950 font-semibold text-center;
+  @apply grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 mt-10 gap-20 text-fuchsia-950 font-semibold text-center px-20;
 }
 
 .button-booking-aroma-contant-pink {
   @apply bg-pink-400 mt-20 py-3  rounded-lg text-white  text-lg font-semibold w-full md:w-60 lg:w-60;
 }
 
-.container-join-up {
-  @apply px-10 m-10;
+.container-header-join-up {
+  @apply p-20;
+  background-image: url("../../public/images/binifit.png");
+  background-size: cover;
 }
 
 .header-join-up {
-  @apply text-lg font-semibold text-fuchsia-950 mt-10;
+  @apply text-2xl font-semibold text-fuchsia-950 mt-10;
 }
 
 .text-join-up {
@@ -708,12 +666,8 @@
 }
 
 .container-reserve_time_therapist {
-  @apply px-10 py-10;
+  @apply px-10;
 }
-
-/* .container-grid-select-reserve_time_therapist {
-  @apply grid grid-cols-5 text-center mt-10 gap-10;
-} */
 
 .button-time_therapist {
   @apply text-lg ring text-fuchsia-950 hover:text-white ring-fuchsia-800 hover:bg-fuchsia-900 active:bg-fuchsia-900 focus:outline-none focus:ring focus:ring-violet-300 focus:bg-fuchsia-900 focus:text-white px-10 py-3 rounded-xl;
@@ -730,14 +684,6 @@
 .button-submit-reserve-time-therapist {
   @apply bg-fuchsia-950 py-4 px-24 rounded-lg  text-white font-semibold border-2 border-fuchsia-900;
 }
-
-/* .card-information-price {
-    @apply mt-10 border-2 border-fuchsia-900 px-10 pt-10 rounded-2xl;
-  } */
-
-/* .container-button-package-own {
-  @apply mt-20 flex gap-6;
-} */
 
 .btn-select-kind-package-own {
   @apply p-5 text-lg ring-1 text-fuchsia-950 hover:text-white ring-gray-200 rounded-xl hover:bg-fuchsia-900 active:bg-fuchsia-900 focus:outline-none focus:ring focus:ring-violet-300 focus:bg-fuchsia-900 focus:text-white;
@@ -810,8 +756,9 @@
 }
 
 .button-join-up {
-  @apply bg-pink-400 mt-20 px-5 py-3 lg:w-60 md:w-60 sm:w-full rounded-lg text-white  text-lg font-semibold;
+  @apply bg-pink-400 mt-40 px-20 py-3 lg:w-60 md:w-60 sm:w-full text-center rounded-lg text-white  text-lg font-semibold;
 }
+
 .card-join-up {
   @apply p-10 rounded-xl text-center shadow-lg bg-pink-100  hover:bg-pink-200;
 }
@@ -845,6 +792,13 @@
   @apply grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1;
 }
 
+.image-join-up {
+  @apply mt-10 p-20 w-full;
+  background-image: url("../../public/images/join_up.png");
+  background-size: cover;
+  height: 400px;
+}
+
 .radio-group .radio {
   @apply text-fuchsia-950 fill-fuchsia-950;
   position: relative;
@@ -861,8 +815,6 @@
 
 .radio input:checked + label {
   @apply bg-fuchsia-950 border-fuchsia-300 text-white fill-white;
-  /* border-color: #AA336A	; 
-  background-color:#702963;  */
 }
 
 .mobile-menu {
@@ -888,24 +840,18 @@
 }
 
 .image-single-spa {
-  /*
-  background-image: url("../../public/images/spa_single.jpg");
+  background-image: url("../../public/images/select_single.png");
   background-size: cover;
-*/
 }
 
 .image-couple-spa {
-  /*
-  background-image: url("../../public/images/spa_couple.jpg");
+  background-image: url("../../public/images/select-couple.png");
   background-size: cover;
-  */
 }
 
 .image-group-spa {
-  /*
-  background-image: url("../../public/images/spa_gruop.jpg");
+  background-image: url("../../public/images/select-group.png");
   background-size: cover;
-*/
 }
 
 .swal-button--confirm {
@@ -1492,4 +1438,102 @@
   -moz-animation-name: moveUp;
   -o-animation-name: moveUp;
   animation-name: moveUp;
+}
+
+#slider {
+  overflow: hidden;
+  width: 100vw;
+}
+
+#slider ul {
+  list-style: none;
+}
+
+#slider ul li {
+  height: 500px;
+  width: 100vw;
+  float: left;
+}
+
+#slider ul li img {
+  height: 600px;
+  width: 100vw;
+}
+
+a.control_prev,
+a.control_next {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  top: 40%;
+}
+
+a.control_prev:hover,
+a.control_next:hover {
+  -webkit-transition: all 0.2s ease;
+}
+
+a.control_next {
+  right: 0;
+}
+
+/* Dot Indicators */
+#s1 {
+  padding: 6px;
+  left: 50%;
+  bottom: 25px;
+  margin-left: -36px;
+  border-radius: 20px;
+  z-index: 999;
+}
+
+#s2 {
+  padding: 6px;
+  left: 50%;
+  bottom: 25px;
+  margin-left: -12px;
+  border-radius: 20px;
+  z-index: 999;
+}
+
+#s3 {
+  padding: 6px;
+  left: 50%;
+  bottom: 25px;
+  margin-left: 12px;
+  border-radius: 20px;
+  z-index: 999;
+}
+
+#s4 {
+  padding: 6px;
+  left: 50%;
+  bottom: 25px;
+  margin-left: 36px;
+  border-radius: 20px;
+  z-index: 999;
+}
+
+.active {
+  background-color: #48bb78;
+  opacity: 1;
+}
+
+#Slide1:checked + #s1 {
+  @apply bg-fuchsia-950;
+  opacity: 1;
+}
+
+#Slide2:checked + #s2 {
+  @apply bg-fuchsia-950;
+  opacity: 1;
+}
+
+#Slide3:checked + #s3 {
+  @apply bg-fuchsia-950;
+  opacity: 1;
+}
+
+#Slide4:checked + #s4 {
+  @apply bg-fuchsia-950;
+  opacity: 1;
 }

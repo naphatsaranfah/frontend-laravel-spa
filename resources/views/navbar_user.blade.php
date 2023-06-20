@@ -121,7 +121,7 @@
                 </div>
             </nav>
 
-          
+
             <nav class="
           flex flex-wrap
           items-center
@@ -235,14 +235,21 @@
                             <a class="md:p-4 py-2 block hover:text-purple-400 font-ibm font-semibold cursor-pointer"
                                 href="{{ url('/promotion') }}">โปรโมชั่น</a>
                         </li>
+
+                        <li>
+                            <a class="md:p-4 py-2 block hover:text-purple-400 font-ibm font-semibold cursor-pointer"
+                                href="{{ url('/all_my_reserve') }}">การจองของฉัน</a>
+                        </li>
+                        <li>
+                            <a class="md:p-4 py-2 block hover:text-purple-400 font-ibm font-semibold cursor-pointer"
+                                href="{{ url('/therapist') }}">เทราปิส</a>
+                        </li>
+
                         <li>
                             <a class="md:p-4 py-2 block hover:text-purple-400 font-ibm font-semibold cursor-pointer"
                                 href="{{ url('/reserve_group') }}">สำหรับองค์กร</a>
                         </li>
-                        <li>
-                            <a class="md:p-4 py-2 block hover:text-purple-400 font-ibm font-semibold cursor-pointer"
-                                href="{{ url('/our_portfolio') }}">ผลงานของเรา</a>
-                        </li>
+
                         <li class="mt-3 ">
                             <a class="bg-fuchsia-950 px-5 py-2 rounded-lg hover:bg-purple-400 text-white  md:flex"
                                 role="button" id="image_user">naphatsaran</a>

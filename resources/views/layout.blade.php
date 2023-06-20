@@ -16,7 +16,7 @@
 
     @include('navbar_user')
 
-    <div class=" mt-10">
+    <div class="mt-40">
         @yield('content')
     </div>
 

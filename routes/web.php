@@ -128,3 +128,15 @@ Route::get('/summarize_reserve', function () {
 Route::get('/test', function () {
     return view('test');
 });
+
+Route::get('/setting_other_recipients',function () {
+    return view('setting_other_recipients');
+});
+
+Route::get('/details_therapist',function () {
+    return view('details_therapist');
+});
+
+Route::get('/setting_show_add_other_recipients',function () {
+    return view('setting_show_add_other_recipients');
+});

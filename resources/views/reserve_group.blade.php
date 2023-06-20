@@ -486,11 +486,11 @@
                     </label>
                 </div>
             </div>
-
         </div>
 
+
         <div class="container-btn-next">
-            <button class="btn-next" onclick="redirectToPageSummarize_Reserve()">ยืนยัน</button>
+            <a class="button btn-next " href="/service_address">ถัดไป</a>
         </div>
 
     </div>

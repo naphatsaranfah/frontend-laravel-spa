@@ -81,6 +81,7 @@
                                 d="M6 7H5v13a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7H6zm4 12H8v-9h2v9zm6 0h-2v-9h2v9zm.618-15L15 2H9L7.382 4H3v2h18V4z">
                             </path>
                         </svg>
+                        
 
                         <div id="default-modal" data-modal-show="false" aria-hidden="true"
                             class="hidden overflow-x-hidden overflow-y-auto fixed h-modal md:h-full top-4 left-0 right-0 md:inset-0 z-50 justify-center items-center">
@@ -116,6 +117,8 @@
                             </div>
                         </div>
                     </div>
+
+
 
                     <div
                         class="lg:px-10 md:px-10 sm:px-2 py-5 flex-auto grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-5 ">
@@ -367,7 +370,7 @@
                                         class=" mt-5 w-full text-white bg-fuchsia-950 hover:bg-fuchsia-800 focus:ring-4 focus:ring-fuchsia-100 font-medium rounded-lg text-sm px-10 py-2.5 text-center">ส่ง</button>
                                 </div>
 
-
+<!-- 
                                 <div
                                     class="radio-group  grid lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-3 gap-10 mt-10">
                                     <div class="radio">
@@ -389,16 +392,7 @@
                                             </div>
                                         </label>
                                     </div>
-                                </div>
-
-
-
-
-
-
-
-
-
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -441,8 +435,6 @@
             </div>
         </div>
     </div>
-
-
 </body>
 
 <script src="https://unpkg.com/flowbite@1.4.4/dist/flowbite.js"></script>

@@ -16,20 +16,17 @@
 
 <body>
 
-    <div class="container-join-up">
-        <p class="header-join-up">สมัครเป็นเทอราปิสกับเรา ฟรี ไม่มีค่าใช้จ่าย</p>
-        <button class="button-booking-aroma-contant" onclick="redirectToPageScan_QR_Code()">
-            สมัครตอนนี้
-        </button>
+    <div class="mt-40 ">
+        <div class="container-header-join-up ">
+            <p class="header-join-up">สมัครเป็นเทอราปิสกับเรา ฟรี ไม่มีค่าใช้จ่าย</p>
 
-        <div class="bg-[url('./images/join_up.jpg')] w-full px-20 pt-20 pb-0 rounded-t-2xl bg-cover bg-center mt-10">
-            <div class="bg-fuchsia-100 p-5 rounded-t-xl">
-                <p class="text-join-up">สิ่งที่คุณได้รับหากร่วมงานกับเรา</p>
+            <div class="mt-10 ">
+                <a href="{{ url('/scan_qr_code') }}" class="button button-booking-aroma-contant">สมัครตอนนี้</a>
             </div>
         </div>
 
-        <div class="grid-aroma-oil-benefit">
 
+        <div class="grid-aroma-oil-benefit">
             <div class="card-join-up">
                 <div class="card-icon-spa-promotion">
                     <svg class="icon-spa-join-up" xmlns="http://www.w3.org/2000/svg" width="50" height="50"
@@ -39,7 +36,7 @@
                         </path>
                     </svg>
                     <p class="mt-10">รายได้ดี</p>
-                    <p>สูงสุดถึง 1000฿ ต่อวัน</p>
+                    <p class="mt-5">สูงสุดถึง 1000฿ ต่อวัน</p>
                 </div>
             </div>
 
@@ -52,7 +49,7 @@
                         </path>
                     </svg>
                     <p class="mt-10">รับเงินไว</p>
-                    <p>ภายใน 3 ชั่วโมงหลังจบงาน</p>
+                    <p class="mt-5">ภายใน 3 ชั่วโมงหลังจบงาน</p>
                 </div>
             </div>
 
@@ -66,37 +63,74 @@
                         </path>
                     </svg>
                     <p class="mt-10">มียูนิฟอร์มให้</p>
-                    <p>ยูนิฟอร์มจำนวน 3 ชุด</p>
+                    <p class="mt-5">ยูนิฟอร์มจำนวน 3 ชุด</p>
                 </div>
             </div>
         </div>
 
-        <div class="flex justify-center ">
-            <button class="button-join-up" onclick="redirectToPageScan_QR_Code()">สมัครเป็นเทอราปิส</button>
-        </div>
-
-        <div class="card-join-up-add-line">
-            <div class="flex gap-5 justify-center">
-                <div class="text-join-up-add-line">
-                    <p>สมัครเป็นเทอราปิส</p>
-                    <p>คลิกเพิ่มเพื่อนทางไลน์</p>
-                </div>
-                <img src="./images/line.png" class="w-20 h-20">
-
+        <div class="image-join-up">
+            <div class="mt-64">
+                <a href="{{ url('/scan_qr_code') }}" class="button button-join-up">สมัครตอนนี้</a>
             </div>
         </div>
 
-        <div class="grid grid-cols-2 gap-5 mt-10">
-            <img src="./images/lelavadee.jpg" class="rounded-2xl">
-            <img src="./images/lelavadee.jpg" class="rounded-2xl">
-
-
+        <div class="px-20">
+            <p class="text-lg font-bold text-fuchsia-950 mt-10">ความรู้สึกพนักงาน</p>
         </div>
 
-        <div class="flex justify-center">
-            <button class="button-join-up-bottom" onclick="redirectToPageScan_QR_Code()">สมัครเป็นเทอราปิส</button>
+        <div class="px-20 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 mt-10 gap-10">
+            <div class="text-center bg-white rounded-xl   border-grey border-solid border-2">
+
+                <div class="">
+                    <img src="./images/therapist-4.png" class="image-me w-full">
+                    <div class="p-5">
+                        <p class="py-2 text-lg text-fuchsia-950 font-bold text-left">คุณ นภัสรัญช์ อินเทวา</p>
+                        <p class="py-2 text-md text-fuchsia-950 font-bold text-left">ร่วมงานกับเรามาแล้ว 2 ปี</p>
+                        <p class="py-2 text-md text-fuchsia-950 font-bold text-left">ประทับใจการทำงานที่นี้
+                            เพื่อนร่วมงานดี และสวัสดิการดีเป็นอย่างมาก</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center bg-white rounded-xl   border-grey border-solid border-2">
+
+                <div class="">
+                    <img src="./images/therapist-6.png" class="image-me w-full">
+                    <div class="p-5">
+                        <p class="py-2 text-lg text-fuchsia-950 font-bold text-left">คุณ นภัสรัญช์ อินเทวา</p>
+                        <p class="py-2 text-md text-fuchsia-950 font-bold text-left">ร่วมงานกับเรามาแล้ว 2 ปี</p>
+                        <p class="py-2 text-md text-fuchsia-950 font-bold text-left">ประทับใจการทำงานที่นี้
+                            เพื่อนร่วมงานดี และสวัสดิการดีเป็นอย่างมาก</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center bg-white rounded-xl   border-grey border-solid border-2">
+
+                <div class="">
+                    <img src="./images/therapist-6.png" class="image-me w-full">
+                    <div class="p-5">
+                        <p class="py-2 text-lg text-fuchsia-950 font-bold text-left">คุณ นภัสรัญช์ อินเทวา</p>
+                        <p class="py-2 text-md text-fuchsia-950 font-bold text-left">ร่วมงานกับเรามาแล้ว 2 ปี</p>
+                        <p class="py-2 text-md text-fuchsia-950 font-bold text-left">ประทับใจการทำงานที่นี้
+                            เพื่อนร่วมงานดี และสวัสดิการดีเป็นอย่างมาก</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center bg-white rounded-xl   border-grey border-solid border-2">
+
+                <div class="">
+                    <img src="./images/therapist-1.png" class="image-me w-full">
+                    <div class="p-5">
+                        <p class="py-2 text-lg text-fuchsia-950 font-bold text-left">คุณ นภัสรัญช์ อินเทวา</p>
+                        <p class="py-2 text-md text-fuchsia-950 font-bold text-left">ร่วมงานกับเรามาแล้ว 2 ปี</p>
+                        <p class="py-2 text-md text-fuchsia-950 font-bold text-left">ประทับใจการทำงานที่นี้
+                            เพื่อนร่วมงานดี และสวัสดิการดีเป็นอย่างมาก</p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
 
 </body>
 

@@ -20,6 +20,7 @@
         <p class="header-service_address">ที่อยู่สำหรับรับบริการ</p>
 
         <div class="radio-group  grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-10 mt-10">
+
             <div class="radio">
                 <input type="radio" id="main-address" name="select-address" value="main-address"
                     onclick="openSelectMain_Address()">
@@ -36,23 +37,23 @@
                             <p class="">ที่อยู่หลัก</p>
                         </div>
 
-                        <!-- <a  href="{{ url('/setting_profile') }}"> -->
-                        <svg class="icon-address" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                            viewBox="0 0 24 24" style="transform: ;msFilter:;">
-                            <path d="m16 2.012 3 3L16.713 7.3l-3-3zM4 14v3h3l8.299-8.287-3-3zm0 6h16v2H4z"></path>
-                        </svg>
-                        <!-- </a> -->
 
+
+                        <a href="{{ url('/setting_profile') }}">
+                            <svg class="icon-address" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" style="transform: ;msFilter:;">
+                                <path d="m16 2.012 3 3L16.713 7.3l-3-3zM4 14v3h3l8.299-8.287-3-3zm0 6h16v2H4z"></path>
+                            </svg>
+                        </a>
                     </div>
 
                     <div class="text-start mt-10">
                         <p>เลขที่ 885/871 ถนนกรุงเทพ-นนทบุรี แขวงบางซื่อ </p>
                         <p>เขตบางซื่อ จังหวัดกรุงเทพมหานคร รหัสไปรษณีย์ 10800</p>
                     </div>
-
-
                 </label>
             </div>
+
 
             <div class="radio">
                 <input type="radio" id="others-address" name="select-address" value="others-address"
@@ -67,11 +68,9 @@
                         </path>
                     </svg>
                     <p class="mt-8 mb-8">เพิ่มที่อยู่อื่น</p>
-
                 </label>
             </div>
         </div>
-
 
 
 
@@ -148,13 +147,14 @@
             </form>
         </div>
 
-
-        <div class="container-health justify-between" id="card_main_address">
+        <div class="flex justify-between">
             <p class="header-health">ข้อมูลการเจ็บป่วย</p>
-            <svg class="icon-edit" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                style="transform: ;msFilter:;">
-                <path d="m16 2.012 3 3L16.713 7.3l-3-3zM4 14v3h3l8.299-8.287-3-3zm0 6h16v2H4z"></path>
-            </svg>
+            <a href="{{ url('/setting_profile') }}">
+                <svg class="icon-edit" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    style="transform: ;msFilter:;">
+                    <path d="m16 2.012 3 3L16.713 7.3l-3-3zM4 14v3h3l8.299-8.287-3-3zm0 6h16v2H4z"></path>
+                </svg>
+            </a>
         </div>
 
         <p class="header-qa-health">โรคที่คุณเป็นในปัจจุบัน</p>
@@ -230,7 +230,6 @@
                 </div>
             </div>
 
-
             <div class="lg:flex items-center">
                 <div class="flex items-center ">
                     <label class="relative flex cursor-pointer items-center rounded-full p-3" for="html"
@@ -254,11 +253,12 @@
         </div>
 
 
-        <div class="container-btn-confirm-reserve">
+        <div class="container-btn-confirm-reserve gap-5">
             <a class="button btn-confirm-reserve" href="/summarize_reserve">ถัดไป</a>
+            <a class="button btn-confirm-reserve" href="/reserve_spa">ผู้รับบริการคนที่ 2</a>
         </div>
 
-
+      
     </div>
 
 </body>
@@ -300,6 +300,19 @@ function openSelectOthers_Address() {
     }
     var y = document.getElementById("card_main_address");
     y.style.display = "none";
+
+}
+
+
+function openSelectMain_Address() {
+    var y = document.getElementById("card_others_adress");
+    if (y.style.display === "none") {
+        y.style.display = "block";
+    } else {
+        y.style.display = "none";
+    }
+    var x = document.getElementById("card_main_address");
+    x.style.display = "none";
 }
 
 $(document).ready(function() {
