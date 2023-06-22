@@ -24,6 +24,13 @@
         <div class="padding-image-qr-code ">
             <img src="./images/qr_code_line.png" class="full ">
         </div>
+
+
+        <div>
+        <p class="header-all-my-reserve">สมัครเป็นเทราปิส</p>
+        <p class="header-all-my-reserve">กด</p>
+
+        </div>
     </div>
 
 </body>

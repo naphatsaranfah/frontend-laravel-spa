@@ -127,8 +127,14 @@
           items-center
           justify-between
           w-full
-          pb-10
-          md:py-0
+          pb-5
+         
+          lg:mt-0
+           md:mt-0
+           lg:pt-0
+           md:pt-0
+            sm:pt-10
+            sm:top-0
           px-10
           text-lg text-fuchsia-950
           bg-white
@@ -251,8 +257,15 @@
                         </li>
 
                         <li class="mt-3 ">
-                            <a class="bg-fuchsia-950 px-5 py-2 rounded-lg hover:bg-purple-400 text-white  md:flex"
-                                role="button" id="image_user">naphatsaran</a>
+
+                            <div class=" w-36 bg-fuchsia-950 py-2 px-5 rounded-xl">
+                                <a class=" rounded-lg  text-white  justify-center md:flex" role="button"
+                                    id="image_user">Naphatsaran
+                                    <!-- <img src="./images/woman.png"     id="image_user" class="w-10 h-10 rounded-full  md:flex"> -->
+                                </a>
+                            </div>
+
+
                             <div class=" hidden mt-2  bg-white shadow-md rounded-xl p-4 my-3 absolute "
                                 id="menu_image_user">
                                 <div class="hover:bg-purple-100 px-3 py-1 rounded-xl cursor-pointer">

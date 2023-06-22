@@ -8,18 +8,16 @@ export default {
   theme: {
     extend: {
       screens: {
-        // sm: "540px",
-        // // => @media (min-width: 576px) { ... }
+        sm: "390px",
+        // => @media (min-width: 576px) { ... }
 
-        // md: "720px",
-        // // => @media (min-width: 960px) { ... }
+        md: "768px",
+        // => @media (min-width: 960px) { ... }
 
-        // lg: "960px",
-        // // => @media (min-width: 1440px) { ... }
+        lg: "1440px",
+        // => @media (min-width: 1440px) { ... }
       },
-      // fontFamily: {
-      //   ibm: ["IBM Plex Sans Thai"],
-      // },
+     
     },
   },
   plugins: [],

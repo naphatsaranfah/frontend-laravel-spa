@@ -16,23 +16,21 @@
 
 <body>
 
-
     <div>
-        <div class="relative">
-            <img class="object-cover h-full w-full" src="./images/discoust.png" />
-            <h3 class="absolute text-5xl text-white  top-24 right-64 ">
-                รับส่วนลด</h3>
-            <h3 class="absolute text-4xl text-pink-400 top-44 right-48 ">
-                สำหรับการจองครั้งแรก</h3>
-            <h3 class="absolute text-5xl text-white  top-64 right-40 ">
-                ฟรีทรีตเม้นท์ผิวหน้า</h3>
-            <a href="{{ url('/reserve_spa') }}"
-                class="button absolute text-2xl font-bold bg-pink-400 p-5 px-20 text-white  top-96 rounded-lg right-56">จองตอนนี้</a>
-        </div>
+
+    <div class="relative">
+
+<img class="object-cover h-full w-full  mt-20" src="./images/promotion1.jpg" />
+
+<a href="{{ url('/reserve_spa') }}"
+    class="mt-20 button absolute   lg:right-52 md:right-16  sm:right-6   lg:text-2xl md:text-2xl sm:text-md font-bold bg-pink-400 lg:py-4 md:py-4 sm:py-2 lg:px-20 md:px-20 sm:px-8 text-white   lg:top-80 md:top-40  sm:top-8   rounded-xl">จองตอนนี้</a>
+
+</div>
 
         <div class="container-promotion">
             <p class="text-header-promotion">รวมโปรโมชั่น Lirena</p>
-            <div class="grid  lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-1 mt-10 gap-5">
+
+            <div class="grid  lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 mt-10 gap-5">
                 <div class="card-promotion">
                     <div class="card-icon-spa-promotion">
                         <svg class="icon-spa-promotion" xmlns="http://www.w3.org/2000/svg" width="50" height="50"
@@ -269,19 +267,10 @@
             </div>
         </div>
 
-        <div class="relative">
-            <a href="{{ url('/reserve_group') }}">
-                <img class="object-cover h-full w-full  mt-20" src="./images/discoust_spa_2.png" />
-
-                <a href="{{ url('/reserve_spa') }}"
-                    class="mt-20 button absolute text-2xl font-bold bg-pink-400 p-5 px-20 text-white  top-80 rou left-5 ml-36 rounded-xl">จองตอนนี้</a>
-            </a>
-        </div>
     </div>
-
 </body>
 
-<script>
-< /html>
+
+</html>
 
 @endsection

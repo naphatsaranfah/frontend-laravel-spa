@@ -1,4 +1,4 @@
-
+<!-- 
 @extends('layout')
 
 @section('content')
@@ -12,9 +12,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <!-- Link to Tailwind CSS -->
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.1.2/tailwind.min.css" />
-    <!-- Link to Flatpickr CSS -->
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -81,11 +81,11 @@
 </body>
 
 
-<!-- Link to Flatpickr JavaScript -->
+
 <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 
 <script>
-// Initialize Flatpickr date picker
+
 flatpickr("#date-picker", {
     dateFormat: "Y-m-d",
     allowInput: true,
@@ -99,4 +99,4 @@ flatpickr("#date-picker", {
 </html>
 
 
-@endsection
+@endsection -->

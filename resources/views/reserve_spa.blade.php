@@ -11,17 +11,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/flowbite@1.4.3/dist/flowbite.min.css" /> -->
 
 </head>
 
 <body>
-
-
     <div class="container-reserve_spa">
 
         <p class="header-reserve_spa">เลือกจำนวนผู้เข้ารับบริการ</p>
 
-        <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-3 gap-10 mt-10">
+        <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1 gap-10 mt-10">
             <div class="radio">
                 <input type="radio" id="single" name="select-kind-number-people" value="single"
                     onclick="openSelectSingle()">
@@ -43,7 +42,7 @@
 
         <p class="header-select-client">ผู้รับบริการ</p>
 
-        <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-3 gap-10 mt-10">
+        <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 gap-10 mt-10">
             <div class="radio">
                 <input type="radio" id="me" name="select-people" value="me">
                 <label for="me" class="block text-center p-2 bg-white rounded-xl   border-grey border-solid border-2">
@@ -69,7 +68,7 @@
                     class="block text-center p-2 bg-white rounded-xl   border-grey border-solid border-2">
                     <div class="">
                         <img src="./images/user-service-3.png" class="image-me">
-                        <p class="py-5">ผู้รับบริการอื่น</p>
+                        <p class="py-5 text-fuchsia-950">ผู้รับบริการอื่น</p>
                     </div>
                 </label>
             </a>
@@ -77,7 +76,7 @@
 
         <div id="card_select_single" class="">
             <p class="text-select-kind-spa">เลือกประเภทบริการ</p>
-            <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-3 gap-10 mt-10">
+            <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1 gap-10 mt-10">
                 <div class="radio">
                     <input type="radio" id="aloma-spa" name="select-kind-spa" value="aloma-spa">
                     <label for="aloma-spa"
@@ -130,7 +129,7 @@
 
             <p class="text-period">ระยะเวลา</p>
 
-            <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-3 gap-10 mt-10">
+            <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1 gap-10 mt-10">
                 <div class="radio">
                     <input type="radio" id="sixty-minutes" name="select-time" value="sixty-minutes">
                     <label for="sixty-minutes"
@@ -159,7 +158,7 @@
 
             <p class="text-terrapits">เลือกเทอราปิส</p>
 
-            <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-3 gap-10 mt-10">
+            <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1 gap-10 mt-10">
                 <div class="radio">
                     <input type="radio" id="women" name="kind-therapist" value="women">
                     <label for="women"
@@ -186,7 +185,7 @@
             </div>
 
 
-            <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-3 gap-10 mt-10">
+            <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1 gap-10 mt-10">
                 <div class="radio">
                     <input type="radio" id="company" name="select-company-myself" value="company" checked
                         onclick="openSelectByCompany()">
@@ -209,22 +208,34 @@
 
             <div id="card_select_by_company" class="">
                 <p class="text-time-therapist">เลือกวันที่</p>
-
                 <div class="mb-4">
                     <div class="w-80  mt-5">
-                        <form>
-                            <div class="mb-4">
-                                <input
-                                    class="bg-white  shadow appearance-none border-solid border-2 border-fuchsia-950 rounded-lg  font-bold  w-full py-2 px-3 text-fuchsia-950 leading-tight focus:outline-none focus:shadow-outline"
-                                    id="date-picker" type="text" placeholder="YYYY-MM-DD" />
+
+                        <div date-rangepicker="" id="dateRangePickerId" datepicker-orientation=" right bottom left"
+                            class="flex items-center underline">
+
+
+                            <div class="relative">
+                                <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                                    <svg class="w-5 h-5 text-fuchsia-950 " fill="currentColor" viewBox="0 0 20 20"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>
+                                </div>
+                                <input datepicker="" datepicker-autohide type="text"
+                                    class="bg-white focus:ring-1 border-2 border-gray-200  text-fuchsia-950 sm:text-sm rounded-lg focus:ring-fuchsia-950 focus:border-fuchsia-950 block w-full pl-10 p-2.5"
+                                    placeholder="เลือกวันที่">
                             </div>
-                        </form>
+
+                        </div>
                     </div>
                 </div>
 
                 <p class="text-time-therapist">เลือกเวลา</p>
 
-                <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-3 gap-10 mt-10">
+                <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1 gap-10 mt-10">
                     <div class="radio">
                         <input type="radio" id="ten" name="time-start" value="ten">
                         <label for="ten"
@@ -253,7 +264,7 @@
             <div id="card_select_by_my_self" class="hide-all">
                 <p class="text-select-terrapits-like">เลือกจากพนักงานที่คุณชื่นชอบ</p>
 
-                <div class="grid lg:grid-cols-5 gap-6 md:grid-cols-4 sm:grid-cols-1 mt-10 bg-white">
+                <div class="grid lg:grid-cols-5 gap-6 md:grid-cols-3 sm:grid-cols-1 mt-10 bg-white">
 
                     <a href="/reserve_time_therapist">
                         <div class="card-grid-select-terrapits-like">
@@ -357,7 +368,7 @@
 
                 <p class="text-select-terrapits-else">เลือกพนักงานทั่วไป</p>
 
-                <div class="grid lg:grid-cols-5 gap-6 md:grid-cols-4 sm:grid-cols-1 mt-10 bg-white">
+                <div class="grid lg:grid-cols-5 gap-6 md:grid-cols-3 sm:grid-cols-1 mt-10 bg-white">
                     <a href="/reserve_time_therapist">
                         <div class="card-grid-select-terrapits-else">
                             <img src="./images/therapist-1.png" class="image-me">
@@ -538,13 +549,13 @@
                 <a class="button btn-next " href="/service_address">ถัดไป</a>
             </div>
 
-         
+
         </div>
 
         <div id="card_select_couple" class="hide-all">
             <p class="text-select-kind-spa">ผู้รับบริการคนที่ 1</p>
             <p class="text-select-kind-spa">เลือกประเภทบริการ</p>
-            <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-3 gap-10 mt-10">
+            <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1 gap-10 mt-10">
                 <div class="radio">
                     <input type="radio" id="aloma-spa-couple" name="select-kind-spa-couple" value="aloma-spa-couple">
                     <label for="aloma-spa-couple"
@@ -600,7 +611,7 @@
 
             <p class="text-period">ระยะเวลา</p>
 
-            <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-3 gap-10 mt-10">
+            <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1 gap-10 mt-10">
                 <div class="radio">
                     <input type="radio" id="sixty-minutes-couple" name="select-time-couple"
                         value="sixty-minutes-couple">
@@ -631,7 +642,7 @@
 
             <p class="text-terrapits">เลือกเทอราปิส</p>
 
-            <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-3 gap-10 mt-10">
+            <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1 gap-10 mt-10">
                 <div class="radio">
                     <input type="radio" id="women-couple" name="kind-therapist-couple" value="women-couple">
                     <label for="women-couple"
@@ -658,7 +669,7 @@
             </div>
 
 
-            <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-3 gap-10 mt-10">
+            <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1 gap-10 mt-10">
                 <div class="radio">
                     <input type="radio" id="company-couple-couple" name="select-company-myself-couple"
                         value="company-couple-couple" onclick="openSelectCouple_Company()">
@@ -680,21 +691,34 @@
 
             <div id="card_select_couple_company" class="">
                 <p class="text-time-therapist">เลือกวันที่</p>
+
                 <div class="mb-4">
                     <div class="w-80  mt-5">
-                        <form>
-                            <div class="mb-4">
-                                <input
-                                    class="bg-white  shadow appearance-none border-solid border-2 border-fuchsia-950 rounded-lg  font-bold  w-full py-2 px-3 text-fuchsia-950 leading-tight focus:outline-none focus:shadow-outline"
-                                    id="date-picker" type="text" placeholder="YYYY-MM-DD" />
+
+                        <div date-rangepicker="" id="dateRangePickerId" datepicker-orientation=" right bottom left"
+                            class="flex items-center underline">
+
+                            <div class="relative">
+                                <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                                    <svg class="w-5 h-5 text-fuchsia-950 " fill="currentColor" viewBox="0 0 20 20"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>
+                                </div>
+                                <input datepicker="" datepicker-autohide type="text"
+                                    class="bg-white  focus:ring-1 border-2 border-gray-200  text-fuchsia-950 sm:text-sm rounded-lg focus:ring-fuchsia-950 focus:border-fuchsia-950 block w-full pl-10 p-2.5 "
+                                    placeholder="เลือกวันที่">
                             </div>
-                        </form>
+
+                        </div>
                     </div>
                 </div>
 
                 <p class="text-time-therapist">เลือกเวลา</p>
 
-                <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-3 gap-10 mt-10">
+                <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1 gap-10 mt-10">
                     <div class="radio">
                         <input type="radio" id="ten-couple" name="time-start-couple" value="ten-couple">
                         <label for="ten"
@@ -722,7 +746,7 @@
 
             <div id="card_select_couple_my_self" class="hide-all">
                 <p class="text-select-terrapits-like">เลือกจากพนักงานที่คุณชื่นชอบ</p>
-                <div class="grid lg:grid-cols-5 gap-6 md:grid-cols-4 sm:grid-cols-1 mt-10 bg-white">
+                <div class="grid lg:grid-cols-5 gap-6 md:grid-cols-3 sm:grid-cols-1 mt-10 bg-white">
 
                     <a href="/reserve_time_therapist">
                         <div class="card-grid-select-terrapits-like">
@@ -808,7 +832,7 @@
 
                 <p class="text-select-terrapits-else">เลือกพนักงานทั่วไป</p>
 
-                <div class="grid lg:grid-cols-5 gap-6 md:grid-cols-4 sm:grid-cols-1 mt-10 bg-white">
+                <div class="grid lg:grid-cols-5 gap-6 md:grid-cols-3 sm:grid-cols-1 mt-10 bg-white">
 
 
                     <a href="/reserve_time_therapist">
@@ -989,29 +1013,21 @@
             </div>
 
             <div class="container-btn-next">
-                <a class="button btn-next" href="/reserve_spa_two">ถัดไป</a>
+                <a class="button btn-next" href="/service_address">ถัดไป</a>
             </div>
 
         </div>
     </div>
 </body>
 
-<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 
-<script>
-// Initialize Flatpickr date picker
-flatpickr("#date-picker", {
-    dateFormat: "Y-m-d",
-    allowInput: true,
-    altInput: true,
-    altFormat: "F j, Y",
-    minDate: "today",
-});
-</script>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/flowbite@1.4.3/dist/flowbite.js"></script>
+<script src="https://unpkg.com/flowbite@1.4.3/dist/datepicker.js"></script>
 
 
 
-<script src="https://unpkg.com/flowbite@1.4.4/dist/flowbite.js"></script>
 <script>
 function openSelectByCompany() {
     var x = document.getElementById("card_select_by_company");

@@ -81,7 +81,7 @@
                                 d="M6 7H5v13a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7H6zm4 12H8v-9h2v9zm6 0h-2v-9h2v9zm.618-15L15 2H9L7.382 4H3v2h18V4z">
                             </path>
                         </svg>
-                        
+
 
                         <div id="default-modal" data-modal-show="false" aria-hidden="true"
                             class="hidden overflow-x-hidden overflow-y-auto fixed h-modal md:h-full top-4 left-0 right-0 md:inset-0 z-50 justify-center items-center">
@@ -89,11 +89,11 @@
                                 <div class="bg-white rounded-lg shadow-xl relative py-10">
 
                                     <div class="flex justify-center">
-                                        <svg class="fill-fuchsia-950" xmlns="http://www.w3.org/2000/svg" width="64"
-                                            height="64" viewBox="0 0 24 24" style="transform: ;msFilter:;">
+                                        <svg width="55" height="61" viewBox="0 0 57 63" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
                                             <path
-                                                d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm-1.999 14.413-3.713-3.705L7.7 11.292l2.299 2.295 5.294-5.294 1.414 1.414-6.706 6.706z">
-                                            </path>
+                                                d="M9.5 15.75H6.33333V56.7C6.33333 58.3709 7.00059 59.9733 8.18832 61.1548C9.37605 62.3363 10.987 63 12.6667 63H44.3333C46.013 63 47.6239 62.3363 48.8117 61.1548C49.9994 59.9733 50.6667 58.3709 50.6667 56.7V15.75H9.5ZM22.1667 53.55H15.8333V25.2H22.1667V53.55ZM41.1667 53.55H34.8333V25.2H41.1667V53.55ZM43.1237 6.3L38 0H19L13.8763 6.3H0V12.6H57V6.3H43.1237Z"
+                                                fill="#4E2259" />
                                         </svg>
                                     </div>
 
@@ -109,7 +109,7 @@
 
                                     <div class="grid grid-cols-2 between gap-5 px-10">
                                         <button data-modal-toggle="default-modal" type="button"
-                                            class="bg-red-900 text-white cursor-pointer py-2 px-10 rounded-lg mt-10">ยกเลิก</button>
+                                            class="bg-pink-400 text-white cursor-pointer py-2 px-10 rounded-lg mt-10">ยกเลิก</button>
                                         <button data-modal-toggle="default-modal" type="button"
                                             class="bg-fuchsia-950 text-white cursor-pointer py-2 px-10 rounded-lg mt-10">ตกลง</button>
                                     </div>
@@ -370,7 +370,7 @@
                                         class=" mt-5 w-full text-white bg-fuchsia-950 hover:bg-fuchsia-800 focus:ring-4 focus:ring-fuchsia-100 font-medium rounded-lg text-sm px-10 py-2.5 text-center">ส่ง</button>
                                 </div>
 
-<!-- 
+                                <!-- 
                                 <div
                                     class="radio-group  grid lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-3 gap-10 mt-10">
                                     <div class="radio">

@@ -10,6 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" /> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
 </head>
 
@@ -20,7 +21,7 @@
         <p class="header-reserve_spa">แบบองค์กร</p>
         <p class="text-select-kind-spa">เลือกประเภทบริการ</p>
 
-        <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-3 gap-10 mt-10">
+        <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 gap-10 mt-10">
             <div class="radio">
                 <input type="radio" id="aloma-spa" name="select-kind-spa" value="aloma-spa">
                 <label for="aloma-spa"
@@ -70,7 +71,7 @@
             </div>
         </div>
 
-        <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-3 gap-10 mt-10">
+        <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 gap-10 mt-10">
             <div class="radio">
                 <input type="radio" id="package" name="select-package" value="package" checked
                     onclick="openSelect_Package()">
@@ -92,7 +93,7 @@
 
 
         <div id="card_package">
-            <div class="radio-group grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-2 gap-5 mt-10">
+            <div class="radio-group grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-5 mt-10">
 
                 <div class="card-promotion">
                     <div class="card-icon-spa-promotion">
@@ -288,7 +289,7 @@
 
             <p class="text-period">ระยะเวลา</p>
 
-            <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-3 gap-10 mt-10">
+            <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-3 gap-10 mt-10">
                 <div class="radio">
                     <input type="radio" id="sixty-minutes" name="select-time" value="sixty-minutes">
                     <label for="sixty-minutes"
@@ -320,7 +321,7 @@
 
 
 
-        <div class="radio-group  grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-10 mt-10">
+        <div class="radio-group  grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-10 mt-10">
             <div class="radio">
                 <input type="radio" id="main-address" name="select-address" value="main-address"
                     onclick="openSelectMain_Address()">
@@ -337,10 +338,12 @@
                             <p class="">ที่อยู่หลัก</p>
                         </div>
 
-                        <svg class="icon-address" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                            viewBox="0 0 24 24" style="transform: ;msFilter:;">
-                            <path d="m16 2.012 3 3L16.713 7.3l-3-3zM4 14v3h3l8.299-8.287-3-3zm0 6h16v2H4z"></path>
-                        </svg>
+                        <a href="{{ url('/setting_profile') }}">
+                            <svg class="icon-address" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" style="transform: ;msFilter:;">
+                                <path d="m16 2.012 3 3L16.713 7.3l-3-3zM4 14v3h3l8.299-8.287-3-3zm0 6h16v2H4z"></path>
+                            </svg>
+                        </a>
                     </div>
 
                     <div class="text-start mt-10">
@@ -452,17 +455,31 @@
                     <form>
                         <div class="mb-4">
 
-                            <input
-                                class="bg-white  shadow appearance-none border-solid border-2 border-fuchsia-950 rounded-lg  font-bold  w-full py-2 px-3 text-fuchsia-950 leading-tight focus:outline-none focus:shadow-outline"
-                                id="date-picker" type="text" placeholder="YYYY-MM-DD" />
+                        <div class="relative">
+             <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                    <svg class="w-5 h-5 text-fuchsia-950 " fill="currentColor" viewBox="0 0 20 20"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>
+                                </div>
+                                <input datepicker="" datepicker-autohide type="text"
+                                    class="bg-white focus:ring-1 border-2 border-gray-200  text-fuchsia-950 sm:text-sm rounded-lg focus:ring-fuchsia-950 focus:border-fuchsia-950 block w-full pl-10 p-2.5"
+                                    placeholder="เลือกวันที่">
+                            </div>
+
                         </div>
                     </form>
                 </div>
             </div>
 
+           
+
+
             <p class="text-time-therapist">เลือกเวลาที่รับบริการ</p>
 
-            <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-3 gap-10 mt-10">
+            <div class="radio-group  grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-3 gap-10 mt-10">
                 <div class="radio">
                     <input type="radio" id="ten" name="time-start" value="ten">
                     <label for="ten"
@@ -498,8 +515,16 @@
 
 </body>
 
+
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/flowbite@1.4.3/dist/flowbite.js"></script>
+<script src="https://unpkg.com/flowbite@1.4.3/dist/datepicker.js"></script>
+
+
+
 <!-- Link to Flatpickr JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 
 <script>
 // Initialize Flatpickr date picker
@@ -510,7 +535,7 @@ flatpickr("#date-picker", {
     altFormat: "F j, Y",
     minDate: "today",
 });
-</script>
+</script> -->
 
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 

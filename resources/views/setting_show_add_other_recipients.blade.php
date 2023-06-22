@@ -19,19 +19,23 @@
     <div class="container-setting-profile">
         <!-- <div class="bg-[url('./images/binifit.png')] h-32 rounded-t-2xl"> -->
 
-        <div class="grid grid-cols-3">
-            <img src="./images/binifit.png" class="w-full h-36 object-cover">
-            <img src="./images/binifit.png" class="w-full h-36 object-cover">
-            <img src="./images/binifit.png" class="w-full h-36 object-cover">
-        </div>
+       
+        <div class="relative">
+            <a href="{{ url('/reserve_spa') }}">
+                <img class="object-cover h-64 w-full" src="./images/detail_therapist.png" />
 
+                <img class="p-1 rounded-lg shadow-md bg-white  w-40 h-40 absolute text-5xl text-fuchsia-950 bottom-5  left-40 top-64 -translate-x-1/2 -translate-y-1/2"
+                    src="./images/woman.png" />
 
-        <div class="flex gap-5 mt-10">
-            <img src="./images/profile_woman.png" class="w-24 h-24 ">
-            <div>
-                <p class="username mt-10"> Naphatsaran Intewa</p>
-                <p class="email-user  ">naphatsaran@gmail.com</p>
-            </div>
+                <div class=" flex  ml-64 mt-5">
+                    <p class="username "> Naphatsaran Intewa</p>
+                </div>
+
+                <div class=" flex  ml-64 mt-2">
+                    <p class="email-user  ">naphatsaran@gmail.com</p>
+                </div>
+
+            </a>
         </div>
 
 
@@ -440,7 +444,7 @@
                                                     </div>
                                                     <div class="grid grid-cols-2 between gap-5 px-10">
                                                         <button data-modal-toggle="default-modal" type="button"
-                                                            class="bg-red-900 text-white cursor-pointer py-2 px-10 rounded-lg mt-10">ยกเลิก</button>
+                                                            class="bg-pink-400 text-white cursor-pointer py-2 px-10 rounded-lg mt-10">ยกเลิก</button>
                                                         <button data-modal-toggle="default-modal" type="button"
                                                             class="bg-fuchsia-950 text-white cursor-pointer py-2 px-10 rounded-lg mt-10">ตกลง</button>
                                                     </div>

@@ -14,16 +14,21 @@
 <body>
 
     <div class="container-login">
+    <div class="bg-fuchsia-950 p-6 absolute top-0 w-full">
+        </div>
+
         <div class="grid lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-1">
-            <div class="hidden  lg:block ">
-                <image src="./images/loginlogin.png" class="w-full " />
+            <div class="hidden lg:block ">
+                <image src="./images/login_resize.png" class="w-full h-full" />
             </div>
 
-            <div class="container-text-login">
-                <p class="header-login">ยินดีต้อนรับเข้าสู่ Lirena</p>
+            <div class="lg:px-40  md:px-40  sm:px-10">
+                <p class="lg:text-4xl md:text-3xl sm:text-2xl text-center mt-20 text-fuchsia-950">Login Account</p>
 
-                <div class="relative">
-                    <input type="text" class="input-email " placeholder="อีเมล">
+                <div class="relative mt-5">
+                    <input type="text"
+                        class="input-login focus:outline-none focus:border-fuchsia-950 focus:ring-2 focus:ring-fuchsia-950"
+                        placeholder="Email">
                     <span class="icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             style="transform: ;msFilter:;">
@@ -34,8 +39,11 @@
                     </span>
                 </div>
 
+                
                 <div class="relative">
-                    <input type="text" class="input-email " placeholder="รหัสผ่าน">
+                    <input type="text"
+                        class="input-login focus:outline-none focus:border-fuchsia-950 focus:ring-2 focus:ring-fuchsia-950"
+                        placeholder="Password">
                     <span class="icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             style="transform: ;msFilter:;">
@@ -46,27 +54,39 @@
                     </span>
                 </div>
 
-                <p class="forgot-password">ลืมรหัสผ่าน</p>
+                <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
+                    <div class="flex gap-5">
+                        <input type="checkbox" class=" rounded h-5 w-5 mt-10 accent-fuchsia-950 border-fuchsia-950" />
+                        <p class="text-fuchsia-950 mt-10">Keep me singned in</p>
+                    </div>
+                    <a class="forgot-password" href="/forgot_password">Already a member ?</a>
+                </div>
 
-                <button class="button-login">เข้าสู่ระบบ</button>
+                <div class="flex justify-center">
+                    <a class="button-login text-center" href="/home">Login</a>
+                </div>
 
-                <p class="text-or-login">หรือเข้าสู่ระบบด้วย</p>
-                
-                <div class="flex gap-5">
+                <div class="mt-5">
+                    <p class="text-center text-fuchsia-950 font-bold text-lg">or</p>
+                    <div class="grid grid-cols-3 ">
+                        <div class="h-1 bg-fuchsia-950"></div>
+                        <p class="text-center text-fuchsia-950 font-bold  text-lg">login with</p>
+                        <div class="h-1 bg-fuchsia-950"></div>
+                    </div>
+                </div>
 
-                    <button class="button-facebook ">
-                        <svg class="fill-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                <div class="grid lg:grid-cols-2 md:grid-cols-2  sm:grid-cols-1 lg:gap-10 md:gap-10 sm:gap-0 ">
+                    <button class="button-line flex gap-2">
+                        <svg class="fill-white " xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                             viewBox="0 0 24 24" style="transform: ;msFilter:;">
                             <path
                                 d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z">
                             </path>
                         </svg>
-
                         <p>Facebook</p>
                     </button>
 
-
-                    <button class="button-line">
+                    <button class="button-line flex gap-2">
                         <svg class="fill-white" width="24" height="24" viewBox="0 0 34 33"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -74,14 +94,21 @@
                                 fill="white" />
                         </svg>
                         <p>Line</p>
-
                     </button>
                 </div>
 
-                <p class="text-free-register">สมัครสมาชิกฟรีที่นี่</p>
+                <a class="flex justify-end mt-5 gap-2" href="/register">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-fuchsia-950" width="28" height="30"
+                        viewBox="0 0 24 24">
+                        <path d="M7 6v12l10-6z"></path>
+                    </svg>
+                    <p class="text-fuchsia-950 font-bold text-lg mb-10">Register now !</p>
+                </a>
+
             </div>
         </div>
-
+        <div class="bg-fuchsia-950 p-6 absolute bottom-0 w-full">
+        </div>
     </div>
 
 </body>

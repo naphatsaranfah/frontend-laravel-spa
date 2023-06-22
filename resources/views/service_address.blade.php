@@ -37,8 +37,6 @@
                             <p class="">ที่อยู่หลัก</p>
                         </div>
 
-
-
                         <a href="{{ url('/setting_profile') }}">
                             <svg class="icon-address" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                 viewBox="0 0 24 24" style="transform: ;msFilter:;">
@@ -185,7 +183,7 @@
                         </svg>
                     </div>
                 </label>
-                <label class="mt-px cursor-pointer select-none font-light text-gray-700" for="html">
+                <label class="mt-px cursor-pointer select-none font-light text-fuchsia-950" for="html">
                     หน้าร้าน
                 </label>
             </div>
@@ -204,7 +202,7 @@
                             </svg>
                         </div>
                     </label>
-                    <label class="mt-px cursor-pointer select-none font-light text-gray-700" for="html">
+                    <label class="mt-px cursor-pointer select-none font-light text-fuchsia-950" for="html">
                         Facebook
                     </label>
                 </div>
@@ -224,7 +222,7 @@
                             </svg>
                         </div>
                     </label>
-                    <label class="mt-px cursor-pointer select-none font-light text-gray-700" for="html">
+                    <label class="mt-px cursor-pointer select-none font-light text-fuchsia-950" for="html">
                         Youtube
                     </label>
                 </div>
@@ -244,7 +242,7 @@
                             </svg>
                         </div>
                     </label>
-                    <label class="mt-px cursor-pointer select-none font-light text-gray-700" for="html">
+                    <label class="mt-px cursor-pointer select-none font-light text-fuchsia-950" for="html">
                         Tiktok
                     </label>
                 </div>
@@ -258,7 +256,7 @@
             <a class="button btn-confirm-reserve" href="/reserve_spa">ผู้รับบริการคนที่ 2</a>
         </div>
 
-      
+
     </div>
 
 </body>

@@ -14,28 +14,24 @@
 </head>
 
 <body>
-
+    
     <div class="container-details-therapist">
 
         <p class="header-detail-therapist">รายละเอียดเทราปิส</p>
         <div class=" border-fuchsia-950 border-solid border-2 rounded-xl mt-10 header-therapist pb-10">
 
-
             <div class="relative">
                 <a href="{{ url('/reserve_spa') }}">
-                    <img class="object-cover h-64 w-full" src="./images/detail_therapist.png" />
+                    <img class="object-cover h-64 w-full rounded-xl" src="./images/detail_therapist.png" />
 
-                    <img class="p-1 rounded-lg shadow-md bg-white  w-40 h-40 absolute text-5xl text-fuchsia-950 bottom-5  left-40 top-60 -translate-x-1/2 -translate-y-1/2"
+                    <img class="p-1 rounded-lg shadow-md bg-white  w-40 h-40 absolute text-5xl text-fuchsia-950 bottom-5  lg:left-40  md:left-40 sm:left-40 sm:right-40 top-60 -translate-x-1/2 -translate-y-1/2"
                         src="./images/therapist-6.png" />
 
                     <div class="mt-2 flex  justify-end mx-10">
                         <a href="{{ url('/reserve_spa') }}" class="button button-booking-banner">จองตอนนี้</a>
                     </div>
                 </a>
-
             </div>
-
-
 
             <div class="px-10 grid lg:grid-cols-2  md:grid-cols-2 sm:grid-cols-1 mt-10   py-10 rounded-xl">
                 <div class="flex gap-5 mt-6">
@@ -86,7 +82,7 @@
             </div>
 
             <p class="header-detail-certificate">รายละเอียดใบ Certificate</p>
-            <div class="grid grid-cols-4 gap-20 mx-10">
+            <div class="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-20 mx-10">
                 <div class=" ">
                     <img src="./images/cer_1.png " class="w-full">
                 </div>

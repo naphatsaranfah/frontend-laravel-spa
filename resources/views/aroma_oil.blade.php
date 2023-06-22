@@ -25,7 +25,7 @@
                         <h3 class="absolute text-5xl text-white  top-24 left-5 ml-20">
                             นวดน้ำมันอโรม่า</h3>
                         <a href="{{ url('/reserve_spa') }}"
-                            class="button absolute text-2xl font-bold bg-fuchsia-950 p-5 px-20 text-white  top-80 rounded-lg left-5 ml-20">จองตอนนี้</a>
+                            class="button absolute text-2xl font-bold bg-fuchsia-950 p-5 px-20 text-white  top-80 rounded-lg lg:left-28 md:left-28 sm:left-8">จองตอนนี้</a>
                     </li>
 
                     <li class="relative block m-0 p-0 text-center">
@@ -33,7 +33,7 @@
                         <h3 class="absolute text-5xl text-white   top-24 left-5 ml-20">
                             นวดน้ำมันอโรม่า</h3>
                         <a href="{{ url('/reserve_spa') }}"
-                            class="button absolute text-2xl font-bold bg-fuchsia-950 p-5 px-20 text-white  top-80 rounded-lg left-5 ml-20">จองตอนนี้</a>
+                            class="button absolute text-2xl font-bold bg-fuchsia-950 p-5 px-20 text-white  top-80 rounded-lg lg:left-28 md:left-28 sm:left-8">จองตอนนี้</a>
                     </li>
 
 
@@ -42,11 +42,12 @@
                         <h3 class="absolute text-5xl text-white   top-24 left-5 ml-20">
                             นวดน้ำมันอโรม่า</h3>
                         <a href="{{ url('/reserve_spa') }}"
-                            class="button absolute text-2xl font-bold bg-fuchsia-950 p-5 px-20 text-white  top-80 rounded-lg left-5 ml-20">จองตอนนี้</a>
+                            class="button absolute text-2xl font-bold bg-fuchsia-950 p-5 px-20 text-white  top-80 rounded-lg lg:left-28 md:left-28 sm:left-8">จองตอนนี้</a>
                     </li>
                 </ul>
             </div>
         </div>
+
         <p class="mx-20 header-aroma-oil">สิ่งที่ได้รับในการนวดน้ำมันอโรมา</p>
 
         <div class="mx-20 grid lg:grid-cols-3 mg:grid-cols-3 sm:grid-cols-1 gap-20">
@@ -71,12 +72,12 @@
             </div>
         </div>
 
-        <div class="mx-20 grid-aroma-oil-contant border border-fuchsia-950 rounded-xl">
+        <div class="mx-20 grid-aroma-oil-contant border-4 border-purple-300 rounded-2xl ">
             <div>
-                <img src="./images/spa_aromaoil.png" class="w-full rounded-l-lg">
+                <img src="./images/spa_aromaoil.png" class="w-full h-full rounded-l-xl">
             </div>
 
-            <div class="">
+            <div class="p-10">
                 <p class="text-center mt-20 text-xl font-semibold">นวดได้ตรงจุดที่คุณต้องการ</p>
                 <p class="text-center mt-5 text-xl font-semibold">ความเหนื่อยล้า</p>
 
@@ -120,9 +121,9 @@
     </div>
 
 
-    <div class="mx-20 grid-aroma-oil-contant border border-fuchsia-950 rounded-r-xl">
+    <div class="mx-20 grid-aroma-oil-contant  border-4  border-purple-300 rounded-2xl">
 
-        <div class="">
+        <div class=" p-10 ">
             <p class="text-center mt-20 text-xl font-semibold">นวดได้ตรงจุดที่คุณต้องการคลายความ
                 เหนื่อยล้า</p>
             <p class="text-center mt-5 text-xl font-semibold">นวดได้ตรงจุดที่คุณต้องการคลายความเหนื่อยล้า</p>
@@ -132,31 +133,20 @@
         </div>
 
         <div>
-            <img src="./images/aroma_oil_2.png" class="w-full rounded-r-lg">
+            <img src="./images/aroma_oil_2.png" class="rounded-r-xl w-full h-full">
         </div>
     </div>
 
 
     <div class="relative">
         <a href="{{ url('/reserve_group') }}">
-            <img class="object-cover h-full w-full  mt-20"  src="./images/discoust_spa_2.png" />
+            <img class="object-cover h-full w-full  mt-20" src="./images/discoust_spa_2.png" />
 
             <a href="{{ url('/reserve_spa') }}"
-                            class="mt-20 button absolute text-2xl font-bold bg-pink-400 p-5 px-20 text-white  top-80 rou left-5 ml-36 rounded-xl">จองตอนนี้</a>
+                class="mt-20 button absolute text-2xl font-bold bg-pink-400 lg:py-4 md:py-4 sm:py-2 lg:px-20 md:px-20 sm:px-16 text-white   lg:top-80 md:top-44  sm:top-24  lg:left-5 md:left-2  sm:left-2  lg:ml-36 md:ml-28 sm:ml-20 rounded-xl">จองตอนนี้</a>
         </a>
     </div>
-
-
-
-
-
 </body>
-
-<script>
-function redirectToPageReserve_Spa() {
-    window.location.href = "reserve_spa.php";
-}
-</script>
 
 
 <script>
@@ -224,7 +214,6 @@ jQuery(document).ready(function($) {
     });
 });
 </script>
-
 
 </html>
 

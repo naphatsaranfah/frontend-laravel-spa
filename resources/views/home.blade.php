@@ -19,35 +19,41 @@
     <div>
         <div id="slider" class="relative">
             <div class="relative">
-                <ul class="relative m-0 p-0 h-2/3">
-                    <li class="relative block m-0 p-0 text-center">
-                        <img class="object-cover h-full w-full" src="./images/banner-home-image-resize.png" />
-                        <h3 class="absolute text-5xl text-fuchsia-950  top-24 left-5 ml-20">
+                <ul class="relative m-0 p-0 ">
+                    <li class="relative block m-0 p-0 text-center ">
+                        <img class="object-cover w-96" src="./images/banner-home-image-resize.png" />
+                        <h3
+                            class="absolute lg:text-5xl md:text-3xl sm:text-3xl text-fuchsia-950  top-24 lg:left-28  md:left-28 sm:left-5 ">
                             ยินดีต้อนรับสู่ Lirena</h3>
-                        <h3 class="absolute text-5xl text-fuchsia-950  top-44 left-5 ml-20">
+                        <h3
+                            class="absolute lg:text-5xl md:text-3xl sm:text-3xl text-fuchsia-950  top-44  lg:left-28  md:left-28 sm:left-5  ">
                             ที่จะทำให้คุณผ่อนคลาย</h3>
                         <a href="{{ url('/reserve_spa') }}"
-                            class="button absolute text-2xl font-bold bg-fuchsia-950 p-5 px-20 text-white  top-80 rounded-lg left-5 ml-20">จองตอนนี้</a>
+                            class="button absolute text-2xl font-bold bg-fuchsia-950 p-5 px-20 text-white  top-80 rounded-lg lg:left-28 md:left-28 sm:left-5">จองตอนนี้</a>
                     </li>
 
                     <li class="relative block m-0 p-0 text-center">
-                        <img class="object-cover h-full w-full" src="./images/banner-home-image-resize.png" />
-                        <h3 class="absolute text-5xl text-fuchsia-950  top-24 left-5 ml-20">
+                        <img class="object-cover  w-full" src="./images/spa_banner_2.jpg" />
+                        <h3
+                            class="absolute lg:text-5xl md:text-3xl sm:text-3xl text-fuchsia-950  top-24  lg:left-28  md:left-28 sm:left-5 ">
                             ยินดีต้อนรับสู่ Lirena</h3>
-                        <h3 class="absolute text-5xl text-fuchsia-950  top-44 left-5 ml-20">
+                        <h3
+                            class="absolute lg:text-5xl md:text-3xl sm:text-3xl text-fuchsia-950  top-44  lg:left-28  md:left-28 sm:left-5 ">
                             ที่จะทำให้คุณผ่อนคลาย</h3>
                         <a href="{{ url('/reserve_spa') }}"
-                            class="button absolute text-2xl font-bold bg-fuchsia-950 p-5 px-20 text-white  top-80 rounded-lg left-5 ml-20">จองตอนนี้</a>
+                            class="button absolute text-2xl font-bold bg-fuchsia-950 p-5 px-20 text-white  top-80 rounded-lg  lg:left-28 md:left-28 sm:left-5">จองตอนนี้</a>
                     </li>
 
                     <li class="relative block m-0 p-0 text-center">
-                        <img class="object-cover h-full w-full" src="./images/banner-home-image-resize.png" />
-                        <h3 class="absolute text-5xl text-fuchsia-950  top-24 left-5 ml-20">
+                        <img class="object-cover w-full" src="./images/banner-home-image-resize.png" />
+                        <h3
+                            class="absolute lg:text-5xl md:text-3xl sm:text-3xl text-fuchsia-950  top-24  lg:left-28  md:left-28 sm:left-5 ">
                             ยินดีต้อนรับสู่ Lirena</h3>
-                        <h3 class="absolute text-5xl text-fuchsia-950  top-44 left-5 ml-20">
+                        <h3
+                            class="absolute lg:text-5xl md:text-3xl sm:text-3xl text-fuchsia-950  top-44  lg:left-28  md:left-28 sm:left-5 ">
                             ที่จะทำให้คุณผ่อนคลาย</h3>
                         <a href="{{ url('/reserve_spa') }}"
-                            class="button absolute text-2xl font-bold bg-fuchsia-950 p-5 px-20 text-white  top-80 rounded-lg left-5 ml-20">จองตอนนี้</a>
+                            class="button absolute text-2xl font-bold bg-fuchsia-950 p-5 px-20 text-white  top-80 rounded-lg lg:left-28 md:left-28 sm:left-5">จองตอนนี้</a>
                     </li>
                 </ul>
             </div>
@@ -59,7 +65,8 @@
                 <a href="{{ url('/reserve_spa') }}">
                     <img class="object-cover h-64 w-full" src="./images/select-single.png" />
 
-                    <h3 class="absolute text-5xl text-fuchsia-950 bottom-5  left-1/2 -translate-x-1/2 -translate-y-1/2">
+                    <h3
+                        class="absolute lg:text-5xl md:text-4xl sm:text-3xl text-fuchsia-950 bottom-5  left-1/2 -translate-x-1/2 -translate-y-1/2">
                         แบบเดี่ยว</h3>
                 </a>
             </div>
@@ -67,7 +74,8 @@
             <div class="relative">
                 <a href="{{ url('/reserve_spa') }}">
                     <img class="object-cover h-64 w-full" src="./images/select-couple.png" />
-                    <h3 class="absolute text-5xl text-fuchsia-950 bottom-5  left-1/2 -translate-x-1/2 -translate-y-1/2">
+                    <h3
+                        class="absolute lg:text-5xl md:text-4xl sm:text-3xl text-fuchsia-950 bottom-5  left-1/2 -translate-x-1/2 -translate-y-1/2">
                         แบบคู่</h3>
                 </a>
             </div>
@@ -76,7 +84,8 @@
             <div class="relative">
                 <a href="{{ url('/reserve_group') }}">
                     <img class="object-cover h-64 w-full" src="./images/select-group.png" />
-                    <h3 class="absolute text-5xl text-fuchsia-950 bottom-5  left-1/2 -translate-x-1/2 -translate-y-1/2">
+                    <h3
+                        class="absolute lg:text-5xl md:text-4xl sm:text-3xl text-fuchsia-950 bottom-5  left-1/2 -translate-x-1/2 -translate-y-1/2">
                         แบบกลุ่ม</h3>
                 </a>
             </div>
@@ -87,7 +96,7 @@
             <div class=" block animatable fadeInDown">
                 <p class="header-highlight">จุดเด่นของเรา</p>
                 <div class="text-left mt-10 leading-10">
-                    <div class="flex gap-3 ">
+                    <div class="flex gap-3">
                         <svg class="mt-2" width="20" height="20" viewBox="0 0 35 33" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -96,7 +105,7 @@
                         </svg>
 
                         <p class="highlight-details">
-                            พนักงานมืออาชีพ บริการดี พนักงานมืออาชีพ บริการดี
+                            พนักงานมืออาชีพ บริการดี
                         </p>
                     </div>
 
@@ -137,7 +146,7 @@
             <h1 class="header-our-services">บริการของเรา</h1>
         </div>
 
-        <div class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 gap-10 text-center py-10 px-20">
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10 text-center py-10 px-20">
             <div class="block animatable fadeInUp">
                 <img src="./images/spa-service-1.png" class="image-service">
                 <p class="details-services">นวดน้ำมันอโรมา</p>
@@ -171,22 +180,19 @@
         </div>
 
         <div class="relative">
-            <img class="object-cover h-full w-full" src="./images/discoust.png" />
-            <h3 class="absolute text-5xl text-white  top-24 right-64 ">
-                รับส่วนลด</h3>
-            <h3 class="absolute text-4xl text-pink-400 top-44 right-48 ">
-                สำหรับการจองครั้งแรก</h3>
-            <h3 class="absolute text-5xl text-white  top-64 right-40 ">
-                ฟรีทรีตเม้นท์ผิวหน้า</h3>
+
+            <img class="object-cover h-full w-full  mt-20" src="./images/promotion1.jpg" />
+
             <a href="{{ url('/reserve_spa') }}"
-                class="button absolute text-2xl font-bold bg-pink-400 p-5 px-20 text-white  top-96 rounded-lg right-56">จองตอนนี้</a>
+                class="mt-20 button absolute   lg:right-52 md:right-16  sm:right-6   lg:text-2xl md:text-2xl sm:text-md font-bold bg-pink-400 lg:py-4 md:py-4 sm:py-2 lg:px-20 md:px-20 sm:px-8 text-white   lg:top-80 md:top-40  sm:top-8   rounded-xl">จองตอนนี้</a>
+
         </div>
 
         <div>
             <h2 class="header-professional-therapist">พนักงานมืออาชีพของเรา</h2>
         </div>
 
-        <div class="grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-2 gap-5 mt-10 px-20">
+        <div class="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-5 mt-10 px-20">
             <div class="card-therapist block animatable bounceInLeft">
                 <img src="./images/therapist-1.png" class="rounded-t-md	" />
                 <div class="content-therapist-professional">
@@ -266,7 +272,7 @@
             <h2 class="header-feedback">ผลตอบรับหลังจากใช้บริการ</h2>
         </div>
 
-        <div class="grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-2 gap-5 px-20">
+        <div class="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-5 px-20">
             <div class="content-feedback block animatable bounceInLeft">
                 <div>
                     <img src="./images/user-1.png" class="w-full rounded-t-md" />
@@ -297,7 +303,7 @@
         </div>
 
 
-        <div class=" grid-address-select ">
+        <div class="grid lg:grid-cols-2 md:grid-cols-2 mt-10 px-20">
             <div class="text-left">
                 <p class="text-xl  text-fuchsia-950 font-semibold mb-3">ที่อยู่</p>
                 <p class="mb-5  text-fuchsia-950 font-semibold">121 King Street, Melbourne,Victoria 3000 Australia
@@ -417,7 +423,6 @@ jQuery(document).ready(function($) {
     $('a.control_next').click(function() {
         moveRight();
     });
-
 
     // Doesn't work quite yet (toggles random slide and only onClick) -->
 

@@ -44,7 +44,7 @@
   }
 
   .container-change-password {
-    @apply rounded-2xl my-10 p-10 lg:mx-96 md:mx-40 sm:mx-20;
+    @apply rounded-2xl my-10 p-10 lg:mx-96 md:mx-40 sm:mx-10;
     background: #e4dae7;
   }
   .header-change-password {
@@ -64,33 +64,33 @@
   .container-header-banner {
     @apply px-20 mt-20;
   }
-
   .button-booking-banner {
-    @apply bg-fuchsia-950 mt-12 py-3 px-12 rounded-lg text-white  text-lg font-semibold hover:px-16 hover:py-3;
+    @apply bg-fuchsia-950 lg:mt-12  md:mt-12 sm:mt-20 sm:w-full lg:w-60  md:w-60 text-center py-3  rounded-lg text-white  text-lg font-semibold hover:px-16 hover:py-3;
   }
-
   .header-login {
-    @apply text-center text-2xl font-semibold text-fuchsia-950  mt-10 py-10;
+    @apply text-center text-4xl font-semibold text-fuchsia-950  mt-5 py-10;
   }
-
-  .input-email {
-    @apply pl-10 py-2 w-full rounded-lg mt-5  bg-white shadow-md border-2 border-fuchsia-950 focus:ring-2  focus:ring-fuchsia-700 focus:outline-fuchsia-700;
+  .input-login {
+    @apply pl-16 py-2 w-full rounded-lg mt-5  bg-gray-100  text-gray-300 border-l-8 border-l-fuchsia-950;
+  }
+  .input-register {
+    @apply pl-16 py-2 w-full rounded-lg mt-5  bg-gray-100  text-gray-300 border-l-8 border-l-fuchsia-950;
   }
   .icon {
-    @apply absolute left-0 top-0 mt-7 ml-2 fill-fuchsia-950;
+    @apply absolute left-0 top-0 mt-7 ml-8 fill-fuchsia-950;
   }
   .forgot-password {
-    @apply text-fuchsia-950 hover:underline underline-offset-1 text-end mt-10 cursor-pointer;
+    @apply text-fuchsia-950 underline underline-offset-1 text-end mt-10 cursor-pointer;
   }
   .input-forgot-password {
-    @apply pl-4 py-2 w-full rounded-l-lg;
+    @apply pl-16 py-2 w-full rounded-l-lg;
   }
   .input-forgot-send-otp {
     @apply pl-10 py-2 w-full rounded-lg mt-5;
   }
 
   .button-login {
-    @apply bg-fuchsia-950 w-full mt-10 py-2 px-12 rounded-lg text-white  text-lg font-semibold hover:bg-fuchsia-800;
+    @apply bg-fuchsia-950 w-full mt-10 py-3 px-12 rounded-full text-white  text-lg font-semibold hover:bg-fuchsia-800;
   }
 
   .button-send_password {
@@ -104,19 +104,17 @@
     @apply text-center mt-6 text-fuchsia-950;
   }
   .button-facebook {
-    @apply py-2 px-10 text-white w-full rounded-lg mt-6 flex justify-center;
-    background: #4267b2;
+    @apply py-2 px-10 text-white w-full rounded-lg mt-6 flex justify-center bg-pink-400;
   }
   .button-line {
-    @apply py-2 px-10 text-white w-full rounded-lg mt-6 flex gap-2 justify-center;
-    background: #06c755;
+    @apply py-3 px-10 text-white w-full rounded-lg mt-6 flex justify-center bg-pink-400;
   }
   .text-free-register {
     @apply text-fuchsia-950 underline underline-offset-1 mt-10 text-center cursor-pointer;
   }
 
   .grid-highlight-details {
-    @apply grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 mt-10 px-20;
+    @apply grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 mt-10 px-20 gap-10;
   }
   .header-highlight {
     @apply mt-10 font-semibold text-fuchsia-950 text-xl text-center;
@@ -173,7 +171,7 @@
     @apply bg-fuchsia-950 w-full mt-10 py-2 px-12 rounded-lg text-white  text-lg font-semibold hover:bg-fuchsia-800;
   }
   .container-setting-profile {
-    @apply mx-10 px-20 mt-24  border-solid border-2 border-gray-100 rounded-2xl;
+    @apply mx-10  mt-24  border-solid border-2 border-gray-100 rounded-2xl;
   }
   .header-profile {
     @apply grid grid-cols-6 gap-4 px-10;
@@ -234,7 +232,7 @@
   }
 
   .button-select-promotion {
-    @apply bg-fuchsia-950 w-full mt-12 py-2 px-20 rounded-lg text-white  text-lg font-semibold hover:bg-fuchsia-700;
+    @apply bg-fuchsia-950 w-full mt-12 lg:py-2 lg:px-20 md:py-2 md:px-20 sm:py-2 sm:px-10 rounded-lg text-white  text-lg font-semibold hover:bg-fuchsia-700;
   }
   .input-change-password {
     @apply pl-5 py-2 w-full rounded-lg mt-5  bg-white shadow-md   focus:ring-2  focus:ring-fuchsia-700 focus:outline-fuchsia-700;
@@ -249,7 +247,7 @@
     @apply text-lg font-semibold text-fuchsia-950 mt-20;
   }
   .container-reserve_spa {
-    @apply px-10 py-10;
+    @apply px-10 ;
   }
 
   .btn-select-spa_one-two {
@@ -682,7 +680,7 @@
 }
 
 .button-submit-reserve-time-therapist {
-  @apply bg-fuchsia-950 py-4 px-24 rounded-lg  text-white font-semibold border-2 border-fuchsia-900;
+  @apply bg-fuchsia-950  py-4 px-24 rounded-lg  text-white font-semibold border-2 border-fuchsia-900 ;
 }
 
 .btn-select-kind-package-own {
@@ -725,7 +723,7 @@
   @apply text-lg font-semibold text-fuchsia-950 mt-10 text-center;
 }
 .text-header-card {
-  @apply text-fuchsia-950 font-semibold text-center;
+  @apply text-fuchsia-950 font-semibold text-center text-2xl;
 }
 .text-card {
   @apply text-fuchsia-950 lg:mx-20 md:mx-10 sm:mx-2 text-center mt-5;

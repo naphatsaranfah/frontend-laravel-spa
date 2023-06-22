@@ -122,12 +122,15 @@
             </nav>
 
             <nav class="
-          flex flex-wrap
+            flex flex-wrap
           items-center
           justify-between
           w-full
-          pb-10
-          md:py-0
+          pb-5
+            mt-0
+            lg:pt-0
+            md:pt-0
+            sm:pt-10
           px-10
           text-lg text-fuchsia-950
           bg-white

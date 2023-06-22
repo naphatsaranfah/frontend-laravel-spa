@@ -17,24 +17,25 @@
 
 
     <div class="container-setting-profile">
-        <!-- <div class="bg-[url('./images/binifit.png')] h-32 rounded-t-2xl"> -->
 
-        <div class="grid grid-cols-3">
-            <img src="./images/binifit.png" class="w-full h-36 object-cover">
-            <img src="./images/binifit.png" class="w-full h-36 object-cover">
-            <img src="./images/binifit.png" class="w-full h-36 object-cover">
+
+        <div class="relative">
+            <a href="{{ url('/reserve_spa') }}">
+                <img class="object-cover h-64 w-full" src="./images/detail_therapist.png" />
+
+                <img class="p-1 rounded-lg shadow-md bg-white  w-40 h-40 absolute text-5xl text-fuchsia-950 bottom-5  left-40 top-64 -translate-x-1/2 -translate-y-1/2"
+                    src="./images/woman.png" />
+
+                <div class=" flex  ml-64 mt-5">
+                    <p class="username "> Naphatsaran Intewa</p>
+                </div>
+
+                <div class=" flex  ml-64 mt-2">
+                    <p class="email-user  ">naphatsaran@gmail.com</p>
+                </div>
+
+            </a>
         </div>
-
-
-        <div class="flex gap-5 mt-10">
-            <img src="./images/profile_woman.png" class="w-24 h-24 ">
-            <div>
-                <p class="username mt-10"> Naphatsaran Intewa</p>
-                <p class="email-user  ">naphatsaran@gmail.com</p>
-            </div>
-        </div>
-
-
 
 
         <div class="container-tab-setting-profile">
@@ -73,7 +74,7 @@
             </div>
 
             <div class="p-5 rounded-lg shadow-md hidden tab-aaa">
-                <div class="px-2 py-5 flex-auto">
+                <div class="px-20 py-5 flex-auto">
                     <div class="tab-content tab-space">
                         <div class="block" id="tab-profile">
                             <p class="header-personal-information">กรอกข้อมูลส่วนตัว</p>
@@ -121,6 +122,11 @@
                                         id="username" type="text" placeholder="" value="naphatsaran.fah@gmail.com">
                                 </div>
                             </form>
+
+
+
+
+
 
                             <p class="header-address">กรุณากรอกที่อยู่หลัก</p>
 
@@ -288,7 +294,8 @@
                                             </svg>
                                         </div>
                                     </label>
-                                    <label class="mt-px cursor-pointer select-none font-light text-gray-700" for="html">
+                                    <label class="mt-px cursor-pointer select-none font-light text-fuchsia-950"
+                                        for="html">
                                         มีที่จอดรถ
                                     </label>
                                 </div>
@@ -307,7 +314,8 @@
                                             </svg>
                                         </div>
                                     </label>
-                                    <label class="mt-px cursor-pointer select-none font-light text-gray-700" for="html">
+                                    <label class="mt-px cursor-pointer select-none font-light text-fuchsia-950"
+                                        for="html">
                                         ไม่มีที่จอดรถ
                                     </label>
                                 </div>
@@ -389,7 +397,7 @@
 
 
             <div class="p-5 rounded-lg shadow-md hidden tab-bbb">
-                <div class="px-2 py-5 flex-auto">
+                <div class="px-20 py-5 flex-auto">
                     <div class="tab-content tab-space">
                         <div class="block" id="tab-profile">
                             <div id="card_add_service_others">
@@ -445,8 +453,21 @@
                             </div>
 
 
-                            <p class="header-address">กรุณากรอกที่อยู่หลัก</p>
+                            <p class="text- mt-5 text-fuchsia-950">เพิ่มรูปภาพประจำตัว</p>
+                            <form class="flex items-center mt-5">
 
+                                <label class="block">
+                                    <input type="file" class="block w-full text-sm text-slate-500
+                                        file:mr-4 file:py-2 file:px-4
+                                        file:rounded-full file:border-0
+                                        file:text-sm file:font-semibold
+                                        file:bg-fuchsia-50 file:text-fuchsia-950
+                                        hover:file:bg-violet-100
+                                        " />
+                                </label>
+                            </form>
+
+                            <p class="header-address">กรุณากรอกที่อยู่หลัก</p>
 
                             <form class="container-input-personal-information ">
                                 <div class="mb-4 ">
@@ -614,7 +635,8 @@
                                             </svg>
                                         </div>
                                     </label>
-                                    <label class="mt-px cursor-pointer select-none font-light text-gray-700" for="html">
+                                    <label class="mt-px cursor-pointer select-none font-light text-fuchsia-950"
+                                        for="html">
                                         มีที่จอดรถ
                                     </label>
                                 </div>
@@ -635,11 +657,13 @@
                                             </svg>
                                         </div>
                                     </label>
-                                    <label class="mt-px cursor-pointer select-none font-light text-gray-700" for="html">
+                                    <label class="mt-px cursor-pointer select-none font-light text-fuchsia-950"
+                                        for="html">
                                         ไม่มีที่จอดรถ
                                     </label>
                                 </div>
                             </div>
+
 
                             <p class="header-health">แบบสอบถามสุขภาพก่อนการนวด</p>
 
@@ -720,15 +744,7 @@
     </div>
 </body>
 
-<!-- 
-<script>
-const toggleButton = document.getElementById('toggleButton');
-const content = document.getElementById('content');
 
-toggleButton.addEventListener('click', () => {
-    content.classList.toggle('hidden');
-});
-</script> -->
 
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 

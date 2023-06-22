@@ -100,7 +100,7 @@
         </div>
 
         <div class="container-grid-summarize-reserve ">
-            <input type="text" class="input-email" placeholder="กรอกโค้ดส่วนลด">
+            <input type="text" class="border-2 focus:outline-fuchsia-800 h-12 mt-5 border-fuchsia-950 rounded-xl p-4 " placeholder="กรอกโค้ดส่วนลด">
             <button class="button-code">ใช้โค้ดส่วนลด</button>
         </div>
 

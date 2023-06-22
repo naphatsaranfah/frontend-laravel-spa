@@ -133,7 +133,7 @@
                                 <p class="text-fuchsia-950">ชื่อบัญชี บริษัทสปา</p>
                             </div>
 
-                            <button class="bg-orange-500 text-white cursor-pointer mx-10 my-4 px-10 rounded-lg"
+                            <button class="bg-pink-400 text-white cursor-pointer mx-10 my-4 px-10 rounded-lg"
                                 onclick="copyToClipboardSCB()">คัดลอก</button>
                         </div>
                     </div>
@@ -146,7 +146,7 @@
                                 <p class="text-fuchsia-950">ชื่อบัญชี บริษัทสปา</p>
                             </div>
 
-                            <button class="bg-orange-500 text-white cursor-pointer mx-10 my-4 px-10 rounded-lg"
+                            <button class="bg-pink-400 text-white cursor-pointer mx-10 my-4 px-10 rounded-lg"
                                 onclick="copyToClipboardKTB()">คัดลอก</button>
                         </div>
                     </div>

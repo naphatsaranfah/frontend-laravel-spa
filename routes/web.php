@@ -140,3 +140,7 @@ Route::get('/details_therapist',function () {
 Route::get('/setting_show_add_other_recipients',function () {
     return view('setting_show_add_other_recipients');
 });
+
+Route::get('/apply_therapist',function () {
+    return view('apply_therapist');
+});
