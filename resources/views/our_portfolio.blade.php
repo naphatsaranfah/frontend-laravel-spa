@@ -43,14 +43,14 @@
                     </li>
 
                     <li class="relative block m-0 p-0 text-center">
-                        <img class="object-cover w-full"src="./images/banner_portfolio.png" />
+                        <img class="object-cover w-full" src="./images/banner_portfolio.png" />
                         <h3
                             class="absolute lg:text-5xl md:text-3xl sm:text-3xl text-fuchsia-950  top-24  lg:left-28  md:left-28 sm:left-5 ">
                             เชี่ยวชาญเรื่องการนวด</h3>
                         <h3
                             class="absolute lg:text-5xl md:text-3xl sm:text-3xl text-fuchsia-950  top-44  lg:left-28  md:left-28 sm:left-5 ">
                             ประสบการณ์มากกว่า 5 ปี</h3>
-                        <a  href="{{ url('/reserve_spa') }}"
+                        <a href="{{ url('/reserve_spa') }}"
                             class="button absolute text-2xl font-bold bg-fuchsia-950 p-5 px-20 text-white  top-80 rounded-lg lg:left-28 md:left-28 sm:left-5">สมัครตอนนี้</a>
                     </li>
                 </ul>

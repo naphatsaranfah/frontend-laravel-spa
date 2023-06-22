@@ -128,13 +128,12 @@
           justify-between
           w-full
           pb-5
-         
-          lg:mt-0
+           lg:mt-0
            md:mt-0
            lg:pt-0
            md:pt-0
-            sm:pt-10
-            sm:top-0
+           sm:pt-10
+           sm:top-0
           px-10
           text-lg text-fuchsia-950
           bg-white

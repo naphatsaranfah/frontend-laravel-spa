@@ -156,7 +156,8 @@
                 </div>
 
                 <div class="flex justify-end">
-                    <button class="mt-10 bg-fuchsia-950 px-20 py-3 lg:w-60 sm:w-full text-white rounded-xl cursor-pointer"
+                    <button
+                        class="mt-10 bg-fuchsia-950 px-20 py-3 lg:w-60 sm:w-full text-white rounded-xl cursor-pointer"
                         data-modal-toggle="default-modal">
                         ยืนยัน
                     </button>
@@ -185,7 +186,7 @@
                             </p>
                             <div class="flex justify-center mt-10">
                                 <a class="button bg-fuchsia-950 px-20 py-3 text-white rounded-xl cursor-pointer "
-                                href="/all_my_reserve">ถัดไป</a>
+                                    href="/all_my_reserve">ถัดไป</a>
 
                             </div>
                         </div>

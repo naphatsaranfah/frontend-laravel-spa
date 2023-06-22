@@ -17,15 +17,12 @@
 <body>
 
     <div>
+        <div class="relative">
+            <img class="object-cover h-full w-full  mt-20" src="./images/promotion1.jpg" />
 
-    <div class="relative">
-
-<img class="object-cover h-full w-full  mt-20" src="./images/promotion1.jpg" />
-
-<a href="{{ url('/reserve_spa') }}"
-    class="mt-20 button absolute   lg:right-52 md:right-16  sm:right-6   lg:text-2xl md:text-2xl sm:text-md font-bold bg-pink-400 lg:py-4 md:py-4 sm:py-2 lg:px-20 md:px-20 sm:px-8 text-white   lg:top-80 md:top-40  sm:top-8   rounded-xl">จองตอนนี้</a>
-
-</div>
+            <a href="{{ url('/reserve_spa') }}"
+                class="mt-20 button absolute   lg:right-52 md:right-16  sm:right-6   lg:text-2xl md:text-2xl sm:text-md font-bold bg-pink-400 lg:py-4 md:py-4 sm:py-2 lg:px-20 md:px-20 sm:px-8 text-white   lg:top-80 md:top-40  sm:top-8   rounded-xl">จองตอนนี้</a>
+        </div>
 
         <div class="container-promotion">
             <p class="text-header-promotion">รวมโปรโมชั่น Lirena</p>

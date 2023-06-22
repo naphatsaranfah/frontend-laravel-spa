@@ -19,7 +19,7 @@
     <div class="container-setting-profile">
         <!-- <div class="bg-[url('./images/binifit.png')] h-32 rounded-t-2xl"> -->
 
-       
+
         <div class="relative">
             <a href="{{ url('/reserve_spa') }}">
                 <img class="object-cover h-64 w-full" src="./images/detail_therapist.png" />
@@ -452,9 +452,6 @@
                                             </div>
                                         </div>
                                     </div>
-
-
-
 
                                     <div
                                         class="lg:px-10 md:px-10 sm:px-2 py-5 flex-auto grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-5 ">

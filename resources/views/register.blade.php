@@ -14,7 +14,7 @@
 <body>
 
     <div class="container-login">
-    <div class="bg-fuchsia-950 p-6 absolute top-0 w-full">
+        <div class="bg-fuchsia-950 p-6 absolute top-0 w-full">
         </div>
 
 

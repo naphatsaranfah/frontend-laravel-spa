@@ -17,8 +17,6 @@
 <body>
 
     <div class="mt-40 ">
-
-
         <div id="slider" class="relative">
             <div class="relative">
                 <ul class="relative m-0 p-0 ">

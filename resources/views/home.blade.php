@@ -424,12 +424,6 @@ jQuery(document).ready(function($) {
         moveRight();
     });
 
-    // Doesn't work quite yet (toggles random slide and only onClick) -->
-
-    // $('input').click(function() {
-    //  $('label').toggleClass('checked');
-    //  moveRight();
-    // });
 
     $("#slider ul").click(function() {
         //Stop the carousel on click

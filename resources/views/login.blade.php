@@ -14,7 +14,7 @@
 <body>
 
     <div class="container-login">
-    <div class="bg-fuchsia-950 p-6 absolute top-0 w-full">
+        <div class="bg-fuchsia-950 p-6 absolute top-0 w-full">
         </div>
 
         <div class="grid lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-1">
@@ -39,7 +39,7 @@
                     </span>
                 </div>
 
-                
+
                 <div class="relative">
                     <input type="text"
                         class="input-login focus:outline-none focus:border-fuchsia-950 focus:ring-2 focus:ring-fuchsia-950"

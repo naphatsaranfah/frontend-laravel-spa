@@ -237,7 +237,7 @@
                             <a class="md:p-4 py-2 block hover:text-purple-400 font-ibm font-semibold cursor-pointer"
                                 href="{{ url('/promotion') }}">โปรโมชั่น</a>
                         </li>
-                      
+
                         <li>
                             <a class="md:p-4 py-2 block hover:text-purple-400 font-ibm font-semibold cursor-pointer"
                                 href="{{ url('/reserve_group') }}">สำหรับองค์กร</a>
